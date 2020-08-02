@@ -37,7 +37,6 @@ nbdist/
 /node_modules
 
 # IDEs and editors
-/.idea
 .c9/
 *.launch
 .settings/
@@ -71,3 +70,4 @@ Thumbs.db
 /app-builds/
 /.scannerwork/
 /data/
+/.idea/
