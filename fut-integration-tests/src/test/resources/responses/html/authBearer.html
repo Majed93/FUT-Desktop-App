@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<!-- NOTE: this is necessary for the Companion App
+     DO NOT REMOVE
+	 It's used during authentication for Companion App from EADP, and is used as the redirect URL
+	 -->
+<head>
+    <script type="text/javascript">
+
+        function getUriRoot(href) {
+            return href.substring(0, href.lastIndexOf("/")) + "/";
+        };
+        function getParameterByName(name, url) {
+            if (!url) {
+                url = window.location.href;
+            }
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&#]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results)
+                return null;
+            if (!results[2])
+                return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        if (getParameterByName("code")) {
+            code = getParameterByName("code");
+            if (parent && parent.eadpAuthSuccess) {
+                parent.eadpAuthSuccess(code);
+            }
+        } else if (getParameterByName("access_token")) {
+            token = getParameterByName("access_token");
+            var tokenParam = "";
+
+            try {
+                localStorage.setItem("_eadp.identity.access_token", token);
+            }
+            catch (e) {
+                tokenParam = "token=" + token;
+            }
+
+            if (getParameterByName("expires_in")) {
+                expires_in = getParameterByName("expires_in");
+                var expireParam = "";
+
+                try {
+                    localStorage.setItem("_eadp.identity.expire", expires_in);
+                }
+                catch (e) {
+                    expireParam = "expire=" + expires_in;
+                }
+            }
+
+            var uri = getUriRoot(window.location.href);
+            if (tokenParam !== "")
+            {
+                uri += "?" + tokenParam;
+
+                if (expireParam !== "")
+                {
+                    uri += "&" + expireParam;
+                }
+            }
+
+            window.top.location = uri;
+        }
+        // making assumption that this is logout at this time, and we can redirect to web app
+        else if ("" === window.location.search && "" === window.location.hash) {
+            window.top.location = getUriRoot(window.location.href);
+        }
+    </script>
+</head>
+<body></body>
+</html>

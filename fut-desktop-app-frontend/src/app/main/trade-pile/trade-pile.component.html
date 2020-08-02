@@ -1,0 +1,92 @@
+<div *ngIf="!tradePile || loading">
+  <app-loader></app-loader>
+</div>
+<div *ngIf="tradePile" id="trade-pile-container" class="d-flex w-100 p-2">
+  <div *ngIf="tradePile['auctionInfo']" class="w-100 card border-secondary">
+    <div class="card-header d-flex align-items-baseline">
+      <div id="trade-pile-count-wrapper" class="d-flex flex-row justify-content-start">
+        <div class="pr-2">Trade Pile</div>
+        <div id="trade-pile-count" class="pl-2">{{tradePile['auctionInfo'].length}} Items</div>
+        <div id="trade-pile-count-sold" class="text-success pl-2">Sold {{soldItems}}</div>
+      </div>
+      <div class="d-flex flex-row ml-auto justify-content-end">
+        <!-- Autolist unlisted -->
+        <div class="pl-1" data-toggle="tooltip"
+             data-placement="top" title="List any items which haven't been listed before or do not have a default price
+             If item is not in a saved list it will be skipped.">
+          <button id="autolist-unlisted-btn" type="button" (click)="autoListUnlisted()"
+                  class="btn btn-sm btn-outline-primary" [disabled]="disableAutolistUnlistedBtn"
+                  data-toggle="modal" data-backdrop="static"
+                  data-keyboard="false"
+                  data-target="#reListingModal"
+                  [attr.aria-disabled]="disableAutolistUnlistedBtn">
+            Auto list unlisted&nbsp;
+          </button>
+        </div>
+        <!-- Remove sold -->
+        <div class="pl-1">
+          <button id="remove-sold-btn" type="button" (click)="removeSold()"
+                  class="btn btn-sm btn-outline-success" [disabled]="soldItems < 1"
+                  [attr.aria-disabled]="soldItems < 1">
+            Remove Sold&nbsp;
+            <i class="fas fa-lg fa-dollar-sign"></i>
+          </button>
+        </div>
+        <div class="pl-1">
+          <!-- Re-list -->
+          <button id="relist-btn" type="button" (click)="reList(true)"
+                  class="btn btn-sm btn-outline-primary" [disabled]="disableRelistAllBtn"
+                  [attr.aria-disabled]="disableRelistAllBtn">Re-list:
+            &nbsp;
+            <i class="fas fa-lg fa-clock"></i>
+          </button>
+        </div>
+        <!-- Re-list for X hours -->
+        <div class="pl-1" data-toggle="tooltip"
+             data-placement="top" title="Relist for given time. Not this will take longer the more items you have.">
+          <button id="relist-for-x-btn" type="button" (click)="reList(false)" class="btn btn-sm btn-outline-primary"
+                  data-toggle="modal" data-backdrop="static"
+                  data-keyboard="false"
+                  data-target="#reListingModal"
+                  [disabled]="disableRelistAllBtn" [attr.aria-disabled]="disableRelistAllBtn">Re-list all for:
+            &nbsp;
+            <i class="far fa-lg fa-clock"></i>
+          </button>
+        </div>
+        <!-- Auction Duration -->
+        <div class="pl-1">
+          <select id="list-duration-select" [(ngModel)]="listDurationForAll" class="form-control form-control-sm">
+            <option selected [value]="3600">1 Hour</option>
+            <option [value]="10800">3 Hours</option>
+            <option [value]="21600">6 Hours</option>
+            <option [value]="43200">12 Hours</option>
+            <option [value]="86400">1 Day</option>
+            <option [value]="259200">3 Days</option>
+          </select>
+        </div>
+        <!-- New price -->
+        <div class="pl-1">
+          <div class="form-check form-check-inline form-control-sm mb-0 p-0" data-toggle="tooltip" data-placement="top"
+               title="If ticked, will list using prices from latest all players lists. Relist will no work with this.">
+            <div class="custom-control custom-checkbox">
+              <input id="chk-new-price" type="checkbox" class="custom-control-input"
+                     [checked]="newPrice" [(ngModel)]="newPrice"/>
+              <label class="custom-control-label" for="chk-new-price">New Price?</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="search-results-card" class="card-body card-list-view" #tradePileBody>
+      <div *ngIf="tradePile['auctionInfo']" class="card-deck">
+        <app-player-card *ngFor="let auction of tradePile['auctionInfo']" [auctionInfo]="auction"
+                         [itemWidth]="getCardWidth()" [listType]="'tradePile'" (listUpdated)="onNewTradePile($event)"
+                         [player]="getPlayer(auction['itemData']['assetId'])" class="pb-1"></app-player-card>
+      </div>
+      <div *ngIf="!tradePile['auctionInfo']" class="card-text">Trade pile empty</div>
+    </div>
+  </div>
+</div>
+
+<app-status-modal [textareaText]="makeTextareaText()" [pauseEndpoint]="pauseEndpoint"
+                  [stopEndpoint]="stopEndpoint" [disableClose]="disableCloseModal"></app-status-modal>

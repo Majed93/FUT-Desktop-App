@@ -1,0 +1,564 @@
+<div class="d-flex align-items-baseline p-2">
+  <div class="align-self-center">
+    <button type="button" data-toggle="modal"
+            data-target="#profitMarginModal" class="btn btn-sm btn-outline-danger">Profit Margins&nbsp;
+      <i class="fas fa-lg fa-sliders-h"></i>
+    </button>
+  </div>
+  <div class="align-self-center p-2">
+    <button type="button" (click)="updatePrices()" class="btn btn-sm btn-outline-success" data-toggle="tooltip"
+            data-placement="top"
+            title="Update player list with new prices. This will *not* search FUT for prices">Update prices&nbsp;
+      <i class="fas fa-lg fa-arrow-up"></i>
+    </button>
+  </div>
+  <div class="align-self-center p-2">
+    <button type="button" (click)="resetPriceSet()" class="btn btn-sm btn-outline-primary">Price Set all False&nbsp;
+      <i class="far fa-lg fa-clock"></i>
+    </button>
+  </div>
+  <div class="align-self-center p-2">
+    <input type="email" class="form-control form-control-sm" id="search-for-player-input"
+           placeholder="Search for player" [(ngModel)]="searchTable">
+  </div>
+  <div class="align-self-center ml-auto">
+    <select [(ngModel)]="maxSize" class="form-control form-control-sm">
+      <option selected [value]="10">10</option>
+      <option [value]="25">25</option>
+      <option [value]="50">50</option>
+      <option [value]="100">100</option>
+    </select>
+  </div>
+</div>
+
+<!-- Profit margins modal -->
+<div class="modal fade" id="profitMarginModal" tabindex="-1" role="dialog"
+     aria-labelledby="profitMarginModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <!-- Header start-->
+      <div class="modal-header justify-content-between">
+        <div>
+          <button type="button" class="btn btn-sm btn-outline-dark" data-toggle="modal"
+                  data-target="#profitModal">
+            <i class="fas fa-lg fa-question-circle"></i>
+          </button>
+        </div>
+        <h5 class="modal-title" id="profitMarginModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" #profitMarginModalClose>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <!-- Header end -->
+      <!-- Body start -->
+      <div class="modal-body">
+        <div class="d-flex align-items-baseline">
+          <div class="align-self-center p-2">
+            <span>Minimum bid</span>
+          </div>
+          <div class="align-self-center p-2">
+            <input type="number" placeholder="0" class="form-control form-control-sm"
+                   [(ngModel)]="minBid" (change)="onBidInputChange()"
+                   step="{{minBidStep}}"/>
+          </div>
+          <div class="align-self-center p-2 ml-auto" data-toggle="tooltip" data-placement="top" title="Add Filter">
+            <button type="button" class="btn btn-sm btn-outline-success" (click)="addFilter()">
+              <i class="fas fa-lg fa-plus"></i></button>
+          </div>
+        </div>
+        <div *ngFor="let p of profitMarginsFilters" class="border border-secondary rounded m-2">
+          <div class="d-flex align-items-baseline">
+            <div class="align-self-center p-2 col-3">
+              <span class="small">Under</span>
+            </div>
+            <div class="align-self-center p-2">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     [(ngModel)]="p.key"/>
+            </div>
+            <div class="align-self-center p-2">
+              <span class="small">Bought for</span>
+            </div>
+            <div class="align-self-center p-2">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     [(ngModel)]="p.exampleBin"/>
+            </div>
+            <!-- Remove button -->
+            <div class="align-self-center p-2 ml-auto" data-toggle="tooltip" data-placement="top" title="Remove Filter">
+              <button type="button" class="btn btn-sm btn-outline-danger" (click)="removeFilter(p)">
+                <i class="fas fa-lg fa-times"></i></button>
+            </div>
+          </div>
+          <div class="d-flex align-items-baseline">
+            <div class="align-self-center p-2 col-3">
+              <span class="small">Estimated Minimum profit</span>
+            </div>
+            <div class="align-self-center p-2">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     [(ngModel)]="p.minProfit"/>
+            </div>
+            <div class="align-self-center p-2">
+              <span class="small">(After tax) - Start: {{getNearestNormal((p.exampleBin + p.minProfit) * 1.05)}}
+                / BIN: {{getNearestNormal((p.exampleBin + p.maxProfit) * 1.05)}}</span>
+            </div>
+
+          </div>
+
+          <div class="d-flex align-items-baseline">
+            <div class="align-self-center p-2 col-3">
+              <span class="small">Estimated Maximum profit</span>
+            </div>
+            <div class="align-self-center p-2">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     [(ngModel)]="p.maxProfit"/>
+            </div>
+            <div class="align-self-center p-2">
+              <select [(ngModel)]="p.priceSetChoice" class="form-control form-control-sm">
+                <option selected [value]="0">Less than lowest bin</option>
+                <option [value]="1">Between lowest bin</option>
+                <option [value]="2">Greater than and on lowest bin</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Body end -->
+      <!-- Footer start -->
+      <div class="modal-footer justify-content-between">
+        <button type="button" (click)="updatePrices()" class="btn btn-sm btn-outline-success">Update prices&nbsp;
+          <i class="fas fa-lg fa-arrow-up"></i>
+        </button>
+      </div>
+      <!-- Footer end -->
+    </div>
+  </div>
+</div>
+
+<!-- Profit explanation modal -->
+<div class="modal fade" id="profitModal" tabindex="-1" role="dialog" aria-labelledby="profitModal">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="profitModalLabel">Profits explained</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" #profitModalClose>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Estimated minimum & maximum profit: </p>
+        <p>The bot will calculate as close to as possible *AFTER* tax with these values</p>
+        <p>These values can be changed to fit your own needs after.</p>
+        <div class="card card-body">
+          <p>Less than lowest bin - List prices will be less than lowest bin price</p>
+          <p>e.g Lowest bin = 3000, min/max profit = 1000/2000. min/max list price = 1900/2900. bid amount = 1000,
+            search
+            amount = ~1300</p>
+        </div>
+        <div class="card card-body">
+          <p>Between lowest bin - </p>
+          <p>e.g Lowest bin = 3000, min/max profit = 1000/2000. min/max list price = 2400/3400. bid amount = 1400,
+            search
+            amount = ~1700</p>
+        </div>
+        <div class="card card-body">
+          <p>Greater than and on lowest bin - </p>
+          <p>e.g Lowest bin = 3000, min/max profit = 1000/2000. min/max list price = 3100/4100. bid amount = 2100,
+            search
+            amount = ~2500</p>
+        </div>
+        <cite>Note that these are all examples and real values wil vary.</cite>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <table id="player-list-table" *ngIf="playerList" class="table table-striped table-hover">
+    <thead class="thead-dark">
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Position</th>
+      <th [class.active]="order === 'rating'" (click)="setOrder('rating')">Rating
+        <span *ngIf="order === 'rating'">
+          <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+      <th data-toggle="tooltip" data-placement="top" [class.active]="order === 'customPrice'"
+          (click)="setOrder('customPrice')"
+          title="If custom price has been set. When updating the price this will remain as you have set it.">Custom
+        Price
+        <span *ngIf="order === 'customPrice'">
+          <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+      <th data-toggle="tooltip" data-placement="top" title="Lowest Bin from last update"
+          [class.active]="order === 'lowestBin'" (click)="setOrder('lowestBin')">Lowest Bin
+        <span *ngIf="order === 'lowestBin'">
+          <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+      <th data-toggle="tooltip" data-placement="top" title="Price to search at"
+          [class.active]="order === 'searchPrice'" (click)="setOrder('searchPrice')">Search Price
+        <span *ngIf="order === 'searchPrice'">
+            <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+      <th data-toggle="tooltip" data-placement="top" title="Price to bid at (should be lower that search price)"
+          [class.active]="order === 'bidAmount'" (click)="setOrder('bidAmount')">Bid
+        Amount
+        <span *ngIf="order === 'bidAmount'">
+           <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+      <th [class.active]="order === 'minListPrice'" (click)="setOrder('minListPrice')">Min Price
+        <span *ngIf="order === 'minListPrice'">
+           <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+      <th [class.active]="order === 'maxListPrice'" (click)="setOrder('maxListPrice')">Max Price
+        <span *ngIf="order === 'maxListPrice'">
+           <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+      <th data-toggle="tooltip" data-placement="top" title="After tax" [class.active]="order === 'minListPriceTax'"
+          (click)="setOrder('minListPriceTax')">Min Profit
+        <span *ngIf="order === 'minListPriceTax'">
+          <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+      <th data-toggle="tooltip" data-placement="top" title="After tax" [class.active]="order === 'maxListPriceTax'"
+          (click)="setOrder('maxListPriceTax')">Max Profit
+        <span *ngIf="order === 'maxListPriceTax'">
+           <span [hidden]="desc" class="fas fa-sort-numeric-down"></span><span
+          [hidden]="!desc" class="fas fa-sort-numeric-up"></span>
+          </span>
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr
+      *ngFor="let player of playerList | tableFilter:searchTable | orderBy: order:desc | paginate: {itemsPerPage: maxSize, currentPage: page, totalItems: playerList.length}"
+      (click)="rowClick(player)" data-toggle="modal" data-target="#viewPlayerModal">
+      <td class="small">{{player.assetId}}</td>
+      <td class="small">{{getPlayerName(player)}}</td>
+      <td class="small">{{player.position}}</td>
+      <td class="small">{{player.rating}}</td>
+      <td>{{player.customPrice ? 'Yes' : 'No'}}</td>
+      <td>{{player.lowestBin}}</td>
+      <td>{{player.searchPrice}}</td>
+      <td>{{player.bidAmount}}</td>
+      <td>{{player.minListPrice}}</td>
+      <td>{{player.maxListPrice}}</td>
+      <td>{{player.minListPriceTax}}</td>
+      <td>{{player.maxListPriceTax}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <div *ngIf="!searchTable" id="player-table-pagination" class="text-center">
+    <pagination-controls (pageChange)="page = $event" maxSize="10"></pagination-controls>
+  </div>
+</div>
+
+<!-- View/Update Form -->
+<div *ngIf="playerUpdateForm" class="modal fade" id="viewPlayerModal" tabindex="-1" role="dialog"
+     aria-labelledby="viewPlayerModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <form [formGroup]="playerUpdateForm" (ngSubmit)="onUpdateForm()">
+        <div class="modal-header">
+          <h5 class="modal-title" id="viewPlayerModalLabel">
+            {{playerUpdateForm.controls['commonName']?.value === '' ?
+            playerUpdateForm.controls['firstName']?.value + ' '
+            + playerUpdateForm.controls['lastName']?.value : playerUpdateForm.controls['commonName']?.value + ' ('
+            +
+            playerUpdateForm.controls['firstName']?.value + ' ' + playerUpdateForm.controls['lastName']?.value +
+            ')'}}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" #viewUpdateFormModalClose>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Asset Id -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Asset Id</label>
+            <div class="col-8">
+              <input placeholder="assetId" class="form-control form-control-sm" formControlName="assetId"
+                     readonly/>
+            </div>
+          </div>
+          <!-- Lowest BIN -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Lowest BIN</label>
+            <div class="col-8">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="lowestBin"/>
+            </div>
+          </div>
+          <!-- Search Price -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Search Price</label>
+            <div class="col-8">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="searchPrice"/>
+            </div>
+          </div>
+          <!-- Bid Amount -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Bid Amount</label>
+            <div class="col-8">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="bidAmount"/>
+            </div>
+          </div>
+          <!-- Min List Price -->
+          <div class="form-group row align-items-baseline">
+            <label class="col-3 col-form-label">Min List Price</label>
+            <div class="col-5">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="minListPrice"/>
+            </div>
+            <div class="col-3">
+              <span>Profit after tax: {{((playerUpdateForm.controls['minListPrice']?.value * 0.95) - playerUpdateForm.controls['bidAmount']?.value)}}</span>
+            </div>
+          </div>
+          <!-- Max List Price -->
+          <div class="form-group row align-items-baseline">
+            <label class="col-3 col-form-label">Max List Price</label>
+            <div class="col-5">
+              <input type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="maxListPrice"/>
+            </div>
+            <div class="col-3">
+              <span>Profit after tax: {{((playerUpdateForm.controls['maxListPrice']?.value * 0.95) - playerUpdateForm.controls['bidAmount']?.value)}}</span>
+            </div>
+          </div>
+          <!-- Custom Price -->
+          <div class="form-check form-check-inline">
+            <div class="custom-control custom-checkbox">
+              <input id="chkCustomPrice" type="checkbox" class="custom-control-input"
+                     formControlName="customPrice"/>
+              <label class="custom-control-label" for="chkCustomPrice">Custom Price</label>
+            </div>
+          </div>
+          <!-- Price set -->
+          <div class="form-check form-check-inline">
+            <div class="custom-control custom-checkbox">
+              <input id="chkPriceSet" type="checkbox" class="custom-control-input"
+                     formControlName="priceSet"/>
+              <label class="custom-control-label" for="chkPriceSet">Price Set</label>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <!-- Delete player button -->
+          <div class="left">
+            <button type="button" class="btn btn-danger" data-toggle="modal"
+                    data-target="#deletePlayerModal"><i class="fas fa-trash"></i>&nbsp;Delete
+            </button>
+          </div>
+          <button class="btn btn-primary" [disabled]="!playerUpdateForm.valid"><i class="fas fa-plus-square"></i>&nbsp;Update
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- Add Form -->
+<div class="modal fade" id="addPlayerModal" tabindex="-1" role="dialog" aria-labelledby="addPlayerModal">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addPlayerModalLabel">Add Player</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" #addFormModalClose>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="playerAddForm" (ngSubmit)="onAddForm()">
+          <!-- Message for errors here -->
+          <div *ngIf="playerListMsg" id="add-form-error-msg"
+               class="mx-auto align-content-stretch alert alert-success alert-dismissible fade show"
+               [ngClass]="{'alert-danger' : playerListMsg.includes('Error') }">
+            {{playerListMsg}}
+          </div>
+          <div class="form-group row">
+            <!-- Asset Id -->
+            <label class="col-3 col-form-label col small">Asset Id (Player name to autofill)</label>
+            <div class="col-3">
+              <app-player-filter id="add-player" [allPlayers]="allPlayers" placeholder="Select Player"
+                                 (outputValue)="playerSelectionChange($event)" #playerInput></app-player-filter>
+            </div>
+
+            <!-- Rating -->
+            <label class="col-2 col-form-label">Rating</label>
+            <div class="col-3">
+              <input id="addPlayerRating" type="number" placeholder="0" min="0" max="99"
+                     class="form-control form-control-sm"
+                     formControlName="rating"/>
+            </div>
+          </div>
+          <!-- First name -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Firstname</label>
+            <div class="col-8">
+              <input id="addPlayerFirstname" type="text" placeholder="Firstname" class="form-control form-control-sm"
+                     formControlName="firstName"/>
+            </div>
+          </div>
+          <!-- Last name -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Lastname</label>
+            <div class="col-8">
+              <input id="addPlayerLastname" type="text" placeholder="Lastname" class="form-control form-control-sm"
+                     formControlName="lastName"/>
+            </div>
+          </div>
+          <!-- Common name -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Known As</label>
+            <div class="col-8">
+              <input id="addPlayerCommonName" type="text" placeholder="Known as" class="form-control form-control-sm"
+                     formControlName="commonName"/>
+            </div>
+          </div>
+
+          <!-- Position -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Position</label>
+            <div class="col-8">
+              <app-input-filters id="add-positions" [allLists]="allPositions" placeholder="Position"
+                                 [displayValue]="true"
+                                 (outputValue)="positionInputChange($event)" #positionInput></app-input-filters>
+            </div>
+          </div>
+          <!-- Nation -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Nation</label>
+            <div class="col-8">
+              <app-input-filters id="add-nations" [allLists]="allNations" placeholder="Nation"
+                                 (outputValue)="nationInputChange($event)" #nationInput></app-input-filters>
+            </div>
+          </div>
+          <!-- Club -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Club</label>
+            <div class="col-8">
+              <app-input-filters id="add-clubs" [allLists]="allTeams" placeholder="Club"
+                                 (outputValue)="clubInputChange($event)" #clubInput></app-input-filters>
+            </div>
+          </div>
+          <!-- League -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">League</label>
+            <div class="col-8">
+              <app-input-filters id="add-league" [allLists]="allLeagues" placeholder="League"
+                                 (outputValue)="leagueInputChange($event)" #leagueInput></app-input-filters>
+            </div>
+          </div>
+          <!-- Lowest BIN -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Lowest BIN</label>
+            <div class="col-8">
+              <input id="addPlayerLowestBin" type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="lowestBin"/>
+            </div>
+          </div>
+          <!-- Search Price -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Search Price</label>
+            <div class="col-8">
+              <input id="addPlayerSearchPrice" type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="searchPrice"/>
+            </div>
+          </div>
+          <!-- Bid Amount -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Bid Amount</label>
+            <div class="col-8">
+              <input id="addPlayerBidAmount" type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="bidAmount"/>
+            </div>
+          </div>
+          <!-- Min List Price -->
+          <div class="form-group row align-items-baseline">
+            <label class="col-3 col-form-label">Min List Price</label>
+            <div class="col-5">
+              <input id="addPlayerMinListPrice" type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="minListPrice"/>
+            </div>
+            <div class="col-3">
+              <span>Profit after tax: {{((playerAddForm.controls['minListPrice']?.value * 0.95) - playerAddForm.controls['bidAmount']?.value) | number : '1.2-2'}}</span>
+            </div>
+          </div>
+          <!-- Max List Price -->
+          <div class="form-group row align-items-baseline">
+            <label class="col-3 col-form-label">Max List Price</label>
+            <div class="col-5">
+              <input id="addPlayerMaxListPrice" type="number" placeholder="0" class="form-control form-control-sm"
+                     formControlName="maxListPrice"/>
+            </div>
+            <div class="col-3">
+              <span>Profit after tax: {{((playerAddForm.controls['maxListPrice']?.value * 0.95) - playerAddForm.controls['bidAmount']?.value) | number : '1.2-2'}}</span>
+            </div>
+          </div>
+          <!-- Custom Price -->
+          <div class="form-check form-check-inline">
+            <div class="custom-control custom-checkbox">
+              <input id="addPlayerchkCustomPrice" type="checkbox" class="custom-control-input"
+                     formControlName="customPrice"/>
+              <label class="custom-control-label" for="addPlayerchkCustomPrice">Custom Price</label>
+            </div>
+          </div>
+          <!-- Price set -->
+          <div class="form-check form-check-inline">
+            <div class="custom-control custom-checkbox">
+              <input id="addPlayerchkPriceSet" type="checkbox" class="custom-control-input"
+                     formControlName="priceSet"/>
+              <label class="custom-control-label" for="addPlayerchkPriceSet">Price Set</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="left btn btn-success" (click)="onAddForm()" [disabled]="!playerAddForm.valid"><i
+          class="fas fa-plus"></i>&nbsp;Add
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Delete Form -->
+<div class="modal fade" id="deletePlayerModal" tabindex="-1" role="dialog" aria-labelledby="deletePlayerModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deletePlayerModalLabel">Delete Player</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" #deleteFormModalClose>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to remove this player from your list?</p>
+      </div>
+      <div class="modal-footer">
+        <button class="left btn btn-danger" (click)="onDelete()"><i class="fas fa-trash"></i>&nbsp;Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

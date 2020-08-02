@@ -1,0 +1,3052 @@
+[
+  {
+    "description": "FC Heidenheim 1846",
+    "value": 111235,
+    "parent": 20
+  },
+  {
+    "description": "FC Kaiserslautern",
+    "value": 29,
+    "parent": 20
+  },
+  {
+    "description": "FC Koln",
+    "value": 31,
+    "parent": 19
+  },
+  {
+    "description": "FC Nurnberg",
+    "value": 171,
+    "parent": 20
+  },
+  {
+    "description": "FC Union Berlin",
+    "value": 1831,
+    "parent": 20
+  },
+  {
+    "description": "FSV Mainz 05",
+    "value": 169,
+    "parent": 19
+  },
+  {
+    "description": "Aalborg BK",
+    "value": 820,
+    "parent": 1
+  },
+  {
+    "description": "Aalesunds FK",
+    "value": 1755,
+    "parent": 41
+  },
+  {
+    "description": "Aarhus GF",
+    "value": 271,
+    "parent": 1
+  },
+  {
+    "description": "Aberdeen",
+    "value": 77,
+    "parent": 50
+  },
+  {
+    "description": "AC Horsens",
+    "value": 1446,
+    "parent": 13
+  },
+  {
+    "description": "Accrington Stanley",
+    "value": 110313,
+    "parent": 61
+  },
+  {
+    "description": "AD Alcorcon",
+    "value": 100831,
+    "parent": 54
+  },
+  {
+    "description": "Adanaspor",
+    "value": 110401,
+    "parent": 68
+  },
+  {
+    "description": "Adelaide United",
+    "value": 111393,
+    "parent": 351
+  },
+  {
+    "description": "ADO Den Haag",
+    "value": 650,
+    "parent": 10
+  },
+  {
+    "description": "AFC Wimbledon",
+    "value": 112259,
+    "parent": 60
+  },
+  {
+    "description": "AIK",
+    "value": 433,
+    "parent": 56
+  },
+  {
+    "description": "AJ Auxerre",
+    "value": 57,
+    "parent": 17
+  },
+  {
+    "description": "Ajax",
+    "value": 245,
+    "parent": 10
+  },
+  {
+    "description": "Akhisar Belediyespor",
+    "value": 111340,
+    "parent": 68
+  },
+  {
+    "description": "Al Ahli",
+    "value": 112387,
+    "parent": 350
+  },
+  {
+    "description": "Al Batin",
+    "value": 112990,
+    "parent": 350
+  },
+  {
+    "description": "Al Faisaly",
+    "value": 112389,
+    "parent": 350
+  },
+  {
+    "description": "Al Fateh",
+    "value": 112390,
+    "parent": 350
+  },
+  {
+    "description": "Al Hilal",
+    "value": 605,
+    "parent": 350
+  },
+  {
+    "description": "Al Ittihad",
+    "value": 607,
+    "parent": 350
+  },
+  {
+    "description": "Al Khaleej",
+    "value": 112883,
+    "parent": 350
+  },
+  {
+    "description": "Al Nassr",
+    "value": 112139,
+    "parent": 350
+  },
+  {
+    "description": "Al Qadisiyah",
+    "value": 112391,
+    "parent": 350
+  },
+  {
+    "description": "Al Raed",
+    "value": 112392,
+    "parent": 350
+  },
+  {
+    "description": "Al Shabab",
+    "value": 111674,
+    "parent": 350
+  },
+  {
+    "description": "Al Taawoun",
+    "value": 112393,
+    "parent": 350
+  },
+  {
+    "description": "Al Wehda",
+    "value": 112408,
+    "parent": 350
+  },
+  {
+    "description": "Alanyaspor",
+    "value": 113142,
+    "parent": 68
+  },
+  {
+    "description": "Albirex Niigata",
+    "value": 112906,
+    "parent": 349
+  },
+  {
+    "description": "Alianza Petrolera",
+    "value": 112579,
+    "parent": 336
+  },
+  {
+    "description": "Amiens SC",
+    "value": 1816,
+    "parent": 17
+  },
+  {
+    "description": "Amkar Perm",
+    "value": 110234,
+    "parent": 189
+  },
+  {
+    "description": "Angers SCO",
+    "value": 1530,
+    "parent": 16
+  },
+  {
+    "description": "Antalyaspor",
+    "value": 741,
+    "parent": 68
+  },
+  {
+    "description": "Arka Gdynia",
+    "value": 111082,
+    "parent": 66
+  },
+  {
+    "description": "Arsenal",
+    "value": 1,
+    "parent": 13
+  },
+  {
+    "description": "Arsenal de Sarandi",
+    "value": 110394,
+    "parent": 353
+  },
+  {
+    "description": "AS Monaco Football Club SA",
+    "value": 69,
+    "parent": 16
+  },
+  {
+    "description": "AS Nancy Lorraine",
+    "value": 1823,
+    "parent": 16
+  },
+  {
+    "description": "AS Saint-Etienne",
+    "value": 1819,
+    "parent": 16
+  },
+  {
+    "description": "Ascoli",
+    "value": 1847,
+    "parent": 32
+  },
+  {
+    "description": "Aston Villa",
+    "value": 2,
+    "parent": 14
+  },
+  {
+    "description": "Atalanta",
+    "value": 39,
+    "parent": 31
+  },
+  {
+    "description": "Athletic Club",
+    "value": 448,
+    "parent": 53
+  },
+  {
+    "description": "Athletic Club Ajaccio",
+    "value": 614,
+    "parent": 17
+  },
+  {
+    "description": "Atiker Konyaspor",
+    "value": 101033,
+    "parent": 68
+  },
+  {
+    "description": "Atletico Bucaramanga",
+    "value": 112992,
+    "parent": 336
+  },
+  {
+    "description": "Atletico de Rafaela",
+    "value": 110392,
+    "parent": 353
+  },
+  {
+    "description": "Atletico Huila",
+    "value": 112528,
+    "parent": 336
+  },
+  {
+    "description": "Atletico Madrid",
+    "value": 240,
+    "parent": 53
+  },
+  {
+    "description": "Atletico Nacional",
+    "value": 101100,
+    "parent": 336
+  },
+  {
+    "description": "Atletico Tucuman",
+    "value": 111708,
+    "parent": 353
+  },
+  {
+    "description": "Audax Italiano",
+    "value": 101097,
+    "parent": 335
+  },
+  {
+    "description": "Avellino",
+    "value": 2038,
+    "parent": 32
+  },
+  {
+    "description": "Avispa Fukuoka",
+    "value": 113186,
+    "parent": 349
+  },
+  {
+    "description": "AZ",
+    "value": 1906,
+    "parent": 10
+  },
+  {
+    "description": "Bari",
+    "value": 1848,
+    "parent": 32
+  },
+  {
+    "description": "Barnet",
+    "value": 135,
+    "parent": 61
+  },
+  {
+    "description": "Barnsley",
+    "value": 1932,
+    "parent": 14
+  },
+  {
+    "description": "Bayer 04 Leverkusen",
+    "value": 32,
+    "parent": 19
+  },
+  {
+    "description": "Belgrano de Cordoba",
+    "value": 111022,
+    "parent": 353
+  },
+  {
+    "description": "Benevento",
+    "value": 112026,
+    "parent": 32
+  },
+  {
+    "description": "Besiktas JK",
+    "value": 327,
+    "parent": 68
+  },
+  {
+    "description": "Birmingham City",
+    "value": 88,
+    "parent": 14
+  },
+  {
+    "description": "BK Hacken",
+    "value": 711,
+    "parent": 56
+  },
+  {
+    "description": "Blackburn Rovers",
+    "value": 3,
+    "parent": 14
+  },
+  {
+    "description": "Blackpool",
+    "value": 1926,
+    "parent": 61
+  },
+  {
+    "description": "Boavista FC",
+    "value": 1898,
+    "parent": 308
+  },
+  {
+    "description": "Boca Juniors",
+    "value": 1877,
+    "parent": 353
+  },
+  {
+    "description": "Bohemian FC",
+    "value": 305,
+    "parent": 65
+  },
+  {
+    "description": "Bologna",
+    "value": 189,
+    "parent": 31
+  },
+  {
+    "description": "Bolton Wanderers",
+    "value": 4,
+    "parent": 60
+  },
+  {
+    "description": "Borussia Dortmund",
+    "value": 22,
+    "parent": 19
+  },
+  {
+    "description": "Borussia Monchengladbach",
+    "value": 23,
+    "parent": 19
+  },
+  {
+    "description": "Bourg en Bresse Peronnas 01",
+    "value": 110576,
+    "parent": 17
+  },
+  {
+    "description": "Bournemouth",
+    "value": 1943,
+    "parent": 13
+  },
+  {
+    "description": "Boyaca Chico FC",
+    "value": 112019,
+    "parent": 336
+  },
+  {
+    "description": "Bradford City",
+    "value": 1804,
+    "parent": 60
+  },
+  {
+    "description": "Bray Wanderers",
+    "value": 838,
+    "parent": 65
+  },
+  {
+    "description": "Brentford",
+    "value": 1925,
+    "parent": 14
+  },
+  {
+    "description": "Brescia",
+    "value": 190,
+    "parent": 32
+  },
+  {
+    "description": "Brighton & Hove Albion",
+    "value": 1808,
+    "parent": 14
+  },
+  {
+    "description": "Brisbane Roar",
+    "value": 111395,
+    "parent": 351
+  },
+  {
+    "description": "Bristol City",
+    "value": 1919,
+    "parent": 14
+  },
+  {
+    "description": "Bristol Rovers",
+    "value": 1962,
+    "parent": 60
+  },
+  {
+    "description": "Brondby IF",
+    "value": 269,
+    "parent": 1
+  },
+  {
+    "description": "Bruk-Bet Termalica Nieciecza",
+    "value": 112510,
+    "parent": 66
+  },
+  {
+    "description": "BSC Young Boys",
+    "value": 900,
+    "parent": 189
+  },
+  {
+    "description": "Burnley",
+    "value": 1796,
+    "parent": 13
+  },
+  {
+    "description": "Bursaspor",
+    "value": 742,
+    "parent": 68
+  },
+  {
+    "description": "Burton Albion",
+    "value": 15015,
+    "parent": 14
+  },
+  {
+    "description": "Bury",
+    "value": 1945,
+    "parent": 60
+  },
+  {
+    "description": "CA Osasuna",
+    "value": 479,
+    "parent": 53
+  },
+  {
+    "description": "Cadiz CF",
+    "value": 1968,
+    "parent": 54
+  },
+  {
+    "description": "Cagliari",
+    "value": 1842,
+    "parent": 31
+  },
+  {
+    "description": "Cambridge United",
+    "value": 1944,
+    "parent": 61
+  },
+  {
+    "description": "Cardiff City",
+    "value": 1961,
+    "parent": 14
+  },
+  {
+    "description": "Carlisle United",
+    "value": 1480,
+    "parent": 61
+  },
+  {
+    "description": "Carpi",
+    "value": 112409,
+    "parent": 32
+  },
+  {
+    "description": "Caykur Rizespor",
+    "value": 101037,
+    "parent": 68
+  },
+  {
+    "description": "CD Antofagasta",
+    "value": 112533,
+    "parent": 335
+  },
+  {
+    "description": "CD Cobresal",
+    "value": 110978,
+    "parent": 335
+  },
+  {
+    "description": "CD Everton de Vina del Mar",
+    "value": 112584,
+    "parent": 335
+  },
+  {
+    "description": "CD Huachipato",
+    "value": 111327,
+    "parent": 335
+  },
+  {
+    "description": "CD Leganes",
+    "value": 100888,
+    "parent": 53
+  },
+  {
+    "description": "CD Lugo",
+    "value": 110831,
+    "parent": 54
+  },
+  {
+    "description": "CD Mirandes",
+    "value": 110069,
+    "parent": 54
+  },
+  {
+    "description": "CD Nacional",
+    "value": 1891,
+    "parent": 308
+  },
+  {
+    "description": "CD Numancia",
+    "value": 477,
+    "parent": 54
+  },
+  {
+    "description": "CD O'Higgins",
+    "value": 112116,
+    "parent": 335
+  },
+  {
+    "description": "CD Palestino",
+    "value": 111328,
+    "parent": 335
+  },
+  {
+    "description": "CD Tenerife",
+    "value": 260,
+    "parent": 54
+  },
+  {
+    "description": "CD Universidad de Concepcion",
+    "value": 112534,
+    "parent": 335
+  },
+  {
+    "description": "Celtic",
+    "value": 78,
+    "parent": 50
+  },
+  {
+    "description": "Central Coast Mariners",
+    "value": 111396,
+    "parent": 351
+  },
+  {
+    "description": "Cesena",
+    "value": 110915,
+    "parent": 31
+  },
+  {
+    "description": "CF Os Belenenses",
+    "value": 1889,
+    "parent": 308
+  },
+  {
+    "description": "CF Reus",
+    "value": 110854,
+    "parent": 54
+  },
+  {
+    "description": "Chamois Niortais Football Club",
+    "value": 1813,
+    "parent": 17
+  },
+  {
+    "description": "Charlton Athletic",
+    "value": 89,
+    "parent": 60
+  },
+  {
+    "description": "Chaves",
+    "value": 518,
+    "parent": 308
+  },
+  {
+    "description": "Chelsea",
+    "value": 5,
+    "parent": 13
+  },
+  {
+    "description": "Cheltenham Town",
+    "value": 1936,
+    "parent": 61
+  },
+  {
+    "description": "Chesterfield",
+    "value": 1924,
+    "parent": 60
+  },
+  {
+    "description": "Chiavari",
+    "value": 113147,
+    "parent": 32
+  },
+  {
+    "description": "Chicago Fire Soccer Club",
+    "value": 693,
+    "parent": 39
+  },
+  {
+    "description": "Chievo Verona",
+    "value": 192,
+    "parent": 31
+  },
+  {
+    "description": "Cittadella",
+    "value": 111993,
+    "parent": 32
+  },
+  {
+    "description": "Clermont Foot 63",
+    "value": 1815,
+    "parent": 17
+  },
+  {
+    "description": "Club America",
+    "value": 1879,
+    "parent": 341
+  },
+  {
+    "description": "Club Atlas",
+    "value": 101114,
+    "parent": 341
+  },
+  {
+    "description": "Club Atletico Aldosivi",
+    "value": 111707,
+    "parent": 353
+  },
+  {
+    "description": "Club Atletico Banfield",
+    "value": 110404,
+    "parent": 353
+  },
+  {
+    "description": "Club Atletico Huracan",
+    "value": 111711,
+    "parent": 353
+  },
+  {
+    "description": "Club Atletico Lanus",
+    "value": 110395,
+    "parent": 353
+  },
+  {
+    "description": "Club Atletico Sarmiento",
+    "value": 112713,
+    "parent": 353
+  },
+  {
+    "description": "Club Atletico Talleres",
+    "value": 112670,
+    "parent": 353
+  },
+  {
+    "description": "Club Atletico Temperley",
+    "value": 112904,
+    "parent": 353
+  },
+  {
+    "description": "Club Brugge KV",
+    "value": 231,
+    "parent": 4
+  },
+  {
+    "description": "Club Deportes Temuco",
+    "value": 112709,
+    "parent": 335
+  },
+  {
+    "description": "Club Leon",
+    "value": 110781,
+    "parent": 341
+  },
+  {
+    "description": "Club Necaxa",
+    "value": 101121,
+    "parent": 341
+  },
+  {
+    "description": "Club Olimpo",
+    "value": 110398,
+    "parent": 353
+  },
+  {
+    "description": "Club Tijuana",
+    "value": 111678,
+    "parent": 341
+  },
+  {
+    "description": "Colchester United",
+    "value": 1935,
+    "parent": 61
+  },
+  {
+    "description": "Colo-Colo",
+    "value": 110980,
+    "parent": 335
+  },
+  {
+    "description": "Colon de Santa Fe",
+    "value": 110406,
+    "parent": 353
+  },
+  {
+    "description": "Colorado Rapids",
+    "value": 694,
+    "parent": 39
+  },
+  {
+    "description": "Columbus Crew SC",
+    "value": 687,
+    "parent": 39
+  },
+  {
+    "description": "Cordoba CF",
+    "value": 1867,
+    "parent": 54
+  },
+  {
+    "description": "Cork City",
+    "value": 422,
+    "parent": 65
+  },
+  {
+    "description": "Corporacion Club Deportivo Tulua",
+    "value": 112934,
+    "parent": 336
+  },
+  {
+    "description": "Coventry City",
+    "value": 1800,
+    "parent": 60
+  },
+  {
+    "description": "Cracovia",
+    "value": 110747,
+    "parent": 66
+  },
+  {
+    "description": "Crawley Town",
+    "value": 110890,
+    "parent": 61
+  },
+  {
+    "description": "Crewe Alexandra",
+    "value": 121,
+    "parent": 61
+  },
+  {
+    "description": "Crotone",
+    "value": 110734,
+    "parent": 31
+  },
+  {
+    "description": "Cruz Azul",
+    "value": 1878,
+    "parent": 341
+  },
+  {
+    "description": "Crystal Palace",
+    "value": 1799,
+    "parent": 13
+  },
+  {
+    "description": "CS Maritimo",
+    "value": 1893,
+    "parent": 308
+  },
+  {
+    "description": "CSKA Moscow",
+    "value": 315,
+    "parent": 189
+  },
+  {
+    "description": "D. Alaves",
+    "value": 463,
+    "parent": 53
+  },
+  {
+    "description": "D.C. United",
+    "value": 688,
+    "parent": 39
+  },
+  {
+    "description": "Defensa y Justicia",
+    "value": 111710,
+    "parent": 353
+  },
+  {
+    "description": "Deportes Iquique",
+    "value": 112531,
+    "parent": 335
+  },
+  {
+    "description": "Deportes Tolima",
+    "value": 111722,
+    "parent": 336
+  },
+  {
+    "description": "Deportivo Cali",
+    "value": 101102,
+    "parent": 336
+  },
+  {
+    "description": "Deportivo Pasto",
+    "value": 111723,
+    "parent": 336
+  },
+  {
+    "description": "Deportivo Toluca",
+    "value": 1882,
+    "parent": 341
+  },
+  {
+    "description": "Derby County",
+    "value": 91,
+    "parent": 14
+  },
+  {
+    "description": "Derry City",
+    "value": 445,
+    "parent": 65
+  },
+  {
+    "description": "Dijon FCO",
+    "value": 110569,
+    "parent": 16
+  },
+  {
+    "description": "Djurgardens IF",
+    "value": 710,
+    "parent": 56
+  },
+  {
+    "description": "Doncaster Rovers",
+    "value": 142,
+    "parent": 61
+  },
+  {
+    "description": "DSC Arminia Bielefeld",
+    "value": 159,
+    "parent": 20
+  },
+  {
+    "description": "Dundalk",
+    "value": 837,
+    "parent": 65
+  },
+  {
+    "description": "Dundee FC",
+    "value": 180,
+    "parent": 50
+  },
+  {
+    "description": "Eintracht Braunschweig",
+    "value": 110500,
+    "parent": 20
+  },
+  {
+    "description": "Eintracht Frankfurt",
+    "value": 1824,
+    "parent": 19
+  },
+  {
+    "description": "Elche CF",
+    "value": 468,
+    "parent": 54
+  },
+  {
+    "description": "Empoli",
+    "value": 1746,
+    "parent": 31
+  },
+  {
+    "description": "En Avant de Guingamp",
+    "value": 62,
+    "parent": 16
+  },
+  {
+    "description": "Envigado FC",
+    "value": 112526,
+    "parent": 336
+  },
+  {
+    "description": "Esbjerg fB",
+    "value": 1445,
+    "parent": 1
+  },
+  {
+    "description": "ESTAC Troyes",
+    "value": 294,
+    "parent": 17
+  },
+  {
+    "description": "Estoril Praia",
+    "value": 10020,
+    "parent": 308
+  },
+  {
+    "description": "Estudiantes de La Plata",
+    "value": 101083,
+    "parent": 353
+  },
+  {
+    "description": "Ettifaq FC",
+    "value": 112096,
+    "parent": 350
+  },
+  {
+    "description": "Everton",
+    "value": 7,
+    "parent": 13
+  },
+  {
+    "description": "Excelsior",
+    "value": 1971,
+    "parent": 10
+  },
+  {
+    "description": "Exeter City",
+    "value": 143,
+    "parent": 61
+  },
+  {
+    "description": "F. Santa Maria da Feira",
+    "value": 10019,
+    "parent": 308
+  },
+  {
+    "description": "F.C. Tokyo",
+    "value": 101150,
+    "parent": 349
+  },
+  {
+    "description": "Falkenbergs FF",
+    "value": 112169,
+    "parent": 56
+  },
+  {
+    "description": "FC Admira Wacker Modling",
+    "value": 111821,
+    "parent": 80
+  },
+  {
+    "description": "FC Anzhi Makhachkala",
+    "value": 100766,
+    "parent": 67
+  },
+  {
+    "description": "FC Arouca",
+    "value": 112513,
+    "parent": 308
+  },
+  {
+    "description": "FC Arsenal Tula",
+    "value": 110756,
+    "parent": 67
+  },
+  {
+    "description": "FC Augsburg",
+    "value": 100409,
+    "parent": 19
+  },
+  {
+    "description": "FC Barcelona",
+    "value": 241,
+    "parent": 53
+  },
+  {
+    "description": "FC Basel",
+    "value": 896,
+    "parent": 189
+  },
+  {
+    "description": "FC Bayern Munchen",
+    "value": 21,
+    "parent": 19
+  },
+  {
+    "description": "FC Dallas",
+    "value": 695,
+    "parent": 39
+  },
+  {
+    "description": "FC Erzgebirge Aue",
+    "value": 506,
+    "parent": 20
+  },
+  {
+    "description": "FC Girondins de Bordeaux",
+    "value": 59,
+    "parent": 16
+  },
+  {
+    "description": "FC Groningen",
+    "value": 1915,
+    "parent": 10
+  },
+  {
+    "description": "FC Ingolstadt 04",
+    "value": 111239,
+    "parent": 19
+  },
+  {
+    "description": "FC Kobenhavn",
+    "value": 819,
+    "parent": 1
+  },
+  {
+    "description": "FC Krasnodar",
+    "value": 112218,
+    "parent": 67
+  },
+  {
+    "description": "FC Krylya Sovetov Samara",
+    "value": 100764,
+    "parent": 67
+  },
+  {
+    "description": "FC Lausanne-Sport",
+    "value": 1862,
+    "parent": 189
+  },
+  {
+    "description": "FC Lorient",
+    "value": 217,
+    "parent": 16
+  },
+  {
+    "description": "FC Lugano",
+    "value": 10032,
+    "parent": 189
+  },
+  {
+    "description": "FC Luzern",
+    "value": 897,
+    "parent": 189
+  },
+  {
+    "description": "FC Midtjylland",
+    "value": 1516,
+    "parent": 1
+  },
+  {
+    "description": "FC Nantes",
+    "value": 71,
+    "parent": 16
+  },
+  {
+    "description": "FC Nordsjaelland",
+    "value": 1788,
+    "parent": 1
+  },
+  {
+    "description": "FC Orenburg",
+    "value": 112261,
+    "parent": 67
+  },
+  {
+    "description": "FC Pacos de Ferreira",
+    "value": 1892,
+    "parent": 308
+  },
+  {
+    "description": "FC Porto",
+    "value": 236,
+    "parent": 308
+  },
+  {
+    "description": "FC Red Bull Salzburg",
+    "value": 191,
+    "parent": 80
+  },
+  {
+    "description": "FC Rostov",
+    "value": 110231,
+    "parent": 67
+  },
+  {
+    "description": "FC Schalke 04",
+    "value": 34,
+    "parent": 19
+  },
+  {
+    "description": "FC Seoul",
+    "value": 982,
+    "parent": 83
+  },
+  {
+    "description": "FC Sion",
+    "value": 110770,
+    "parent": 189
+  },
+  {
+    "description": "FC Sochaux-Montbeliard",
+    "value": 226,
+    "parent": 17
+  },
+  {
+    "description": "FC St. Gallen",
+    "value": 898,
+    "parent": 189
+  },
+  {
+    "description": "FC St. Pauli Hamburg",
+    "value": 110329,
+    "parent": 20
+  },
+  {
+    "description": "FC Thun",
+    "value": 1715,
+    "parent": 189
+  },
+  {
+    "description": "FC Tom Tomsk",
+    "value": 110233,
+    "parent": 67
+  },
+  {
+    "description": "FC Twente",
+    "value": 1908,
+    "parent": 10
+  },
+  {
+    "description": "FC Ufa",
+    "value": 110822,
+    "parent": 67
+  },
+  {
+    "description": "FC Ural",
+    "value": 111264,
+    "parent": 67
+  },
+  {
+    "description": "FC Utrecht",
+    "value": 1903,
+    "parent": 10
+  },
+  {
+    "description": "FC Vaduz",
+    "value": 286,
+    "parent": 189
+  },
+  {
+    "description": "FC Wurzburger Kickers",
+    "value": 110197,
+    "parent": 20
+  },
+  {
+    "description": "Fenerbahce SK",
+    "value": 326,
+    "parent": 68
+  },
+  {
+    "description": "Ferrara",
+    "value": 112791,
+    "parent": 32
+  },
+  {
+    "description": "Feyenoord",
+    "value": 246,
+    "parent": 10
+  },
+  {
+    "description": "Finn Harps",
+    "value": 111131,
+    "parent": 65
+  },
+  {
+    "description": "Fiorentina",
+    "value": 110374,
+    "parent": 31
+  },
+  {
+    "description": "FK Austria Wien",
+    "value": 256,
+    "parent": 80
+  },
+  {
+    "description": "FK Bodo/Glimt",
+    "value": 918,
+    "parent": 41
+  },
+  {
+    "description": "FK Haugesund",
+    "value": 1463,
+    "parent": 41
+  },
+  {
+    "description": "Fleetwood Town",
+    "value": 112260,
+    "parent": 60
+  },
+  {
+    "description": "Football Club de Metz",
+    "value": 68,
+    "parent": 16
+  },
+  {
+    "description": "Fortaleza CEIF",
+    "value": 112834,
+    "parent": 336
+  },
+  {
+    "description": "Fortuna Dusseldorf",
+    "value": 110636,
+    "parent": 20
+  },
+  {
+    "description": "Frosinone",
+    "value": 111657,
+    "parent": 32
+  },
+  {
+    "description": "Fulham",
+    "value": 144,
+    "parent": 14
+  },
+  {
+    "description": "Galatasaray SK",
+    "value": 325,
+    "parent": 68
+  },
+  {
+    "description": "Galway United",
+    "value": 1571,
+    "parent": 65
+  },
+  {
+    "description": "Gamba Osaka",
+    "value": 112093,
+    "parent": 349
+  },
+  {
+    "description": "Gazelec Football Club Ajaccio",
+    "value": 110316,
+    "parent": 17
+  },
+  {
+    "description": "Gaziantepspor",
+    "value": 101024,
+    "parent": 68
+  },
+  {
+    "description": "Gefle IF",
+    "value": 111277,
+    "parent": 56
+  },
+  {
+    "description": "Genclerbirligi SK",
+    "value": 101025,
+    "parent": 68
+  },
+  {
+    "description": "Genoa",
+    "value": 110556,
+    "parent": 31
+  },
+  {
+    "description": "Getafe CF",
+    "value": 1860,
+    "parent": 54
+  },
+  {
+    "description": "GIF Sundsvall",
+    "value": 1596,
+    "parent": 56
+  },
+  {
+    "description": "Gillingham",
+    "value": 1802,
+    "parent": 60
+  },
+  {
+    "description": "Gimnasia y Esgrima La Plata",
+    "value": 101084,
+    "parent": 353
+  },
+  {
+    "description": "Girona FC",
+    "value": 110062,
+    "parent": 54
+  },
+  {
+    "description": "Go Ahead Eagles",
+    "value": 100632,
+    "parent": 10
+  },
+  {
+    "description": "Godoy Cruz",
+    "value": 111706,
+    "parent": 353
+  },
+  {
+    "description": "Gornik Leczna",
+    "value": 110565,
+    "parent": 66
+  },
+  {
+    "description": "Granada CF",
+    "value": 110832,
+    "parent": 53
+  },
+  {
+    "description": "Grasshopper Club Zurich",
+    "value": 322,
+    "parent": 189
+  },
+  {
+    "description": "Grimsby Town",
+    "value": 92,
+    "parent": 61
+  },
+  {
+    "description": "Guadalajara",
+    "value": 1880,
+    "parent": 341
+  },
+  {
+    "description": "GwangJu FC",
+    "value": 112258,
+    "parent": 83
+  },
+  {
+    "description": "Hamburger SV",
+    "value": 28,
+    "parent": 19
+  },
+  {
+    "description": "Hamilton Academical FC",
+    "value": 184,
+    "parent": 50
+  },
+  {
+    "description": "Hammarby IF",
+    "value": 708,
+    "parent": 56
+  },
+  {
+    "description": "Hannover 96",
+    "value": 485,
+    "parent": 20
+  },
+  {
+    "description": "Hartlepool United",
+    "value": 1941,
+    "parent": 61
+  },
+  {
+    "description": "Havre Athletic Club",
+    "value": 1738,
+    "parent": 17
+  },
+  {
+    "description": "Heart of Midlothian",
+    "value": 80,
+    "parent": 50
+  },
+  {
+    "description": "Hellas Verona",
+    "value": 206,
+    "parent": 32
+  },
+  {
+    "description": "Helsingborgs IF",
+    "value": 432,
+    "parent": 56
+  },
+  {
+    "description": "Heracles Almelo",
+    "value": 100634,
+    "parent": 10
+  },
+  {
+    "description": "Hertha Berlin",
+    "value": 166,
+    "parent": 19
+  },
+  {
+    "description": "HJK Helsinki",
+    "value": 100325,
+    "parent": 322
+  },
+  {
+    "description": "Houston Dynamo",
+    "value": 698,
+    "parent": 39
+  },
+  {
+    "description": "Huddersfield Town",
+    "value": 1939,
+    "parent": 14
+  },
+  {
+    "description": "Hull City",
+    "value": 1952,
+    "parent": 13
+  },
+  {
+    "description": "IF Elfsborg",
+    "value": 700,
+    "parent": 56
+  },
+  {
+    "description": "IFK Goteborg",
+    "value": 319,
+    "parent": 56
+  },
+  {
+    "description": "IFK Norrkoping",
+    "value": 702,
+    "parent": 56
+  },
+  {
+    "description": "IK Start",
+    "value": 1524,
+    "parent": 41
+  },
+  {
+    "description": "Incheon United FC",
+    "value": 110765,
+    "parent": 83
+  },
+  {
+    "description": "Independiente",
+    "value": 110093,
+    "parent": 353
+  },
+  {
+    "description": "Independiente Medellin",
+    "value": 101103,
+    "parent": 336
+  },
+  {
+    "description": "Independiente Santa Fe",
+    "value": 101104,
+    "parent": 336
+  },
+  {
+    "description": "Inter",
+    "value": 44,
+    "parent": 31
+  },
+  {
+    "description": "Inverness Caledonian Thistle",
+    "value": 620,
+    "parent": 50
+  },
+  {
+    "description": "Ipswich Town",
+    "value": 94,
+    "parent": 14
+  },
+  {
+    "description": "Jagiellonia Bialystok",
+    "value": 110745,
+    "parent": 66
+  },
+  {
+    "description": "Jaguares de Chiapas",
+    "value": 112679,
+    "parent": 341
+  },
+  {
+    "description": "Jaguares Futbol Club",
+    "value": 112903,
+    "parent": 336
+  },
+  {
+    "description": "Jeju United FC",
+    "value": 1478,
+    "parent": 83
+  },
+  {
+    "description": "Jeonbuk Hyundai Motors",
+    "value": 1477,
+    "parent": 83
+  },
+  {
+    "description": "Jeonnam Dragons",
+    "value": 1475,
+    "parent": 83
+  },
+  {
+    "description": "Jonkopings Sodra IF",
+    "value": 112130,
+    "parent": 56
+  },
+  {
+    "description": "Jubilo Iwata",
+    "value": 101144,
+    "parent": 349
+  },
+  {
+    "description": "Junior FC",
+    "value": 101101,
+    "parent": 336
+  },
+  {
+    "description": "Juventus",
+    "value": 45,
+    "parent": 31
+  },
+  {
+    "description": "KAA Gent",
+    "value": 674,
+    "parent": 4
+  },
+  {
+    "description": "Kaizer Chiefs",
+    "value": 110929,
+    "parent": 347
+  },
+  {
+    "description": "Kalmar FF",
+    "value": 1439,
+    "parent": 56
+  },
+  {
+    "description": "Kardemir Karabukspor",
+    "value": 112122,
+    "parent": 68
+  },
+  {
+    "description": "Karlsruher SC",
+    "value": 1832,
+    "parent": 20
+  },
+  {
+    "description": "KAS Eupen",
+    "value": 2013,
+    "parent": 4
+  },
+  {
+    "description": "Kashima Antlers",
+    "value": 101147,
+    "parent": 349
+  },
+  {
+    "description": "Kashiwa Reysol",
+    "value": 101145,
+    "parent": 349
+  },
+  {
+    "description": "Kasimpasa SK",
+    "value": 111339,
+    "parent": 68
+  },
+  {
+    "description": "Kawasaki Frontale",
+    "value": 111730,
+    "parent": 349
+  },
+  {
+    "description": "Kayserispor",
+    "value": 101020,
+    "parent": 68
+  },
+  {
+    "description": "Kilmarnock",
+    "value": 82,
+    "parent": 50
+  },
+  {
+    "description": "Korona Kielce",
+    "value": 111083,
+    "parent": 66
+  },
+  {
+    "description": "KRC Genk",
+    "value": 673,
+    "parent": 4
+  },
+  {
+    "description": "KV Kortrijk",
+    "value": 100081,
+    "parent": 4
+  },
+  {
+    "description": "KV Mechelen",
+    "value": 110724,
+    "parent": 4
+  },
+  {
+    "description": "KV Oostende",
+    "value": 682,
+    "parent": 4
+  },
+  {
+    "description": "KVC Westerlo",
+    "value": 681,
+    "parent": 4
+  },
+  {
+    "description": "La Equidad",
+    "value": 112523,
+    "parent": 336
+  },
+  {
+    "description": "LA Galaxy",
+    "value": 697,
+    "parent": 39
+  },
+  {
+    "description": "La Spezia",
+    "value": 110741,
+    "parent": 32
+  },
+  {
+    "description": "Latina",
+    "value": 112487,
+    "parent": 32
+  },
+  {
+    "description": "Lazio",
+    "value": 46,
+    "parent": 31
+  },
+  {
+    "description": "Lech Poznan",
+    "value": 873,
+    "parent": 66
+  },
+  {
+    "description": "Lechia Gdansk",
+    "value": 111091,
+    "parent": 66
+  },
+  {
+    "description": "Leeds United",
+    "value": 8,
+    "parent": 14
+  },
+  {
+    "description": "Legends",
+    "value": 112658,
+    "parent": 2118
+  },
+  {
+    "description": "Legia Warszawa",
+    "value": 1871,
+    "parent": 66
+  },
+  {
+    "description": "Leicester City",
+    "value": 95,
+    "parent": 13
+  },
+  {
+    "description": "Levante UD",
+    "value": 1853,
+    "parent": 54
+  },
+  {
+    "description": "Leyton Orient",
+    "value": 1958,
+    "parent": 61
+  },
+  {
+    "description": "Lillestrom SK",
+    "value": 299,
+    "parent": 41
+  },
+  {
+    "description": "Liniers",
+    "value": 101088,
+    "parent": 353
+  },
+  {
+    "description": "Liverpool",
+    "value": 9,
+    "parent": 13
+  },
+  {
+    "description": "Lokomotiv Moscow",
+    "value": 100765,
+    "parent": 67
+  },
+  {
+    "description": "Longford Town",
+    "value": 1586,
+    "parent": 65
+  },
+  {
+    "description": "LOSC Lille",
+    "value": 65,
+    "parent": 16
+  },
+  {
+    "description": "Luton Town",
+    "value": 1923,
+    "parent": 61
+  },
+  {
+    "description": "Lyngby BK",
+    "value": 15001,
+    "parent": 1
+  },
+  {
+    "description": "Malaga CF",
+    "value": 573,
+    "parent": 53
+  },
+  {
+    "description": "Malmo FF",
+    "value": 320,
+    "parent": 56
+  },
+  {
+    "description": "Manchester City",
+    "value": 10,
+    "parent": 13
+  },
+  {
+    "description": "Manchester United",
+    "value": 11,
+    "parent": 13
+  },
+  {
+    "description": "Mansfield Town",
+    "value": 1940,
+    "parent": 61
+  },
+  {
+    "description": "Medipol Basaksehir FK",
+    "value": 101014,
+    "parent": 68
+  },
+  {
+    "description": "Melbourne City",
+    "value": 112224,
+    "parent": 351
+  },
+  {
+    "description": "Melbourne Victory",
+    "value": 111397,
+    "parent": 351
+  },
+  {
+    "description": "Middlesbrough",
+    "value": 12,
+    "parent": 13
+  },
+  {
+    "description": "Milan",
+    "value": 47,
+    "parent": 31
+  },
+  {
+    "description": "Millonarios FC",
+    "value": 101105,
+    "parent": 336
+  },
+  {
+    "description": "Millwall",
+    "value": 97,
+    "parent": 60
+  },
+  {
+    "description": "Milton Keynes Dons",
+    "value": 1798,
+    "parent": 60
+  },
+  {
+    "description": "Molde FK",
+    "value": 417,
+    "parent": 41
+  },
+  {
+    "description": "Monarcas Morelia",
+    "value": 1028,
+    "parent": 341
+  },
+  {
+    "description": "Monterrey",
+    "value": 1032,
+    "parent": 341
+  },
+  {
+    "description": "Montpellier Herault SC",
+    "value": 70,
+    "parent": 16
+  },
+  {
+    "description": "Montreal Impact",
+    "value": 111139,
+    "parent": 39
+  },
+  {
+    "description": "Morecambe",
+    "value": 357,
+    "parent": 61
+  },
+  {
+    "description": "Moreirense FC",
+    "value": 1900,
+    "parent": 308
+  },
+  {
+    "description": "Motherwell",
+    "value": 83,
+    "parent": 50
+  },
+  {
+    "description": "N.E.C.",
+    "value": 1910,
+    "parent": 10
+  },
+  {
+    "description": "Nagoya Grampus",
+    "value": 112092,
+    "parent": 349
+  },
+  {
+    "description": "Napoli",
+    "value": 48,
+    "parent": 31
+  },
+  {
+    "description": "Nastic",
+    "value": 15019,
+    "parent": 54
+  },
+  {
+    "description": "New England Revolution",
+    "value": 691,
+    "parent": 39
+  },
+  {
+    "description": "New York City Football Club",
+    "value": 112828,
+    "parent": 39
+  },
+  {
+    "description": "New York Red Bulls",
+    "value": 689,
+    "parent": 39
+  },
+  {
+    "description": "Newcastle Jets",
+    "value": 111398,
+    "parent": 351
+  },
+  {
+    "description": "Newcastle United",
+    "value": 13,
+    "parent": 14
+  },
+  {
+    "description": "Newell's Old Boys",
+    "value": 110396,
+    "parent": 353
+  },
+  {
+    "description": "Newport County",
+    "value": 112254,
+    "parent": 61
+  },
+  {
+    "description": "Nimes Olympique",
+    "value": 224,
+    "parent": 17
+  },
+  {
+    "description": "Northampton Town",
+    "value": 1930,
+    "parent": 60
+  },
+  {
+    "description": "Norwich City",
+    "value": 1792,
+    "parent": 14
+  },
+  {
+    "description": "Nottingham Forest",
+    "value": 14,
+    "parent": 14
+  },
+  {
+    "description": "Notts County",
+    "value": 1937,
+    "parent": 61
+  },
+  {
+    "description": "Novara",
+    "value": 112225,
+    "parent": 32
+  },
+  {
+    "description": "Odds BK",
+    "value": 1456,
+    "parent": 41
+  },
+  {
+    "description": "Odense Boldklub",
+    "value": 272,
+    "parent": 1
+  },
+  {
+    "description": "OGC Nice",
+    "value": 72,
+    "parent": 16
+  },
+  {
+    "description": "Oldham Athletic",
+    "value": 1920,
+    "parent": 60
+  },
+  {
+    "description": "Olympiacos CFP",
+    "value": 280,
+    "parent": 63
+  },
+  {
+    "description": "Olympique de Marseille",
+    "value": 219,
+    "parent": 16
+  },
+  {
+    "description": "Olympique Lyonnais",
+    "value": 66,
+    "parent": 16
+  },
+  {
+    "description": "Omiya Ardija",
+    "value": 112345,
+    "parent": 349
+  },
+  {
+    "description": "Once Caldas",
+    "value": 101106,
+    "parent": 336
+  },
+  {
+    "description": "Orebro SK",
+    "value": 705,
+    "parent": 56
+  },
+  {
+    "description": "Orlando City Soccer Club",
+    "value": 112606,
+    "parent": 39
+  },
+  {
+    "description": "Orlando Pirates",
+    "value": 110930,
+    "parent": 347
+  },
+  {
+    "description": "Osmanlispor",
+    "value": 112958,
+    "parent": 68
+  },
+  {
+    "description": "Ostersunds FK",
+    "value": 113173,
+    "parent": 56
+  },
+  {
+    "description": "Oxford United",
+    "value": 1951,
+    "parent": 60
+  },
+  {
+    "description": "Pachuca",
+    "value": 110147,
+    "parent": 341
+  },
+  {
+    "description": "Palermo",
+    "value": 1843,
+    "parent": 31
+  },
+  {
+    "description": "Panathinaikos FC",
+    "value": 1884,
+    "parent": 63
+  },
+  {
+    "description": "PAOK",
+    "value": 393,
+    "parent": 63
+  },
+  {
+    "description": "Paris Saint-Germain",
+    "value": 73,
+    "parent": 16
+  },
+  {
+    "description": "Partick Thistle F.C.",
+    "value": 1754,
+    "parent": 50
+  },
+  {
+    "description": "Patriotas Boyaca FC",
+    "value": 112527,
+    "parent": 336
+  },
+  {
+    "description": "Patronato",
+    "value": 110581,
+    "parent": 353
+  },
+  {
+    "description": "PEC Zwolle",
+    "value": 1914,
+    "parent": 10
+  },
+  {
+    "description": "Perth Glory",
+    "value": 111399,
+    "parent": 351
+  },
+  {
+    "description": "Perugia",
+    "value": 199,
+    "parent": 32
+  },
+  {
+    "description": "Pescara",
+    "value": 200,
+    "parent": 31
+  },
+  {
+    "description": "Peterborough United",
+    "value": 1938,
+    "parent": 60
+  },
+  {
+    "description": "Philadelphia Union",
+    "value": 112134,
+    "parent": 39
+  },
+  {
+    "description": "Piast Gliwice",
+    "value": 111086,
+    "parent": 66
+  },
+  {
+    "description": "Pisa",
+    "value": 110738,
+    "parent": 32
+  },
+  {
+    "description": "Plymouth Argyle",
+    "value": 1929,
+    "parent": 61
+  },
+  {
+    "description": "Pogon Szczecin",
+    "value": 110746,
+    "parent": 66
+  },
+  {
+    "description": "Pohang Steelers",
+    "value": 1474,
+    "parent": 83
+  },
+  {
+    "description": "Port Vale",
+    "value": 1928,
+    "parent": 60
+  },
+  {
+    "description": "Portland Timbers",
+    "value": 111140,
+    "parent": 39
+  },
+  {
+    "description": "Portsmouth",
+    "value": 1790,
+    "parent": 61
+  },
+  {
+    "description": "Preston North End",
+    "value": 1801,
+    "parent": 14
+  },
+  {
+    "description": "PSV",
+    "value": 247,
+    "parent": 10
+  },
+  {
+    "description": "Puebla",
+    "value": 110152,
+    "parent": 341
+  },
+  {
+    "description": "Queens Park Rangers",
+    "value": 15,
+    "parent": 14
+  },
+  {
+    "description": "Queretaro",
+    "value": 110150,
+    "parent": 341
+  },
+  {
+    "description": "Quilmes Atletico Club",
+    "value": 110554,
+    "parent": 353
+  },
+  {
+    "description": "R. Oviedo",
+    "value": 110827,
+    "parent": 54
+  },
+  {
+    "description": "R. Sporting",
+    "value": 459,
+    "parent": 53
+  },
+  {
+    "description": "R. Valladolid CF",
+    "value": 462,
+    "parent": 54
+  },
+  {
+    "description": "R. Zaragoza",
+    "value": 244,
+    "parent": 54
+  },
+  {
+    "description": "Racing Club",
+    "value": 101085,
+    "parent": 353
+  },
+  {
+    "description": "Racing Club de Lens",
+    "value": 64,
+    "parent": 17
+  },
+  {
+    "description": "Randers FC",
+    "value": 1786,
+    "parent": 1
+  },
+  {
+    "description": "Rangers FC",
+    "value": 86,
+    "parent": 50
+  },
+  {
+    "description": "Rayo Vallecano",
+    "value": 480,
+    "parent": 54
+  },
+  {
+    "description": "RB Leipzig",
+    "value": 112172,
+    "parent": 19
+  },
+  {
+    "description": "RC Celta",
+    "value": 450,
+    "parent": 53
+  },
+  {
+    "description": "RC Deportivo",
+    "value": 242,
+    "parent": 53
+  },
+  {
+    "description": "RC Strasbourg Alsace",
+    "value": 76,
+    "parent": 17
+  },
+  {
+    "description": "RCD Espanyol",
+    "value": 452,
+    "parent": 53
+  },
+  {
+    "description": "RCD Mallorca",
+    "value": 453,
+    "parent": 54
+  },
+  {
+    "description": "Reading",
+    "value": 1793,
+    "parent": 14
+  },
+  {
+    "description": "Real Betis",
+    "value": 449,
+    "parent": 53
+  },
+  {
+    "description": "Real Madrid",
+    "value": 243,
+    "parent": 53
+  },
+  {
+    "description": "Real Salt Lake",
+    "value": 111065,
+    "parent": 39
+  },
+  {
+    "description": "Real Sociedad",
+    "value": 457,
+    "parent": 53
+  },
+  {
+    "description": "Red Star FC",
+    "value": 111273,
+    "parent": 17
+  },
+  {
+    "description": "Rio Ave FC",
+    "value": 744,
+    "parent": 308
+  },
+  {
+    "description": "Rionegro Aguilas",
+    "value": 112578,
+    "parent": 336
+  },
+  {
+    "description": "River Plate",
+    "value": 1876,
+    "parent": 353
+  },
+  {
+    "description": "Rochdale",
+    "value": 1955,
+    "parent": 60
+  },
+  {
+    "description": "Roda JC Kerkrade",
+    "value": 1902,
+    "parent": 10
+  },
+  {
+    "description": "Roma",
+    "value": 52,
+    "parent": 31
+  },
+  {
+    "description": "Rosario Central",
+    "value": 110580,
+    "parent": 353
+  },
+  {
+    "description": "Rosenborg BK",
+    "value": 298,
+    "parent": 41
+  },
+  {
+    "description": "Ross County FC",
+    "value": 631,
+    "parent": 50
+  },
+  {
+    "description": "Rotherham United",
+    "value": 1797,
+    "parent": 14
+  },
+  {
+    "description": "Royal Excel Mouscron",
+    "value": 111560,
+    "parent": 4
+  },
+  {
+    "description": "RSC Anderlecht",
+    "value": 229,
+    "parent": 4
+  },
+  {
+    "description": "Rubin Kazan",
+    "value": 110227,
+    "parent": 67
+  },
+  {
+    "description": "Ruch Chorzow",
+    "value": 874,
+    "parent": 66
+  },
+  {
+    "description": "Sagan Tosu",
+    "value": 113160,
+    "parent": 349
+  },
+  {
+    "description": "Salerno",
+    "value": 110373,
+    "parent": 32
+  },
+  {
+    "description": "Sampdoria",
+    "value": 1837,
+    "parent": 31
+  },
+  {
+    "description": "San Jose Earthquakes",
+    "value": 111928,
+    "parent": 39
+  },
+  {
+    "description": "San Lorenzo de Almagro",
+    "value": 1013,
+    "parent": 353
+  },
+  {
+    "description": "San Luis de Quillota",
+    "value": 112668,
+    "parent": 335
+  },
+  {
+    "description": "San Martin",
+    "value": 111713,
+    "parent": 353
+  },
+  {
+    "description": "Sanfrecce Hiroshima",
+    "value": 113157,
+    "parent": 349
+  },
+  {
+    "description": "Sangju Sangmu FC",
+    "value": 2055,
+    "parent": 83
+  },
+  {
+    "description": "Santiago Wanderers",
+    "value": 110976,
+    "parent": 335
+  },
+  {
+    "description": "Santos Laguna",
+    "value": 110144,
+    "parent": 341
+  },
+  {
+    "description": "Sarpsborg 08 FF",
+    "value": 112199,
+    "parent": 41
+  },
+  {
+    "description": "Sassuolo",
+    "value": 111974,
+    "parent": 31
+  },
+  {
+    "description": "SC Braga",
+    "value": 1896,
+    "parent": 308
+  },
+  {
+    "description": "SC Heerenveen",
+    "value": 1913,
+    "parent": 10
+  },
+  {
+    "description": "SCR Altach",
+    "value": 15009,
+    "parent": 80
+  },
+  {
+    "description": "Scunthorpe United",
+    "value": 1949,
+    "parent": 60
+  },
+  {
+    "description": "SD Eibar",
+    "value": 467,
+    "parent": 53
+  },
+  {
+    "description": "SD Huesca",
+    "value": 110839,
+    "parent": 54
+  },
+  {
+    "description": "Seattle Sounders FC",
+    "value": 111144,
+    "parent": 39
+  },
+  {
+    "description": "Seongnam FC",
+    "value": 981,
+    "parent": 83
+  },
+  {
+    "description": "Sevilla Atletico",
+    "value": 110714,
+    "parent": 54
+  },
+  {
+    "description": "Sevilla FC",
+    "value": 481,
+    "parent": 53
+  },
+  {
+    "description": "SG Dynamo Dresden",
+    "value": 503,
+    "parent": 20
+  },
+  {
+    "description": "Shakhtar Donetsk",
+    "value": 101059,
+    "parent": 332
+  },
+  {
+    "description": "Shamrock Rovers",
+    "value": 306,
+    "parent": 65
+  },
+  {
+    "description": "Sheffield United",
+    "value": 1794,
+    "parent": 60
+  },
+  {
+    "description": "Sheffield Wednesday",
+    "value": 1807,
+    "parent": 14
+  },
+  {
+    "description": "Shonan Bellmare",
+    "value": 113161,
+    "parent": 349
+  },
+  {
+    "description": "Shrewsbury",
+    "value": 127,
+    "parent": 60
+  },
+  {
+    "description": "Silkeborg IF",
+    "value": 270,
+    "parent": 1
+  },
+  {
+    "description": "Sint-Truidense VV",
+    "value": 680,
+    "parent": 4
+  },
+  {
+    "description": "SK Brann",
+    "value": 919,
+    "parent": 41
+  },
+  {
+    "description": "SK Rapid Wien",
+    "value": 254,
+    "parent": 80
+  },
+  {
+    "description": "SK Sturm Graz",
+    "value": 209,
+    "parent": 80
+  },
+  {
+    "description": "SKN St. Polten",
+    "value": 112075,
+    "parent": 80
+  },
+  {
+    "description": "SL Benfica",
+    "value": 234,
+    "parent": 308
+  },
+  {
+    "description": "Slask Wroclaw",
+    "value": 111092,
+    "parent": 66
+  },
+  {
+    "description": "Sligo Rovers",
+    "value": 563,
+    "parent": 65
+  },
+  {
+    "description": "Sogndal Fotball",
+    "value": 1465,
+    "parent": 41
+  },
+  {
+    "description": "SonderjyskE",
+    "value": 1447,
+    "parent": 1
+  },
+  {
+    "description": "Southampton",
+    "value": 17,
+    "parent": 13
+  },
+  {
+    "description": "Southend United",
+    "value": 1954,
+    "parent": 60
+  },
+  {
+    "description": "Sparta Rotterdam",
+    "value": 100646,
+    "parent": 10
+  },
+  {
+    "description": "Spartak Moscow",
+    "value": 100767,
+    "parent": 67
+  },
+  {
+    "description": "Sport-Club Freiburg",
+    "value": 25,
+    "parent": 19
+  },
+  {
+    "description": "Sporting Charleroi",
+    "value": 670,
+    "parent": 4
+  },
+  {
+    "description": "Sporting Club de Bastia",
+    "value": 58,
+    "parent": 16
+  },
+  {
+    "description": "Sporting CP",
+    "value": 237,
+    "parent": 308
+  },
+  {
+    "description": "Sporting Kansas City",
+    "value": 696,
+    "parent": 39
+  },
+  {
+    "description": "Sporting Lokeren",
+    "value": 2007,
+    "parent": 4
+  },
+  {
+    "description": "SpVgg Greuther Fuerth",
+    "value": 165,
+    "parent": 20
+  },
+  {
+    "description": "St. Johnstone FC",
+    "value": 100804,
+    "parent": 50
+  },
+  {
+    "description": "St. Patrick's Athletic",
+    "value": 423,
+    "parent": 65
+  },
+  {
+    "description": "Stabaek Fotball",
+    "value": 917,
+    "parent": 41
+  },
+  {
+    "description": "Stade Brestois 29",
+    "value": 378,
+    "parent": 17
+  },
+  {
+    "description": "Stade de Reims",
+    "value": 379,
+    "parent": 17
+  },
+  {
+    "description": "Stade Lavallois Mayenne FC",
+    "value": 1814,
+    "parent": 17
+  },
+  {
+    "description": "Stade Malherbe Caen",
+    "value": 210,
+    "parent": 16
+  },
+  {
+    "description": "Stade Rennais FC",
+    "value": 74,
+    "parent": 16
+  },
+  {
+    "description": "Standard de Liege",
+    "value": 232,
+    "parent": 4
+  },
+  {
+    "description": "Stevenage",
+    "value": 361,
+    "parent": 61
+  },
+  {
+    "description": "Stoke City",
+    "value": 1806,
+    "parent": 13
+  },
+  {
+    "description": "Stromsgodset IF",
+    "value": 922,
+    "parent": 41
+  },
+  {
+    "description": "Sunderland",
+    "value": 106,
+    "parent": 13
+  },
+  {
+    "description": "Suwon FC",
+    "value": 112558,
+    "parent": 83
+  },
+  {
+    "description": "Suwon Samsung Bluewings",
+    "value": 983,
+    "parent": 83
+  },
+  {
+    "description": "SV Darmstadt 98",
+    "value": 110502,
+    "parent": 19
+  },
+  {
+    "description": "SV Guntamatic Ried",
+    "value": 780,
+    "parent": 80
+  },
+  {
+    "description": "SV Mattersburg",
+    "value": 1785,
+    "parent": 80
+  },
+  {
+    "description": "SV Sandhausen",
+    "value": 110178,
+    "parent": 20
+  },
+  {
+    "description": "SV Werder Bremen",
+    "value": 38,
+    "parent": 19
+  },
+  {
+    "description": "SV Zulte-Waregem",
+    "value": 15005,
+    "parent": 4
+  },
+  {
+    "description": "Swansea City",
+    "value": 1960,
+    "parent": 13
+  },
+  {
+    "description": "Swindon Town",
+    "value": 1934,
+    "parent": 60
+  },
+  {
+    "description": "Sydney FC",
+    "value": 111400,
+    "parent": 351
+  },
+  {
+    "description": "Terek Grozny",
+    "value": 110109,
+    "parent": 67
+  },
+  {
+    "description": "Terni",
+    "value": 570,
+    "parent": 32
+  },
+  {
+    "description": "Tiburones Rojos de Veracruz",
+    "value": 110145,
+    "parent": 341
+  },
+  {
+    "description": "Tigres U.A.N.L.",
+    "value": 1970,
+    "parent": 341
+  },
+  {
+    "description": "Tondela",
+    "value": 112516,
+    "parent": 308
+  },
+  {
+    "description": "Torino",
+    "value": 54,
+    "parent": 31
+  },
+  {
+    "description": "Toronto FC",
+    "value": 111651,
+    "parent": 39
+  },
+  {
+    "description": "Tottenham Hotspur",
+    "value": 18,
+    "parent": 13
+  },
+  {
+    "description": "Toulouse Football Club",
+    "value": 1809,
+    "parent": 16
+  },
+  {
+    "description": "Tours Football Club",
+    "value": 110326,
+    "parent": 17
+  },
+  {
+    "description": "Trabzonspor",
+    "value": 436,
+    "parent": 68
+  },
+  {
+    "description": "Trapani",
+    "value": 112410,
+    "parent": 32
+  },
+  {
+    "description": "Tromso IL",
+    "value": 418,
+    "parent": 41
+  },
+  {
+    "description": "TSG 1899 Hoffenheim",
+    "value": 10029,
+    "parent": 19
+  },
+  {
+    "description": "TSV 1860 Munchen",
+    "value": 33,
+    "parent": 20
+  },
+  {
+    "description": "U.N.A.M.",
+    "value": 1881,
+    "parent": 341
+  },
+  {
+    "description": "UCAM Murcia CF",
+    "value": 113216,
+    "parent": 54
+  },
+  {
+    "description": "UD Almeria",
+    "value": 1861,
+    "parent": 54
+  },
+  {
+    "description": "UD Las Palmas",
+    "value": 472,
+    "parent": 53
+  },
+  {
+    "description": "Udinese",
+    "value": 55,
+    "parent": 31
+  },
+  {
+    "description": "Ulsan Hyundai Horang-i",
+    "value": 1473,
+    "parent": 83
+  },
+  {
+    "description": "Union de Santa Fe",
+    "value": 111716,
+    "parent": 353
+  },
+  {
+    "description": "Union Espanola",
+    "value": 110977,
+    "parent": 335
+  },
+  {
+    "description": "Universidad Catolica",
+    "value": 110975,
+    "parent": 335
+  },
+  {
+    "description": "Universidad de Chile",
+    "value": 15029,
+    "parent": 335
+  },
+  {
+    "description": "Urawa Red Diamonds",
+    "value": 111575,
+    "parent": 349
+  },
+  {
+    "description": "US Orleans Loiret Football",
+    "value": 112276,
+    "parent": 17
+  },
+  {
+    "description": "Valencia CF",
+    "value": 461,
+    "parent": 53
+  },
+  {
+    "description": "Valenciennes FC",
+    "value": 110456,
+    "parent": 17
+  },
+  {
+    "description": "Valerenga Fotball",
+    "value": 920,
+    "parent": 41
+  },
+  {
+    "description": "Vancouver Whitecaps FC",
+    "value": 101112,
+    "parent": 39
+  },
+  {
+    "description": "Vegalta Sendai",
+    "value": 112836,
+    "parent": 349
+  },
+  {
+    "description": "Ventforet Kofu",
+    "value": 113162,
+    "parent": 349
+  },
+  {
+    "description": "Vercelli",
+    "value": 112398,
+    "parent": 32
+  },
+  {
+    "description": "VfB Stuttgart",
+    "value": 36,
+    "parent": 20
+  },
+  {
+    "description": "VfL Bochum 1848",
+    "value": 160,
+    "parent": 20
+  },
+  {
+    "description": "VfL Wolfsburg",
+    "value": 175,
+    "parent": 19
+  },
+  {
+    "description": "Viborg FF",
+    "value": 1443,
+    "parent": 1
+  },
+  {
+    "description": "Vicenza",
+    "value": 112954,
+    "parent": 32
+  },
+  {
+    "description": "Victoria",
+    "value": 111715,
+    "parent": 353
+  },
+  {
+    "description": "Viking FK",
+    "value": 300,
+    "parent": 41
+  },
+  {
+    "description": "Villarreal CF",
+    "value": 483,
+    "parent": 53
+  },
+  {
+    "description": "Vissel Kobe",
+    "value": 101146,
+    "parent": 349
+  },
+  {
+    "description": "Vitesse",
+    "value": 1909,
+    "parent": 10
+  },
+  {
+    "description": "Vitoria Guimaraes",
+    "value": 1887,
+    "parent": 308
+  },
+  {
+    "description": "Vitoria Setubal",
+    "value": 665,
+    "parent": 308
+  },
+  {
+    "description": "Waasland-Beveren",
+    "value": 110913,
+    "parent": 4
+  },
+  {
+    "description": "Walsall",
+    "value": 1803,
+    "parent": 60
+  },
+  {
+    "description": "Watford",
+    "value": 1795,
+    "parent": 13
+  },
+  {
+    "description": "Wellington Phoenix",
+    "value": 111766,
+    "parent": 351
+  },
+  {
+    "description": "West Bromwich Albion",
+    "value": 109,
+    "parent": 13
+  },
+  {
+    "description": "West Ham United",
+    "value": 19,
+    "parent": 13
+  },
+  {
+    "description": "Western Sydney Wanderers",
+    "value": 112427,
+    "parent": 351
+  },
+  {
+    "description": "Wexford Youths",
+    "value": 111968,
+    "parent": 65
+  },
+  {
+    "description": "Wigan Athletic",
+    "value": 1917,
+    "parent": 14
+  },
+  {
+    "description": "Willem II",
+    "value": 1907,
+    "parent": 10
+  },
+  {
+    "description": "Wisla Krakow",
+    "value": 1873,
+    "parent": 66
+  },
+  {
+    "description": "Wisla Plock",
+    "value": 1569,
+    "parent": 66
+  },
+  {
+    "description": "Wolfsberger AC",
+    "value": 111822,
+    "parent": 80
+  },
+  {
+    "description": "Wolverhampton Wanderers",
+    "value": 110,
+    "parent": 14
+  },
+  {
+    "description": "Wycombe Wanderers",
+    "value": 1933,
+    "parent": 61
+  },
+  {
+    "description": "Yeovil Town",
+    "value": 346,
+    "parent": 61
+  },
+  {
+    "description": "Yokohama F. Marinos",
+    "value": 101151,
+    "parent": 349
+  },
+  {
+    "description": "Zaglebie Lubin",
+    "value": 110749,
+    "parent": 66
+  },
+  {
+    "description": "Zenit St. Petersburg",
+    "value": 100769,
+    "parent": 67
+  }
+]

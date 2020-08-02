@@ -1,0 +1,32 @@
+{
+  "pid" : {
+    "externalRefType" : "NUCLEUS",
+    "externalRefValue" : "1004802671574",
+    "pidId" : 9999999999999,
+    "email" : "REPLACE_EMAIL",
+    "emailStatus" : "VERIFIED",
+    "strength" : "STRONG",
+    "dob" : "1990-12-16",
+    "country" : "GB",
+    "language" : "en",
+    "locale" : "en_GB",
+    "status" : "ACTIVE",
+    "reasonCode" : "",
+    "tosVersion" : "1",
+    "parentalEmail" : "",
+    "thirdPartyOptin" : "false",
+    "globalOptin" : "false",
+    "dateCreated" : "2010-12-16T19:35Z",
+    "dateModified" : "2014-12-19T14:40Z",
+    "lastAuthDate" : "2018-12-25T19:24Z",
+    "registrationSource" : "128235",
+    "authenticationSource" : "196775",
+    "showEmail" : "NO_ONE",
+    "discoverableEmail" : "NO_ONE",
+    "anonymousPid" : "false",
+    "underagePid" : "false",
+    "defaultBillingAddressUri" : "",
+    "defaultShippingAddressUri" : "",
+    "passwordSignature" : 4110
+  }
+}

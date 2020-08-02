@@ -1,0 +1,219 @@
+<div *ngIf="loading">
+  <app-loader></app-loader>
+</div>
+
+<div *ngIf="auctionInfo" id="player-card-{{auctionInfo.tradeId}}" class="card m-1 text-center"
+     [ngClass]="color === '' ? 'bg-dark' : 'bg-' + color + ' text-white'"
+     [style.width.px]="itemWidth">
+  <div class="card-header small p-1">
+    <div id="{{auctionInfo.tradeId}}-header" class="d-flex align-items-baseline justify-content-between pb-0">
+      <img class="mr-auto img-responsive" src="{{playerImg}}" alt="playerImage">
+      <div id="{{auctionInfo.tradeId}}-name" class="mx-auto align-self-center">{{getName()}}</div>
+      <div class="ml-auto">
+        <h6 id="{{auctionInfo.tradeId}}-rating" class="display-4">{{rating}}</h6>
+      </div>
+    </div>
+  </div>
+  <div id="{{auctionInfo.tradeId}}-body" class="card-body p-0 small">
+    <ul class="list-group list-group-flush">
+      <li id="{{auctionInfo.tradeId}}-status" class="list-group-item"
+          [ngClass]="color === '' ? 'list-group-item-dark' : 'list-group-item-' + color">Status:
+        {{cardStatus}}
+      </li>
+      <li id="{{auctionInfo.tradeId}}-listing-prices" class="list-group-item"
+          [ngClass]="color === '' ? 'list-group-item-dark' : 'list-group-item-' + color">
+        {{cardStatus === 'Unlisted'
+        ? 'N/A' :
+        'Start - ' + auctionInfo.startingBid + ' / ' + auctionInfo.buyNowPrice + ' - BIN' }}
+      </li>
+      <li id="{{auctionInfo.tradeId}}-current-bid" class="list-group-item"
+          [ngClass]="color === '' ? 'list-group-item-dark' : 'list-group-item-' + color">
+        Current:
+        {{auctionInfo.currentBid}}
+      </li>
+      <li id="{{auctionInfo.tradeId}}-time-left" class="list-group-item"
+          [ngClass]="color === '' ? 'list-group-item-dark' : 'list-group-item-' + color">
+        {{cardStatus === 'Unlisted'
+        ? 'N/A' : 'Expires in: ' + timeLeftDate}}
+      </li>
+      <li id="{{auctionInfo.tradeId}}-fitness-contracts-chemistry" class="list-group-item"
+          [ngClass]="color === '' ? 'list-group-item-dark' : 'list-group-item-' + color">
+        Fitness:
+        {{auctionInfo.itemData.fitness}} | {{auctionInfo.itemData.contract}}: Contracts |
+        {{getChemistry(auctionInfo.itemData.playStyle)}}
+      </li>
+      <li id="{{auctionInfo.tradeId}}-more-options"
+          *ngIf="listType === 'tradePile' || listType === 'watchList' || listType === 'market' || listType === 'unassignedPile'"
+          class="list-group-item p-1"
+          [ngClass]="color === '' ? 'list-group-item-dark' : 'list-group-item-' + color">
+        <button id="{{auctionInfo.tradeId}}-more-btn"
+                *ngIf="listType === 'tradePile' || listType === 'watchList' || listType === 'market' || listType === 'unassignedPile'"
+                type="button"
+                class="btn btn-sm btn-outline-dark"
+                data-toggle="modal"
+                [attr.data-target]="'#'+getModalId()">More
+          <i class="fas fa-lg fa-ellipsis-h"></i></button>
+      </li>
+
+    </ul>
+  </div>
+  <div id="{{auctionInfo.tradeId}}-footer" class="card-footer small p-1">
+    <div class="d-flex align-items-baseline justify-content-between p-0">
+      <img class="img-responsive" src="{{nationImg}}" alt="nationImage">
+      <div id="{{auctionInfo.tradeId}}-assetId" class="align-self-baseline">
+        {{auctionInfo.itemData.assetId}}
+      </div>
+      <img class="img-responsive" src="{{clubImg}}" alt="clubImage">
+    </div>
+  </div>
+</div>
+
+<!-- More info modal -->
+<div
+  *ngIf="listType === 'tradePile' ||
+          listType === 'watchList' ||
+          listType === 'market' ||
+          listType === 'unassignedPile'"
+  class="modal fade"
+  id="{{getModalId()}}"
+  tabindex="-1" role="dialog"
+  aria-labelledby="moreModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="moreModalLabel">{{getName()}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" #moreModalClose>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex flex-column">
+          <!-- Currently active -->
+          <div *ngIf="cardStatus === 'Active'" class="p-1">
+            <span>Item currently listed</span>
+          </div>
+          <!-- Remove sold -->
+          <div *ngIf="cardStatus === 'Sold' && listType === 'tradePile'" class="p-1" data-toggle="tooltip"
+               data-placement="top" title="Remove Sold">
+            <button type="button" class="btn btn-sm btn-outline-success" (click)="removeSold()">Remove Sold
+            </button>
+          </div>
+          <!-- List item -->
+          <div
+            *ngIf="((cardStatus === 'Expired' || cardStatus === 'Unlisted') && listType === 'tradePile' || listType === 'unassignedPile')
+                  || (cardStatus === 'Won' && (listType === 'watchList'  || listType === 'market'))"
+            class="p-1" data-toggle="tooltip" data-placement="top"
+            title="List item">
+            <!-- Min List Price -->
+            <div class="form-group row align-items-baseline">
+              <label class="col-3 col-form-label">Start Price</label>
+              <div class="col-5">
+                <input type="number" placeholder="0" class="form-control form-control-sm"
+                       [(ngModel)]="startPrice"/>
+              </div>
+            </div>
+            <!-- Max List Price -->
+            <div class="form-group row align-items-baseline">
+              <label class="col-3 col-form-label">BIN</label>
+              <div class="col-5">
+                <input type="number" placeholder="0" class="form-control form-control-sm"
+                       [(ngModel)]="buyNowPrice"/>
+              </div>
+            </div>
+
+            <div class="d-flex flex-row p-0">
+              <div class="pr-1">
+                <button type="button" class="btn btn-sm btn-outline-dark" (click)="listItem()"
+                        [disabled]="!listDuration"
+                        [attr.aria-disabled]="!listDuration">
+                  List item
+                </button>
+              </div>
+              <div class="pl-1 col-6">
+                <!-- Auction Duration -->
+                <select [(ngModel)]="listDuration" class="form-control form-control-sm">
+                  <option selected [value]="3600">1 Hour</option>
+                  <option [value]="10800">3 Hours</option>
+                  <option [value]="21600">6 Hours</option>
+                  <option [value]="43200">12 Hours</option>
+                  <option [value]="86400">1 Day</option>
+                  <option [value]="259200">3 Days</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+          <!-- Send to trade pile -->
+          <div
+            *ngIf="cardStatus === 'Won' && (listType === 'watchList' || listType === 'market')
+            || (listType === 'unassignedPile' && !untradable)"
+            class="p-1"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Send to trade pile">
+            <button type="button" class="btn btn-sm btn-outline-info" (click)="sendToTradePile()">Send to trade pile
+            </button>
+          </div>
+          <!-- Send to club -->
+          <div
+            *ngIf="(cardStatus === 'Expired' && listType === 'tradePile') || (cardStatus === 'Won' && (listType === 'watchList' || listType === 'market')) || listType === 'unassignedPile'"
+            class="p-1" data-toggle="tooltip" data-placement="top"
+            title="Send to club">
+            <button type="button" class="btn btn-sm btn-outline-secondary" (click)="sendBackToClub()">Send to club
+            </button>
+          </div>
+          <!-- Quick sell -->
+          <div
+            *ngIf="(cardStatus === 'Expired' && listType === 'tradePile') || (cardStatus === 'Won' && (listType === 'watchList' || listType === 'market')) || listType === 'unassignedPile'"
+            class="p-1" data-toggle="tooltip" data-placement="top"
+            title="Quick sell">
+            <button type="button" class="btn btn-sm btn-outline-danger" (click)="quickSell()">Quick sell
+            </button>
+          </div>
+          <!-- Remove Item -->
+          <div
+            *ngIf="(cardStatus === 'Expired' && listType === 'tradePile') || (cardStatus === 'Expired' && listType === 'watchList') || (cardStatus === 'Outbidded' && listType === 'watchList')"
+            class="p-1" data-toggle="tooltip" data-placement="top"
+            title="Remove Expired">
+            <button type="button" class="btn btn-sm btn-outline-danger" (click)="removeItemFromWatchList()">Remove
+              from watch list
+            </button>
+          </div>
+          <!-- Bid item -->
+          <div *ngIf="(cardStatus === 'Active' && listType === 'market')"
+               class="p-1" data-toggle="tooltip" data-placement="top"
+               title="Bid item">
+            <!-- Bid amount -->
+            <div class="form-group row align-items-baseline">
+              <label class="col-3 col-form-label">Bid: </label>
+              <div class="col-5">
+                <input type="number" placeholder="0" class="form-control form-control-sm"
+                       [(ngModel)]="bidAmount"/>
+              </div>
+            </div>
+
+            <div class="pr-1">
+              <button type="button" class="btn btn-sm btn-outline-dark" (click)="bidItem()"
+                      [disabled]="bidAmount < 150"
+                      [attr.aria-disabled]="bidAmount < 150">
+                Bid item
+              </button>
+            </div>
+          </div>
+
+          <!-- BIN item -->
+          <div *ngIf="(cardStatus === 'Active' && listType === 'market')"
+               class="p-1" data-toggle="tooltip" data-placement="top"
+               title="BIN item">
+            <button type="button" class="btn btn-sm btn-outline-success" (click)="binItem()">
+              BIN item
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>

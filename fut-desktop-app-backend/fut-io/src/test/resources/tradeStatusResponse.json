@@ -1,0 +1,61 @@
+{
+  "credits": 850318,
+  "auctionInfo": [
+    {
+      "tradeId": 18594181241,
+      "itemData": {
+        "id": 121070675537,
+        "timestamp": 0,
+        "untradeable": false,
+        "resourceId": 0,
+        "owners": 0,
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 0,
+        "fitness": 0,
+        "injuryGames": 0,
+        "statsList": [],
+        "lifetimeStats": [],
+        "training": 0,
+        "contract": 0,
+        "suspension": 0,
+        "attributeList": [],
+        "pile": 0,
+        "nation": 0,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 2800,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": false,
+      "bidState": "none",
+      "startingBid": 2600,
+      "confidenceValue": 100,
+      "expires": 3600,
+      "sellerName": "",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "18594181241"
+    }
+  ],
+  "bidTokens": {},
+  "currencies": [
+    {
+      "name": "COINS",
+      "funds": 850318,
+      "finalFunds": 850318
+    },
+    {
+      "name": "POINTS",
+      "funds": 0,
+      "finalFunds": 0
+    },
+    {
+      "name": "DRAFT_TOKEN",
+      "funds": 0,
+      "finalFunds": 0
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "auctionInfo": [
+    {
+      "tradeId": 15783038052,
+      "itemData": {
+        "id": 118064793290,
+        "timestamp": 1509475190,
+        "formation": "f3421",
+        "untradeable": false,
+        "assetId": 170084,
+        "rating": 74,
+        "itemType": "player",
+        "resourceId": 170084,
+        "owners": 2,
+        "discardValue": 259,
+        "itemState": "forSale",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 550,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 73,
+            "index": 0
+          },
+          {
+            "value": 76,
+            "index": 1
+          },
+          {
+            "value": 80,
+            "index": 2
+          },
+          {
+            "value": 71,
+            "index": 3
+          },
+          {
+            "value": 40,
+            "index": 4
+          },
+          {
+            "value": 76,
+            "index": 5
+          }
+        ],
+        "teamid": 1799,
+        "rareflag": 1,
+        "playStyle": 273,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 0,
+        "pile": 5,
+        "nation": 50,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 10000,
+      "currentBid": 300,
+      "offers": 0,
+      "watched": null,
+      "bidState": "outbid",
+      "startingBid": 300,
+      "confidenceValue": 100,
+      "expires": 17,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "15783038052"
+    }
+  ],
+  "bidTokens": {}
+}

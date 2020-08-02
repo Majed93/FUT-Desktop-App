@@ -1,0 +1,139 @@
+<div class="d-flex align-items-baseline">
+  <div class="align-self-center p-2">
+    <select [(ngModel)]="level" class="form-control form-control-sm">
+      <option selected [value]="'Any'">Any</option>
+      <option [value]="'Bronze'">Bronze</option>
+      <option [value]="'Silver'">Silver</option>
+      <option [value]="'Gold'">Gold</option>
+      <option [value]="'Special'">Special</option>
+    </select>
+  </div>
+  <div class="align-self-center p2">
+    <button id="bid-filter-btn" class="btn btm-sm btn-outline-primary" (click)="showBidCriteria()">Bid Filters</button>
+    <fut-bid-criteria></fut-bid-criteria>
+  </div>
+  <div class="align-self-center p-2">
+    <ss-multiselect-dropdown [options]="files" [(ngModel)]="selectedFiles" [settings]="selectSettings"
+                             (ngModelChange)="onChange($event)"></ss-multiselect-dropdown>
+  </div>
+  <div *ngIf="selectedFiles.length > 0" class="row align-self-center p-2">
+    <label class="col-3 col-form-label small">Starting player: </label>
+    <div class="col-8">
+      <select [(ngModel)]="selectedPlayer" class="form-control form-control-sm">
+        <option *ngFor="let p of allPlayersFromSelectedFiles" [value]="p.assetId">{{getPlayerName(p)}}</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex align-items-baseline">
+  <div class="align-self-center p-2">
+    <button type="button" (click)="startBid()" class="btn btn-sm btn-outline-success" data-toggle="tooltip"
+            data-placement="top" [disabled]="selectedFiles.length < 1 || autoBidStarted"
+            title="Start auto bidding">Start Auto Bidding
+      <i class="fas fa-lg fa-play"></i>
+    </button>
+  </div>
+  <div class="align-self-center p-2">
+    <button type="button" (click)="stopBid()" class="btn btn-sm btn-outline-danger" data-toggle="tooltip"
+            data-placement="top"
+            title="Stop auto bidding" [disabled]="!autoBidStarted">Stop Auto Bidding
+      <i class="fas fa-lg fa-stop"></i>
+    </button>
+  </div>
+  <div class="align-self-center p-2">
+    <button type="button" (click)="pauseBid()" class="btn btn-sm btn-outline-primary" data-toggle="tooltip"
+            data-placement="top"
+            title="Pause/Unpause auto bidding" [disabled]="!autoBidStarted">{{paused ? 'Unpause ' : 'Pause '}}Auto
+      Bidding
+      <i class="fas fa-lg fa-pause"></i>
+    </button>
+  </div>
+</div>
+<div id="search-container" class="d-flex flex-row justify-content-between">
+  <!-- Results of search players -->
+  <div id="search-results-container" class="d-flex w-100 p-2">
+    <div class="w-100 card border-secondary">
+      <div class="card-header">
+        <div class="d-flex justify-content-between align-items-baseline pb-2">
+          <div>Search Results</div>
+          <div *ngIf="makeAuctionResponse()" class="align-content-end">
+            <div *ngIf="makeAuctionResponse()">Items: {{makeAuctionResponse().length}}</div>
+          </div>
+        </div>
+      </div>
+      <div id="search-results-card" class="card-body card-list-view" #searchResultsBody>
+        <div *ngIf="makeAuctionResponse()" class="card-deck">
+          <app-player-card *ngFor="let auction of makeAuctionResponse()" [auctionInfo]="auction"
+                           [itemWidth]="getCardWidth()" [listType]="'search'"
+                           [player]="getPlayer(auction['itemData']['assetId'])" class="pb-1"></app-player-card>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Textarea with status -->
+  <div class="d-flex w-25 ml-auto p-2">
+    <div class="w-100 card border-secondary">
+      <div class="card-header">
+        <div class=" d-flex justify-content-between align-items-baseline">
+          Search Status
+          <button type="button" (click)="clear()" class="btn btn-sm btn-outline-primary" data-toggle="tooltip"
+                  data-placement="top"
+                  title="Clear Status">Clear Status
+            <i class="fas fa-lg fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <div id="search-status-card" class="card-body" #statusTextContainer>
+      <textarea id="status-text" class="form-control" readonly wrap="hard" rows="{{statusTextRows}}"
+                [scrollTop]="statusText.scrollHeight"
+                #statusText>{{makeTextareaText()}}</textarea>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Too many items found modal -->
+<div class="modal fade" id="tooManyModal" tabindex="-1" role="dialog" aria-labelledby="tooMany-modal"
+     data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tooMany-modal">Too many items found!</h5>
+      </div>
+      <div class="modal-body">
+        <!-- Found values -->
+        <div *ngIf="makeAuctionResponse()">
+          <div *ngFor="let auction of makeAuctionResponse()">
+            <div>{{auction.buyNowPrice}}</div>
+          </div>
+        </div>
+        <!-- Input box with new value -->
+        <span>Is this the correct amount? If not enter new value and click no.
+          Otherwise yes to confirm and cancel to stop auto bidding.</span>
+
+        <span>New lowest BIN if required:</span>
+        <div class="align-self-center p-2">
+          <input type="number" placeholder="0" class="form-control form-control-sm"
+                 [(ngModel)]="newPriceInput"/>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <!-- YES -->
+        <button type="button" class="btn btn-outline-primary"
+                data-toggle="tooltip" title="Confirm amount." (click)="sendNewValue(1)">Yes
+        </button>
+        <!-- NO -->
+        <button type="button" class="btn btn-outline-primary"
+                data-toggle="tooltip" title="No use new amount." (click)="sendNewValue(2)">No
+        </button>
+        <!-- CANCEL -->
+        <button type="button" class="btn btn-outline-danger"
+                data-toggle="tooltip" title="Cancelling the bidding process." (click)="sendNewValue(99)">Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

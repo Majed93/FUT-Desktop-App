@@ -1,0 +1,365 @@
+<div class="d-flex justify-content-between">
+  <div class="align-self-center">
+    <h6 class="display-4" id="section-header">Account List</h6>
+  </div>
+</div>
+<div *ngIf="accounts">
+  <div>
+    <div class="d-flex align-items-baseline">
+      <div class="align-self-center p-2" data-toggle="tooltip" data-placement="top"
+           title="Go through each account and re list items">
+        <button type="button" class="btn btn-sm btn-outline-dark" (click)="reListAllAccounts()"
+                [disabled]="relistBtnDisabled()" data-toggle="modal" data-backdrop="static"
+                data-keyboard="false" data-target="#reListingModal">Relist all accounts
+          <i class="fas fa-lg fa-magic"></i></button>
+      </div>
+
+      <div class="p-2 col-2">
+        <!-- Relist option -->
+        <select [(ngModel)]="relistOption" class="form-control form-control-sm">
+          <option selected [ngValue]="true">Relist all</option>
+          <option [ngValue]="false">Relist for specified time.</option>
+        </select>
+      </div>
+      <div class="p-2 col-2">
+        <!-- Auction Duration -->
+        <select [(ngModel)]="listDuration" class="form-control form-control-sm">
+          <option selected [value]="3600">1 Hour</option>
+          <option [value]="10800">3 Hours</option>
+          <option [value]="21600">6 Hours</option>
+          <option [value]="43200">12 Hours</option>
+          <option [value]="86400">1 Day</option>
+          <option [value]="259200">3 Days</option>
+        </select>
+      </div>
+      <!-- New price -->
+      <div class="p-2">
+        <div class="form-check form-check-inline form-control-sm mb-0 p-0" data-toggle="tooltip" data-placement="top"
+             title="If ticked, will list using prices from latest all players lists. Relist will no work with this.">
+          <div class="custom-control custom-checkbox">
+            <input id="chkNewPrice" type="checkbox" class="custom-control-input"
+                   [checked]="newPrice" [(ngModel)]="newPrice"/>
+            <label class="custom-control-label" for="chkNewPrice">New Price?</label>
+          </div>
+        </div>
+      </div>
+      <!-- Watch list -->
+      <div class="p-2">
+        <div class="form-check form-check-inline form-control-sm mb-0 p-0" data-toggle="tooltip" data-placement="top"
+             title="If ticked, watch list will be checked if any items can be moved to trade pile.">
+          <div class="custom-control custom-checkbox">
+            <input id="chkWatchList" type="checkbox" class="custom-control-input"
+                   [checked]="watchList" [(ngModel)]="watchList"/>
+            <label class="custom-control-label" for="chkWatchList">
+              Check watch list
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex align-items-baseline">
+      <div class="p-2">
+        <!-- Empty div to file space -->
+        <p>Accounts to list (In order):</p>
+      </div>
+      <!-- List of accounts to do -->
+      <div class="p-2">
+        <ss-multiselect-dropdown [options]="listingAccountsOptions" [(ngModel)]="listingAccounts"
+                                 [settings]="selectSettings"></ss-multiselect-dropdown>
+      </div>
+      <!-- Button for shuffle accounts -->
+      <div class="p-2">
+        <button id="accounts-shuffle-btn" type="button" class="btn btn-sm btn-outline-dark"
+                (click)="shuffleAccounts($event)">
+          <i class="fas fa-lg fa-random"></i>
+        </button>
+      </div>
+      <!-- Checkbox for only one account -->
+      <div class="p-2">
+        <div class="form-check form-check-inline form-control-sm mb-0 p-0" data-toggle="tooltip" data-placement="top"
+             title="Relist only selected account (if more than one selected, first one will be done)">
+          <div class="custom-control custom-checkbox">
+            <input id="chkOnlyOneAccount" type="checkbox" class="custom-control-input"
+                   [checked]="isOnlyOneAccount" [(ngModel)]="isOnlyOneAccount"/>
+            <label class="custom-control-label" for="chkOnlyOneAccount">
+              Relist only one account
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex align-items-baseline">
+      <div class="align-self-center p-2" data-toggle="tooltip" data-placement="top" title="Add">
+        <button id="add-account-modal-btn" type="button" class="btn btn-sm btn-outline-success" data-toggle="modal"
+                data-target="#add-account-modal">
+          <i class="fas fa-lg fa-plus"></i></button>
+      </div>
+      <div class="align-self-center" data-toggle="tooltip" data-placement="top" title="Refresh">
+        <button id="refresh-accounts-btn" type="button" class="btn btn-sm btn-outline-primary" (click)="getAccounts()">
+          <i class="fas fa-lg fa-sync"></i>
+        </button>
+      </div>
+      <cite id="accounts-length" class="p-2">Accounts: {{accounts.length}}</cite>
+      <div class="ml-auto p-2">
+        <select [(ngModel)]="maxSize" class="form-control">
+          <option selected [value]="10">10</option>
+          <option [value]="25">25</option>
+          <option [value]="50">50</option>
+          <option [value]="100">100</option>
+        </select>
+      </div>
+    </div>
+    <div *ngIf="accounts?.length < 1" id="no-accounts-msg" class="alert alert-info fade show">
+      No accounts to display
+    </div>
+    <div *ngIf="accounts?.length > 0">
+      <table id="account-table" class="table table-striped table-hover">
+        <thead class="thead-dark">
+        <tr>
+          <th scope="col">Email</th>
+          <th scope="col">Coins</th>
+          <th scope="col">Time Finish (Time Left)&nbsp;<span data-toggle="tooltip"
+                                                             title="Expected time for last listed item to finish."><i
+            class="fas fa-info-circle"></i></span></th>
+          <th scope="col">Total Requests&nbsp;<span data-toggle="tooltip" title="Total requests made to EA servers."><i
+            class="fas fa-info-circle"></i></span></th>
+          <th scope="col">Watch List</th>
+          <th scope="col">Trade Pile</th>
+          <th scope="col">Platform</th>
+          <th scope="col">Key&nbsp;<span data-toggle="tooltip" title="Key used with Google Authenticator."><i
+            class="fas fa-info-circle"></i></span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="account-row-{{i}}"
+            *ngFor="let account of accounts | paginate: {itemsPerPage: maxSize, currentPage: page, totalItems: accounts.length}; let i = index"
+            (click)="rowClick(account)" data-toggle="modal" data-target="#view-account-modal">
+          <td id="row-email-{{i}}">{{account.email}}</td>
+          <td id="row-coins-{{i}}">{{(account.coins).toLocaleString("en")}}</td>
+          <td id="row-time-finish-{{i}}">{{account.timeFinish | date:'d/M/yy HH:mm:ss a'}}/(time left)</td>
+          <td id="row-total-session-{{i}}">{{account.totalSession}}</td>
+          <td id="row-watch-list-count-{{i}}">{{account.watchListCount}}</td>
+          <td id="row-trade-pile-count-{{i}}">{{account.tradePileCount}}</td>
+          <td id="row-platform-{{i}}">{{getPlatform(account.platform)}}</td>
+          <td id="row-key-{{i}}" class="small">{{account.secretKey}}</td>
+        </tr>
+        </tbody>
+      </table>
+      <div class="text-center">
+        <pagination-controls (pageChange)="page = $event" maxSize="10"></pagination-controls>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- View/Update form -->
+<div class="modal fade" id="view-account-modal" tabindex="-1" role="dialog" aria-labelledby="view-account-modal-label">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <form [formGroup]="accountUpdateForm" (ngSubmit)="onUpdateForm()" novalidate>
+        <div class="modal-header">
+          <h5 class="modal-title" id="view-account-modal-label">View Account</h5>
+          <button type="button" id="view-update-form-modal-close" class="close" data-dismiss="modal" aria-label="Close"
+                  #viewUpdateFormModalClose>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Hidden fields -->
+          <input type="hidden" formControlName="id"/>
+          <!-- Message for something here -->
+          <div *ngIf="accountUpdateFormMsg" id="update-form-error-msg"
+               class="mx-auto align-content-stretch alert alert-success fade show"
+               [ngClass]="{'alert-danger' : accountUpdateFormMsg.includes('Error') }">
+            {{accountUpdateFormMsg}}
+          </div>
+          <!-- Email -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">FUT Email</label>
+            <div class="col-8">
+              <input id="update-account-email-input" placeholder="example@fut.com" class="form-control form-control-sm"
+                     formControlName="email" email/>
+            </div>
+          </div>
+          <!-- Password -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">FUT Password</label>
+            <div class="col-8">
+              <input id="update-account-password-input" type="password" class="form-control form-control-sm"
+                     formControlName="password"/>
+            </div>
+          </div>
+          <!-- Answer -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">FUT Secret Answer</label>
+            <div class="col-8">
+              <input id="update-account-answer-input" type="password" class="form-control form-control-sm"
+                     formControlName="answer"/>
+            </div>
+          </div>
+          <!-- Secret Key -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label" data-toggle="modal" data-target="#2fa">FUT 2FA Key&nbsp;<span
+              data-toggle="tooltip"
+              title="Key used with Google Authenticator. Click for more info">
+              <i class="fas fa-info-circle"></i></span></label>
+            <div class="col-8">
+              <input id="update-account-key-input" placeholder="abcd efgh ijkl mnop"
+                     class="form-control form-control-sm"
+                     formControlName="secretKey"/>
+            </div>
+          </div>
+          <!-- Platform -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Platform</label>
+            <div class="col-8">
+              <select id="update-account-platform-input" class="form-control form-control-sm"
+                      formControlName="platform">
+                <option *ngFor="let p of platforms" [ngValue]="p.key"
+                        [selected]="p.value===accountUpdateForm.controls['platform'].value">
+                  {{p.value}}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <!-- Delete account button -->
+          <div class="left">
+            <button id="delete-account-form-btn" type="button" class="btn btn-danger" data-toggle="modal"
+                    data-target="#delete-account-modal"><i class="fas fa-trash"></i>&nbsp;Delete
+            </button>
+          </div>
+          <button id="update-account-form-btn" class="btn btn-primary" [disabled]="!accountUpdateForm.valid"
+                  type="submit"><i class="fas fa-plus-square"></i>&nbsp;Update
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Delete account modal -->
+<div class="modal fade" id="delete-account-modal" tabindex="-1" role="dialog"
+     aria-labelledby="delete-account-modal-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="delete-account-modal-label">Delete Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" #deleteAccountModalClose>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to remove this account? This will only delete your account from this app. You will
+          still be able to access FUT via web app and console.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="left btn btn-danger" (click)="onDelete()" id="confirm-delete-btn"><i class="fas fa-trash"></i>&nbsp;Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add form -->
+<div id="add-account-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="add-account-modal-label"
+     #addAccountModal>
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <form [formGroup]="accountAddForm" (ngSubmit)="onAddForm()" novalidate>
+
+        <div class="modal-header">
+          <h5 class="modal-title" id="add-account-modal-label">Add Account</h5>
+          <button id="add-form-modal-close" type="button" class="close" data-dismiss="modal" aria-label="Close"
+                  #addFormModalClose>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Message for something here -->
+          <div *ngIf="accountAddFormMsg" id="add-form-error-msg"
+               class="mx-auto align-content-stretch alert alert-success fade show"
+               [ngClass]="{'alert-danger' : accountAddFormMsg.includes('Error') }">
+            {{accountAddFormMsg}}
+          </div>
+          <!-- Email -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">FUT Email</label>
+            <div class="col-8">
+              <input id="add-account-email-input" placeholder="example@fut.com" class="form-control form-control-sm"
+                     formControlName="email" email/>
+            </div>
+          </div>
+          <!-- Password -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">FUT Password</label>
+            <div class="col-8">
+              <input id="add-account-password-input" type="password" class="form-control form-control-sm"
+                     formControlName="password"/>
+            </div>
+          </div>
+          <!-- Answer -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">FUT Secret Answer</label>
+            <div class="col-8">
+              <input id="add-account-answer-input" type="password" class="form-control form-control-sm"
+                     formControlName="answer"/>
+            </div>
+          </div>
+          <!-- Secret Key -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label" data-toggle="modal" data-target="#2fa">FUT 2FA Key&nbsp;<span
+              data-toggle="tooltip"
+              title="Key used with Google Authenticator. Click for more info">
+              <i class="fas fa-info-circle"></i></span></label>
+            <div class="col-8">
+              <input id="add-account-key-input" placeholder="abcd efgh ijkl mnop" class="form-control form-control-sm"
+                     formControlName="secretKey"/>
+            </div>
+          </div>
+          <!-- Platform -->
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Platform</label>
+            <div class="col-8">
+              <select id="add-account-platform-input" class="form-control form-control-sm" formControlName="platform">
+                <option id="platform-{{p.key}}" *ngFor="let p of platforms" [ngValue]="p.key">
+                  {{p.value}}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="add-account-form-btn" class="btn btn-primary" [disabled]="!accountAddForm.valid" type="submit"><i
+            class="fas fa-plus-square"></i>&nbsp;Add
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Google 2FA Auth Tutorial -->
+<div class="modal fade" id="2fa" tabindex="-1" role="dialog" aria-labelledby="2fa-modal">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="2fa-modal">How to obtain 2FA Key</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" #TwofaFormModalClose>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- TODO: ************************************************************************************************ -->
+        <h1>HOW TO GET THE 2FA KEY</h1>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Relist modal -->
+<app-status-modal [textareaText]="textareaText" [pauseEndpoint]="pauseEndpoint"
+                  [stopEndpoint]="stopEndpoint" [disableClose]="disableCloseModal"></app-status-modal>

@@ -1,0 +1,68 @@
+<!-- Modal for waiting on listing to complete -->
+<div class="modal fade" id="bidCriteriaModel" tabindex="-1" role="dialog"
+     aria-labelledby="bidCriteriaModel" #bidCriteriaModel>
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bid-criteria-title">Bid Filter</h5>
+      </div>
+      <div class="modal-body" id="bid-criteria-modal-body">
+
+        <!-- The time limit -->
+        <div class="form-group row align-items-baseline">
+          <label class="col-3 col-form-label">Time limit</label>
+          <div class="col-5">
+            <input type="number" placeholder="0" class="form-control form-control-sm"
+                   [(ngModel)]="bidCriteria.timeLimit"/>
+          </div>
+        </div>
+
+        <!-- The min buy now price. -->
+        <div class="form-group row align-items-baseline">
+          <label class="col-3 col-form-label">Min Buy Now price</label>
+          <div class="col-5">
+            <input type="number" placeholder="0" class="form-control form-control-sm"
+                   [(ngModel)]="bidCriteria.minBuyNow"/>
+          </div>
+        </div>
+
+
+        <!-- Max Results for when to show the modal on -->
+        <div class="form-group row align-items-baseline">
+          <label class="col-3 col-form-label">Max number of items before warning</label>
+          <div class="col-5">
+            <input type="number" placeholder="0" class="form-control form-control-sm"
+                   [(ngModel)]="bidCriteria.maxResults"/>
+          </div>
+        </div>
+
+        <!-- Bin Only -->
+        <div class="custom-control custom-switch right">
+          <input type="checkbox" class="custom-control-input" [(ngModel)]="bidCriteria.binOnly"
+                 (ngModelChange)="onBinOnlyChange($event)" id="bin-only-switch"/>
+          <label class="custom-control-label" for="bin-only-switch">Bin Only</label>
+        </div>
+
+        <!-- Bin First -->
+        <div class="custom-control custom-switch right">
+          <input type="checkbox" class="custom-control-input" [(ngModel)]="bidCriteria.binFirst"
+                 (ngModelChange)="onBinFirstChange($event)" id="bin-first-switch"/>
+          <label class="custom-control-label" for="bin-first-switch">Bin First</label>
+        </div>
+
+        <!-- Mass Bid -->
+        <div class="custom-control custom-switch right">
+          <input type="checkbox" class="custom-control-input" [(ngModel)]="bidCriteria.bid"
+                 (ngModelChange)="onBidChange($event)" id="mass-bid-switch"/>
+          <label class="custom-control-label" for="mass-bid-switch">Mass Bid</label>
+        </div>
+        <div>Rules:</div>
+        <div>If Bin Only is true, Bin First and Mass Bid will be set to false</div>
+        <div>Bin First and Mass Bid should be applied together. Mass bid does not require Bin First, however</div>
+      </div>
+      <div class="modal-footer">
+        <button id="bid-criteria-close" class="btn btn-dark" (click)="hideModal()">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>

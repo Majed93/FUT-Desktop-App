@@ -1,0 +1,16 @@
+{
+  "name": "fut-desktop-app-frontend",
+  "description": "FUT Desktop App",
+  "version": "1.0.0",
+  "author": "Majed Monem",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "child_process": "^1.0.2",
+    "find-free-port": "^1.1.1",
+    "hazardous": "^0.3.0"
+  }
+}

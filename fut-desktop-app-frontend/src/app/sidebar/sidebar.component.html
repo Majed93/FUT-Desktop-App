@@ -1,0 +1,77 @@
+<div class="navs bg-dark navbar-brand d-flex flex-column sidebar"
+     ngClass="{{sidebar_toggle == 'right' ? 'padding-closed' : ''}}" [@slideSideBar]="sidebar_toggle"
+     id="sidebar">
+
+  <!-- Trade Pile -->
+  <div *ngIf="showMenu" class="d-flex py-2 justify-content-end hover">
+    <a id="sidebar-btn-trade-pile" class="text-white no-underline" [routerLink]="['trade-pile']">
+      <span class="mr-auto p-2 small">Trade Pile</span>
+      <span id="sidebar-btn-trade-pile-clickable" class="ml-auto p-2">
+      <i class="fas fa-fw fa-align-justify"></i>
+      </span>
+    </a>
+  </div>
+
+  <!-- Watch List -->
+  <div *ngIf="showMenu" class="d-flex py-2 justify-content-end hover">
+    <a id="sidebar-btn-watch-list" class="text-white no-underline" [routerLink]="['watch-list']">
+      <span class="mr-auto p-2 small">Watch List</span>
+      <span id="sidebar-btn-watch-list-clickable" class="ml-auto p-2">
+      <i class="fas fa-fw fa-binoculars"></i>
+      </span>
+    </a>
+  </div>
+
+  <!-- Unassigned -->
+  <div *ngIf="showMenu && account && account.pile_unassigned > 0" class="d-flex py-2 justify-content-end hover">
+    <a id="sidebar-btn-unassigned" class="text-white no-underline" [routerLink]="['unassigned']">
+      <span class="mr-auto p-2 small">Unassigned</span>
+      <span id="sidebar-btn-unassigned-clickable" class="ml-auto p-2">
+      <i class="far fa-fw fa-copy"></i>
+      </span>
+    </a>
+  </div>
+
+  <!-- Transfer Search -->
+  <div *ngIf="showMenu" class="d-flex py-2 justify-content-end hover">
+    <a id="sidebar-btn-transfer-search" class="text-white no-underline" [routerLink]="['transfer-search']">
+      <span class="mr-auto p-2 small">Transfer Search</span>
+      <span id="sidebar-btn-transfer-search-clickable" class="ml-auto p-2">
+      <i class="fas fa-fw fa-search"></i>
+      </span>
+    </a>
+  </div>
+
+  <!-- Auto Bid -->
+  <div *ngIf="showMenu" class="d-flex py-2 justify-content-end hover">
+    <a id="sidebar-btn-auto-bid" class="text-white no-underline" [routerLink]="['auto-bid']">
+      <span class="mr-auto p-2 small">Auto Bid</span>
+      <span id="sidebar-btn-auto-bid-clickable" class="ml-auto p-2">
+      <i class="fas fa-fw fa-university"></i>
+      </span>
+    </a>
+  </div>
+
+  <!-- Player Lists -->
+  <div class="d-flex py-2 justify-content-end" [ngClass]="playersLoaded ? 'hover' : 'sidebar-disabled'">
+    <a id="sidebar-btn-player-list" class="text-white no-underline" [ngClass]="playersLoaded ? '' : 'sidebar-disabled'"
+       [routerLink]="['players-list']">
+      <span class="mr-auto p-2 small">Player Lists</span>
+      <span id="sidebar-btn-player-list-clickable" class="ml-auto p-2">
+      <i class="fas fa-fw fa-user"></i>
+      </span>
+    </a>
+  </div>
+
+  <!-- Expand -->
+  <div class="d-flex py-2 justify-content-end hover">
+    <div class="mr-auto p-2">
+      <span></span>
+    </div>
+    <div class="ml-auto p-2">
+      <span id="toggle-sidebar-btn" (click)="toggleSidebar()"><i
+        class="fas fa-fw fa-angle-double-{{sidebar_toggle}}"></i></span>
+    </div>
+  </div>
+
+</div>

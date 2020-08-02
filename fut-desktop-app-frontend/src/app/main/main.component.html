@@ -1,0 +1,54 @@
+<div *ngIf="loading">
+  <app-loader></app-loader>
+</div>
+
+<!-- The overlaying modal to urge user action needed-->
+<fut-action-needed></fut-action-needed>
+
+
+<nav class="navbar navbar-dark fixed-top bg-dark d-flex flex-row nav-bar-top-border">
+  <a id="sidebar-btn-accounts" class="navbar-brand" [routerLink]="['accounts']">
+    <i class="fas fa-home"></i>
+  </a>
+  <a class="navbar-brand" href="#">FUT Desktop App</a>
+  <form class="form-inline my-2" (ngSubmit)="login()">
+    <select id="accounts-select" class="form-control form-control-sm mr-sm-auto" [formControl]="accountLogin">
+      <option *ngFor="let acc of accountsList" [ngValue]="acc.id">{{acc.email}} - {{getPlatform(acc.platform)}}</option>
+    </select>
+    <!-- Not implemented as of yet -->
+    <!-- <select id="app-version-select" class="form-control form-control-sm mr-sm-auto" [formControl]="appVersion">
+       <option *ngFor="let aV of appVersions" [ngValue]="aV.id">{{aV.display}}</option>
+     </select>-->
+    <button id="login-btn" type="submit" class="btn btn-sm btn-outline-secondary" [disabled]="loginBtnDisabled">Login
+    </button>
+  </form>
+  <span *ngIf="loggedIn" id="current-logged-in" class="font-italic text-white">{{loggedIn}}</span>
+  <ul class="nav navbar-nav ml-auto">
+    <li class="nav-item">
+      <!-- nav items here -->
+      <!-- Total of combined amount from each account on the app -->
+      <span *ngIf="loggedIn" id="current-account-coins" class="navbar-brand small">Current account:
+        <span
+          id="current-coin-balance">{{currentAccountCoins() ? (currentAccountCoins()).toLocaleString("en") : 0}}</span>
+        <i class="fas fa-database"></i></span>
+      <span id="total-coins" class="navbar-brand">Total:
+        <span id="total-coin-balance">{{coins ? (coins).toLocaleString("en") : 0}}</span>
+        <i class="fas fa-database"></i></span>
+    </li>
+  </ul>
+</nav>
+
+<div class="d-flex flex-row">
+  <div class="p-1">
+    <app-sidebar [showMenu]="loggedIn" #sideBar></app-sidebar>
+  </div>
+  <div class="col">
+    <div class="main-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="p-1">
+    <!--<p *ngIf="authorized">{{authorized}}</p>-->
+    <!-- Right side empty for now -->
+  </div>
+</div>

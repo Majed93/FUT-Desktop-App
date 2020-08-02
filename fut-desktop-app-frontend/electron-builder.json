@@ -1,0 +1,29 @@
+{
+  "productName": "FUT Desktop App",
+  "directories": {
+    "app": "dist",
+    "output": "app-builds"
+  },
+  "win": {
+    "icon": "dist/favicon.ico",
+    "target": [
+      "portable"
+    ],
+    "asar": true,
+    "asarUnpack": [
+      "assets/*.jar"
+    ]
+  },
+  "mac": {
+    "icon": "dist/favicon.ico",
+    "target": [
+      "dmg"
+    ]
+  },
+  "linux": {
+    "icon": "dist",
+    "target": [
+      "AppImage"
+    ]
+  }
+}

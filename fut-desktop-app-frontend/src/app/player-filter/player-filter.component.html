@@ -1,0 +1,9 @@
+<input id="{{ID_PREFIX + id}}" type="text" placeholder="{{placeholder}}" class="form-control form-control-sm"
+       [(ngModel)]="playerSearchTerm" (ngModelChange)="onSearchChange($event)"/>
+<div *ngIf="playerSearchTerm" class="list-group small p-0 player-filter">
+  <button *ngFor="let player of allPlayers | playerFilter:playerSearchTerm:toCloseMenu"
+          class="list-group-item list-group-item-action text-white"
+          (click)="selectPlayer(player)">
+    {{getPlayerName(player)}} - {{player.assetId}}
+  </button>
+</div>

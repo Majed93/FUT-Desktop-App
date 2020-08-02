@@ -1,0 +1,68 @@
+<div *ngIf="!unassignedPile && loading">
+  <app-loader></app-loader>
+</div>
+
+<!-- If pile is empty -->
+<div *ngIf="!unassignedPile && !loading"
+     id="unassigned-pile-container-empty" class="d-flex w-100 p-2">
+  <p class="lead">Unassigned pile is empty.</p>
+</div>
+
+<div *ngIf="unassignedPile" id="unassigned-pile-container" class="d-flex w-100 p-2">
+  <div class="w-100 card border-secondary">
+    <div class="card-header d-flex align-items-baseline">
+      <div class="d-flex flex-row justify-content-start">
+        <div class="pr-2">Unassigned Items</div>
+        <div class="pl-2">{{unassignedPile.auctionInfo.length}} Items</div>
+      </div>
+      <div class="d-flex flex-row ml-auto justify-content-end" *ngIf="!disableTransferListButtons">
+        <!-- Move won items to trade -->
+        <div class="pl-1">
+          <button type="button" (click)="moveToTrade()"
+                  class="btn btn-sm btn-outline-success"
+                  data-toggle="modal" data-backdrop="static"
+                  data-keyboard="false"
+                  data-target="#reListingModal">
+            Move won items to trade&nbsp;
+          </button>
+        </div>
+        <!-- List AND Move -->
+        <div class="pl-1" data-toggle="tooltip"
+             data-placement="top"
+             title="Moves all items to trade and lists them. If they are not in player lists, default price used.">
+          <button type="button" (click)="autoList()"
+                  class="btn btn-sm btn-outline-primary"
+                  data-toggle="modal" data-backdrop="static"
+                  data-keyboard="false"
+                  data-target="#reListingModal">
+            List all for &nbsp;
+          </button>
+        </div>
+        <!-- Auction Duration -->
+        <div class="pl-1">
+          <select [(ngModel)]="listDurationForAll" class="form-control form-control-sm">
+            <option selected [value]="3600">1 Hour</option>
+            <option [value]="10800">3 Hours</option>
+            <option [value]="21600">6 Hours</option>
+            <option [value]="43200">12 Hours</option>
+            <option [value]="86400">1 Day</option>
+            <option [value]="259200">3 Days</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="unassigned-pile-results-card" class="card-body card-list-view" #unassignedPileBody>
+      <div class="card-deck" *ngIf="unassignedPile">
+        <app-player-card *ngFor="let auction of unassignedPile['auctionInfo']" [auctionInfo]="auction"
+                         [itemWidth]="getCardWidth()" [listType]="'unassignedPile'"
+                         (listUpdated)="onNewUnassigned($event)"
+                         [player]="getPlayer(auction['itemData']['assetId'])"
+                         [listResp]="unassignedPile"
+                         class="pb-1"></app-player-card>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-status-modal [textareaText]="makeTextareaText()" [pauseEndpoint]="pauseEndpoint"
+                  [stopEndpoint]="stopEndpoint" [disableClose]="disableCloseModal"></app-status-modal>

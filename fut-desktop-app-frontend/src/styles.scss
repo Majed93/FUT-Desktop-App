@@ -1,0 +1,342 @@
+/* Mixin utils */
+@import "app/scss/maths";
+@import "assets/theme";
+@import "app/loader/loader.component";
+@import 'variables';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+//@import 'bootstrap/scss/bootstrap';
+
+$enable-gradients: true;
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: calculateRem($size);
+}
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+  -moz-box-sizing: $box-model; // Firefox <= 19
+  box-sizing: $box-model;
+}
+
+@mixin boxshadow($h: 0px, $v: 1px, $b:2px, $brand-color: rgba(0,0,0,0.25)) {
+  -webkit-box-shadow: $h $v $b $brand-color;
+  -moz-box-shadow: $h $v $b $brand-color;
+  box-shadow: $h $v $b $brand-color;
+}
+
+$margin: 1.4em;
+
+%div {
+  padding: $margin;
+}
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+  -moz-box-sizing: $box-model; // Firefox <= 19
+  box-sizing: $box-model;
+}
+
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin cover-background($img-uri, $background-top:"center", $background-left:"center", $background-attachment:"fixed") {
+  background: url($img-uri) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Pulse effect */
+$pulse-bg-colors: ();
+
+@mixin pulse-bg($color, $bg) {
+  // Name the current animation for later use.
+  $animation-id: 'pulse-bg_' + str-slice(inspect($color), 2);
+
+  // If color hasn't already been created
+  @if not index($pulse-bg-colors, $animation-id) {
+    @at-root {
+      %#{$animation-id} {
+        animation: #{$animation-id} 1s infinite alternate;
+        outline: none;
+      }
+
+      @keyframes #{$animation-id} {
+        to {
+          background-color: $color;
+        }
+      }
+    }
+
+    // Add color to index
+    $pulse-bg-colors: append($pulse-bg-colors, #{$animation-id}) !global;
+  }
+
+  // Extend the global animation
+  @extend %#{$animation-id};
+}
+
+// Background colors
+.bg-orange {
+  background-color: #dc8a35 !important;
+}
+
+.bg-light-green {
+  background-color: #3fdc35 !important;
+}
+
+.list-group-item-orange {
+  color: #856404;
+  background-color: #ffca71 !important;
+}
+
+.list-group-item-light-green {
+  color: #348526;
+  background-color: #91dc7e !important;
+}
+
+.bg-flash-orange {
+  @include pulse-bg(#dc8a35, true);
+}
+
+.list-group-item-flash-orange {
+  color: #856404;
+  @include pulse-bg(#ffca71, true);
+}
+
+.bg-flash-green {
+  @include pulse-bg(#348526, true);
+}
+
+.list-group-item-flash-green {
+  color: #32a722;
+  @include pulse-bg(#55ee48, true);
+}
+
+//transform origin
+@mixin transform-origin($origin) {
+  -moz-transform-origin: $origin;
+  -o-transform-origin: $origin;
+  -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+  transform-origin: $origin;
+}
+
+@mixin skew($side: right, $deg: -20deg, $right: -15px, $left: -15px, $width: 30px) {
+  position: relative;
+
+  &:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    @if $side == right {
+      right: $right;
+    } @else if $side == left {
+      left: $left;
+    }
+
+    display: block;
+    width: $width;
+    -webkit-transform: skew($deg);
+    -ms-transform: skew($deg);
+    transform: skew($deg);
+  }
+}
+
+/* Gradient */
+@mixin gradient($orientation, $colors...) {
+  background: $colors;
+  @if $orientation == 'vertical' {
+    background: -webkit-linear-gradient(top, $colors, $colors);
+    background: linear-gradient(to bottom, $colors, $colors);
+  } @else if $orientation == 'horizontal' {
+    background: -webkit-linear-gradient(left, $colors, $colors);
+    background: linear-gradient(to right, $colors, $colors);
+  } @else {
+    background: -webkit-radial-gradient(center, ellipse cover, $colors, $colors);
+    background: radial-gradient(ellipse at center, $colors, $colors);
+  }
+}
+
+/* e.g params: 150%, 'up-down' 34s, 270deg, #000, #fff  */
+@mixin changing-bg($scale, $orientation, $speed, $dir, $colors...) {
+  background: linear-gradient($dir, $colors);
+  background-size: $scale;
+
+  -webkit-animation: AnimationName $speed ease-in-out infinite;
+  -moz-animation: AnimationName $speed ease-in-out infinite;
+  -o-animation: AnimationName $speed ease-in-out infinite;
+  animation: AnimationName $speed ease-in-out infinite;
+
+  @if $orientation == 'left-right' {
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 0 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0 50%
+      }
+    }
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 0 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0 50%
+      }
+    }
+    @-o-keyframes AnimationName {
+      0% {
+        background-position: 0 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0 50%
+      }
+    }
+    @keyframes AnimationName {
+      0% {
+        background-position: 0 50%
+      }
+      50% {
+        background-position: 100% 50%
+      }
+      100% {
+        background-position: 0 50%
+      }
+    }
+  } @else if $orientation == 'up-down' {
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 50% 0
+      }
+      50% {
+        background-position: 50% 100%
+      }
+      100% {
+        background-position: 50% 0
+      }
+    }
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 50% 0
+      }
+      50% {
+        background-position: 50% 100%
+      }
+      100% {
+        background-position: 50% 0
+      }
+    }
+    @-o-keyframes AnimationName {
+      0% {
+        background-position: 50% 0
+      }
+      50% {
+        background-position: 50% 100%
+      }
+      100% {
+        background-position: 50% 0
+      }
+    }
+    @keyframes AnimationName {
+      0% {
+        background-position: 50% 0
+      }
+      50% {
+        background-position: 50% 100%
+      }
+      100% {
+        background-position: 50% 0
+      }
+    }
+  }
+}
+
+body {
+  padding-top: 50px;
+  background-color: rgb(239, 232, 234);
+}
+
+button {
+  cursor: pointer;
+}
+
+.angular-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* No under for links */
+.no-underline {
+  text-decoration: none !important;
+}
+
+/* Hover animation */
+$time: 2000ms;
+$scale: 1.1;
+
+@mixin pulse($n) {
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+  @for $i from 1 through 999 {
+    $m: 1;
+    @if $i % 2 !=0 {
+      $m: $n;
+    }
+    #{$i*100%} {
+      transform: scaleX($m) scaleY($m)
+    }
+  }
+  100% {
+    transform: scaleX($scale) scaleY($scale);
+  }
+}
+
+@keyframes pulse {
+  @include pulse(0.85);
+}
+
+.hover:hover {
+  transform: scaleX($scale) scaleY($scale);
+}
+
+/* List card with scroll */
+.card-list-view {
+  overflow-y: scroll;
+}
+
+/* Height of search container */
+#search-container {
+  height: 750px;
+}

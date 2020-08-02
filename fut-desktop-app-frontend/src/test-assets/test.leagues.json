@@ -1,0 +1,207 @@
+[
+  {
+    "description": "Alka Superliga",
+    "value": 1,
+    "parent": null
+  },
+  {
+    "description": "Allsvenskan",
+    "value": 56,
+    "parent": null
+  },
+  {
+    "description": "Bundesliga",
+    "value": 19,
+    "parent": null
+  },
+  {
+    "description": "Bundesliga 2",
+    "value": 20,
+    "parent": null
+  },
+  {
+    "description": "Calcio A",
+    "value": 31,
+    "parent": null
+  },
+  {
+    "description": "Calcio B",
+    "value": 32,
+    "parent": null
+  },
+  {
+    "description": "CeskaLiga",
+    "value": 319,
+    "parent": null
+  },
+  {
+    "description": "Camp. Scotiabank",
+    "value": 335,
+    "parent": null
+  },
+  {
+    "description": "Dawry Jameel",
+    "value": 350,
+    "parent": null
+  },
+  {
+    "description": "Domino's Ligue 2",
+    "value": 17,
+    "parent": null
+  },
+  {
+    "description": "EFL Championship",
+    "value": 14,
+    "parent": null
+  },
+  {
+    "description": "EFL League One",
+    "value": 60,
+    "parent": null
+  },
+  {
+    "description": "EFL League Two",
+    "value": 61,
+    "parent": null
+  },
+  {
+    "description": "T-Mobile Ekstraklasa",
+    "value": 66,
+    "parent": null
+  },
+  {
+    "description": "Eredivisie",
+    "value": 10,
+    "parent": null
+  },
+  {
+    "description": "Finnliiga",
+    "value": 322,
+    "parent": null
+  },
+  {
+    "description": "Hellas Liga",
+    "value": 63,
+    "parent": null
+  },
+  {
+    "description": "Hyundai A-League",
+    "value": 351,
+    "parent": null
+  },
+  {
+    "description": "K LEAGUE Classic",
+    "value": 83,
+    "parent": null
+  },
+  {
+    "description": "LaLiga 1 | 2 | 3",
+    "value": 54,
+    "parent": null
+  },
+  {
+    "description": "LaLiga Santander",
+    "value": 53,
+    "parent": null
+  },
+  {
+    "description": "Legends",
+    "value": 2118,
+    "parent": null
+  },
+  {
+    "description": "LIGA Bancomer MX",
+    "value": 341,
+    "parent": null
+  },
+  {
+    "description": "Liga Dimayor",
+    "value": 336,
+    "parent": null
+  },
+  {
+    "description": "Liga NOS",
+    "value": 308,
+    "parent": null
+  },
+  {
+    "description": "Ligue 1",
+    "value": 16,
+    "parent": null
+  },
+  {
+    "description": "Major League Soccer",
+    "value": 39,
+    "parent": null
+  },
+  {
+    "description": "Meiji Yasuda J1 League",
+    "value": 349,
+    "parent": null
+  },
+  {
+    "description": "Osterreichische Fussball-Bundesliga",
+    "value": 80,
+    "parent": null
+  },
+  {
+    "description": "Premier League",
+    "value": 13,
+    "parent": null
+  },
+  {
+    "description": "Primera Division",
+    "value": 353,
+    "parent": null
+  },
+  {
+    "description": "Belgium Pro League",
+    "value": 4,
+    "parent": null
+  },
+  {
+    "description": "Raiffeisen Super League",
+    "value": 189,
+    "parent": null
+  },
+  {
+    "description": "Russian League",
+    "value": 67,
+    "parent": null
+  },
+  {
+    "description": "Scottish Premiership",
+    "value": 50,
+    "parent": null
+  },
+  {
+    "description": "South African FL",
+    "value": 347,
+    "parent": null
+  },
+  {
+    "description": "SSE Airtricity League",
+    "value": 65,
+    "parent": null
+  },
+  {
+    "description": "Super Lig",
+    "value": 68,
+    "parent": null
+  },
+  {
+    "description": "Tippeligaen",
+    "value": 41,
+    "parent": null
+  },
+  {
+    "description": "Ukrayina Liha",
+    "value": 332,
+    "parent": null
+  },
+  {
+    "description": "Ultimate Team",
+    "value": 2134,
+    "parent": null
+  }
+]

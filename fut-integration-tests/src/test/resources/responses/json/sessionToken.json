@@ -1,0 +1,8 @@
+{
+  "protocol": "https",
+  "ipPort": "utas.external.s3.fut.ea.com:443",
+  "serverTime": "2018-12-25T19:24:38+0000",
+  "lastOnlineTime": "2018-12-25T19:24:38+0000",
+  "sid": "REPLACE_ME",
+  "phishingToken": "REPLACE_ME_PHISHING_TOKEN"
+}

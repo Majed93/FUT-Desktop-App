@@ -1,0 +1,244 @@
+// Fonts:
+// e.g. $font-family-sans-serif: "Lato", "Arial", sans-serif;
+
+// Colors:
+// e.g.
+// $primary: #28AFB0;//« turquoise
+// $secondary: #7B6D8D;//« purple-gray
+// $success: #77BE69;//« green
+// $info: #EE964B;//« orange
+// $warning: #E8E419;//« yellow
+// $danger: #F05D5E;//« red
+// $dark: #333333;//« dark gray
+
+// Etc.
+
+// grays
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$theme-primary: #00b695 !default;
+$theme-dark: #243e3d !default;
+
+$body-color: darken($theme-primary, 5%);
+$body-bg: darken($theme-dark, 30%);
+
+$border-radius: 0.1rem;
+
+$primary: #0065c9 !default;
+$secondary: $gray-600 !default;
+$success: #29a02e !default;
+$info: #1695a1 !default;
+$warning: #c19007 !default;
+$danger: #b12d3a !default;
+$light: $gray-100 !default;
+$dark: lighten($theme-dark, 7%) !default;
+
+//Scroll bar
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $theme-primary;
+}
+
+::-webkit-scrollbar-track {
+  background: $theme-dark;
+}
+
+// Buttons
+$btn-disabled-opacity: .50 !default;
+
+.btn {
+  border-top: 2px $theme-primary solid !important;
+
+  &.disabled,
+  &:disabled {
+    cursor: not-allowed;
+    border-top: 2px $danger solid !important;
+  }
+}
+
+.btn-outline-dark {
+  color: $theme-primary !important;
+}
+
+.close {
+  color: lighten($theme-primary, 10%) !important;
+}
+
+// Tables
+$table-dark-color: darken($theme-primary, 5%) !default;
+$table-dark-border-color: lighten($theme-primary, 40%) !default;
+.thead-dark {
+  th {
+    border-top: 2px $theme-primary solid !important;
+  }
+}
+
+// Pagination
+
+.ngx-pagination {
+  .current {
+    background: darken($theme-primary, 20%) !important;
+  }
+  .pagination-next {
+    color: $gray-500 !important;
+  }
+  .pagination-previous {
+    color: white !important;
+  }
+  .disabled {
+    color: $gray-600 !important;
+  }
+  a {
+    color: darken($theme-primary, 10%) !important;
+  }
+}
+
+// Form inputs
+$input-bg: $theme-dark;
+$input-disabled-bg: $gray-600;
+
+$input-color: $gray-100;
+
+input {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 3px $theme-primary solid !important;
+
+  &:focus + .input-bar {
+    transform: scaleX(1) translateY(-2px);
+    opacity: 1;
+  }
+}
+
+input:focus {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  outline: 0 !important;
+  box-shadow: transparent 0 0 !important;
+  border-bottom: 2px darken($theme-primary, 10%) solid !important;
+}
+
+// Animate the input when selected.
+// Put this in later or find another way to do it because it goes beyond the input box if there's something beside it.
+
+/*.input-bar {
+  height: 3px;
+  width: 100%;
+  background: #005739;
+  display: block;
+  transform: scaleX(0) translateY(-2px);
+  box-sizing: border-box;
+  transform-origin: 50%;
+  opacity: 0;
+  transition: all .25s linear;
+}*/
+
+$custom-control-indicator-bg: lighten($theme-dark, 50%) !default;
+
+// List group
+$list-group-bg: lighten($theme-dark, 15%) !default;
+$list-group-hover-bg: lighten($theme-dark, 20%) !default;
+$list-group-action-color: lighten($theme-dark, 20%) !default;
+$list-group-action-active-bg: lighten($theme-dark, 30%) !default;
+$list-group-active-color: lighten($theme-dark, 30%) !default;
+$list-group-active-bg: lighten($theme-dark, 25%) !default;
+
+// Dropdown
+$dropdown-bg: $theme-dark;
+$dropdown-link-color: $gray-100;
+$dropdown-link-active-color: $theme-dark;
+$dropdown-link-active-bg: darken($theme-primary, 5%);
+
+$component-active-color: $theme-dark;
+$component-active-bg: $theme-primary;
+
+select option:checked:after {
+  content: attr(title);
+  background: #666;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  border: none;
+}
+
+ss-multiselect-dropdown {
+  .input-group-text {
+    border: none !important;
+    color: $theme-primary !important;
+    background-color: $theme-dark !important;
+  }
+}
+
+// Modals
+
+$modal-content-bg: $theme-dark;
+
+.modal {
+  .modal-content {
+    border-top: 2px $theme-primary solid !important;
+    border-bottom: 2px darken($theme-primary, 5%) solid !important;
+  }
+  .modal-header {
+    color: white !important;
+  }
+}
+
+// Navs
+.nav-pills {
+  border-top: 2px $theme-primary solid !important;
+}
+
+$nav-pills-link-active-color: lighten($theme-primary, 90%) !default;
+$nav-pills-link-active-bg: lighten($theme-dark, 5%) !default;
+
+.nav-link.active,
+.show > .nav-link {
+  color: $nav-pills-link-active-color;
+  background-color: $nav-pills-link-active-bg;
+}
+
+.nav-link {
+  color: $theme-primary !important;
+}
+
+// Header displays
+.display-4,
+.display-3,
+.display-2,
+.display-1 {
+  color: white;
+}
+
+// Cards
+$card-bg: $theme-dark !default;
+
+.card-header {
+  border-bottom: 0.1em solid lighten($theme-dark, 15%) !important;
+}
+
+.card-deck {
+  .card {
+    border: 1px solid lighten($theme-dark, 15%) !important;
+  }
+}
+
+// Override bootstrap styling
+// Option A: Include all of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,32 @@
+{
+  "pid" : {
+    "externalRefType" : "NUCLEUS",
+    "externalRefValue" : "2791972681",
+    "pidId" : 2791972681,
+    "email" : "test@test.com",
+    "emailStatus" : "VERIFIED",
+    "strength" : "STRONG",
+    "dob" : "1953-08-17",
+    "country" : "GB",
+    "language" : "en",
+    "locale" : "en_GB",
+    "status" : "ACTIVE",
+    "reasonCode" : "",
+    "tosVersion" : "1",
+    "parentalEmail" : "",
+    "thirdPartyOptin" : "false",
+    "globalOptin" : "false",
+    "dateCreated" : "2012-08-17T17:3Z",
+    "dateModified" : "2014-12-19T15:4Z",
+    "lastAuthDate" : "2018-12-30T14:52Z",
+    "registrationSource" : "134561",
+    "authenticationSource" : "FOS-SERVER",
+    "showEmail" : "NO_ONE",
+    "discoverableEmail" : "NO_ONE",
+    "anonymousPid" : "false",
+    "underagePid" : "false",
+    "defaultBillingAddressUri" : "",
+    "defaultShippingAddressUri" : "",
+    "passwordSignature" : 25238
+  }
+}

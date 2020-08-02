@@ -1,0 +1,89 @@
+{
+  "shardInfo": [
+    {
+      "shardId": "shard1",
+      "clientFacingIpPort": "utas.external.fut.ea.com:443",
+      "clientProtocol": "https",
+      "platforms": [
+        "xbox",
+        "ios",
+        "and",
+        "360"
+      ],
+      "customdata1": [
+        "card-360",
+        "card-ios",
+        "card-and"
+      ],
+      "skus": [
+        "392A0001",
+        "FFA14XBX",
+        "FFA14CAP",
+        "398A0001",
+        "FFA14IOS",
+        "FFA14AND",
+        "FFA14MPC",
+        "FFA14AZN",
+        "FFA15XBX",
+        "FFA15XBO",
+        "FFA15IOS",
+        "FFA15AND",
+        "FFA15MPC",
+        "FFA15AZN",
+        "FFA18SWI"
+      ]
+    },
+    {
+      "shardId": "shard2",
+      "clientFacingIpPort": "utas.external.s2.fut.ea.com:443",
+      "clientProtocol": "https",
+      "platforms": [
+        "pc",
+        "ps3"
+      ],
+      "customdata1": [
+        "card-pc",
+        "card-ps3"
+      ],
+      "skus": [
+        "395A0001",
+        "FFA14PCC",
+        "391A0001",
+        "FFA14PS3",
+        "FFA14KTL",
+        "FFA15PS3",
+        "FFA15PS4",
+        "FFA15PCC",
+        "FFA16PS3",
+        "FFA16PS4",
+        "FFA16PCC",
+        "FFA17PS4",
+        "FFA17PCC",
+        "FFA17PS3",
+        "FFA18PS4",
+        "FFA18PCC",
+        "FFA18PS3"
+      ]
+    },
+    {
+      "shardId": "shard3",
+      "clientFacingIpPort": "utas.external.s3.fut.ea.com:443",
+      "clientProtocol": "https",
+      "platforms": [
+        "xbox",
+        "360"
+      ],
+      "customdata1": [
+        "card-360"
+      ],
+      "skus": [
+        "FFA16XBX",
+        "FFA16XBO",
+        "FFA17XBO",
+        "FFA17XBX",
+        "FFA18XBO",
+        "FFA18XBX"
+      ]
+    }
+  ]
+}

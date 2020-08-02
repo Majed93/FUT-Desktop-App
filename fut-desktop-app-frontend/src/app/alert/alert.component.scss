@@ -1,0 +1,39 @@
+$delay: 3s;
+
+.fade-out {
+  position: absolute;
+  overflow: hidden;
+  z-index: 100000;
+  top: 9%;
+  left: 33%;
+  right: 33%;
+  width: 25%;
+  max-width: 500px;
+  text-align: center;
+  opacity: 0.85;
+  animation: fade-alert 0.5s 1;
+  -webkit-animation: fade-alert 0.5s 1;
+  animation-fill-mode: forwards;
+
+  animation-delay: $delay;
+  -webkit-animation-delay: $delay; /* Safari and Chrome */
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fade-alert {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fade-alert {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

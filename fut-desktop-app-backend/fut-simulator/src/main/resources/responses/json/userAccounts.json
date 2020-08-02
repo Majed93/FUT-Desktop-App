@@ -1,0 +1,76 @@
+{
+  "userAccountInfo": {
+    "personas": [
+      {
+        "personaId": 9999999999,
+        "personaName": "ExampleGamerTag",
+        "returningUser": 1,
+        "onlineAccess": true,
+        "trial": false,
+        "userState": null,
+        "userClubList": [
+          {
+            "year": "2017",
+            "assetId": 1847,
+            "teamId": 1847,
+            "lastAccessTime": 1503004072,
+            "platform": "360",
+            "clubName": "Test FC",
+            "clubAbbr": "Test",
+            "established": 1488311603,
+            "divisionOnline": 1,
+            "badgeId": 6000588,
+            "skuAccessList": {
+              "FFA17XBO": 1503004072
+            }
+          },
+          {
+            "year": "2018",
+            "assetId": 112172,
+            "teamId": 112172,
+            "lastAccessTime": 1526500392,
+            "platform": "360",
+            "clubName": "Test FC",
+            "clubAbbr": "Test",
+            "established": 1519463279,
+            "divisionOnline": 1,
+            "badgeId": 6112172,
+            "skuAccessList": {
+              "FFA18XBO": 1526500392
+            }
+          },
+          {
+            "year": "2019",
+            "assetId": 1475,
+            "teamId": 1475,
+            "lastAccessTime": 1545758223,
+            "platform": "360",
+            "clubName": "Test FC",
+            "clubAbbr": "Test",
+            "established": 1519463279,
+            "divisionOnline": 1,
+            "badgeId": 6001475,
+            "skuAccessList": {
+              "FFA19XBO": 1545758223
+            }
+          },
+          {
+            "year": "2018",
+            "assetId": 112172,
+            "teamId": 112172,
+            "lastAccessTime": 1526500392,
+            "platform": "360",
+            "clubName": "Test FC",
+            "clubAbbr": "Test",
+            "established": 1519463279,
+            "divisionOnline": 0,
+            "badgeId": 6112172,
+            "skuAccessList": null
+          }
+        ],
+        "trialFree": false,
+        "returningUserTier": 3
+      }
+    ]
+  }
+}

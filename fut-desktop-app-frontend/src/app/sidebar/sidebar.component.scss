@@ -1,0 +1,24 @@
+.sidebar {
+  z-index: 1040; // want the side bar to always be on top
+  // 1040 is a bit lower than fixed-top from flex.scss
+  // Also 1040 because some other z-indexes get in the way of int. tests on jenkins clicking the trade pile..
+  opacity: 0.9;
+}
+
+.navs {
+  position: fixed;
+  top: 65px;
+  left: 0;
+  float: right;
+  color: #FFFFFF;
+}
+
+.padding-closed {
+  padding-left: 55px;
+}
+
+.sidebar-disabled {
+  opacity: 0.5 !important;
+  pointer-events: none;
+  cursor: not-allowed;
+}

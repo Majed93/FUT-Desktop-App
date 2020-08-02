@@ -1,0 +1,7 @@
+<input id="{{ID_PREFIX + id}}" type="text" placeholder="{{placeholder}}" class="form-control form-control-sm"
+       [formControl]="searchTerm" (keypress)="itemSearchChange($event)"/>
+<div class="list-group small p-0 input-filter">
+  <button *ngFor="let item of itemsFound" class="list-group-item list-group-item-action text-white"
+          (click)="selectItem(item)">{{displayValue ? item.value : item.description}}
+  </button>
+</div>

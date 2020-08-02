@@ -1,0 +1,231 @@
+{
+  "loginResponse": {
+    "nucleusId": "2069025015077",
+    "shards": {
+      "shardInfo": [
+        {
+          "shardId": "shard1",
+          "clientFacingIpPort": "utas.external.fut.ea.com:443",
+          "clientProtocol": "https",
+          "content": null,
+          "platforms": [
+            "xbox",
+            "ios",
+            "and",
+            "360"
+          ],
+          "customData1": [
+            "card-360",
+            "card-ios",
+            "card-and"
+          ],
+          "skus": [
+            "392A0001",
+            "FFA14XBX",
+            "FFA14CAP",
+            "398A0001",
+            "FFA14IOS",
+            "FFA14AND",
+            "FFA14MPC",
+            "FFA14AZN",
+            "FFA15XBX",
+            "FFA15XBO",
+            "FFA15IOS",
+            "FFA15AND",
+            "FFA15MPC",
+            "FFA15AZN",
+            "FFA18SWI"
+          ]
+        },
+        {
+          "shardId": "shard2",
+          "clientFacingIpPort": "utas.external.s2.fut.ea.com:443",
+          "clientProtocol": "https",
+          "content": null,
+          "platforms": [
+            "pc",
+            "ps3"
+          ],
+          "customData1": [
+            "card-pc",
+            "card-ps3"
+          ],
+          "skus": [
+            "395A0001",
+            "FFA14PCC",
+            "391A0001",
+            "FFA14PS3",
+            "FFA14KTL",
+            "FFA15PS3",
+            "FFA15PS4",
+            "FFA15PCC",
+            "FFA16PS3",
+            "FFA16PS4",
+            "FFA16PCC",
+            "FFA17PS4",
+            "FFA17PCC",
+            "FFA17PS3",
+            "FFA18PS4",
+            "FFA18PCC",
+            "FFA18PS3"
+          ]
+        },
+        {
+          "shardId": "shard3",
+          "clientFacingIpPort": "utas.external.s3.fut.ea.com:443",
+          "clientProtocol": "https",
+          "content": null,
+          "platforms": [
+            "xbox",
+            "360"
+          ],
+          "customData1": [
+            "card-360"
+          ],
+          "skus": [
+            "FFA16XBX",
+            "FFA16XBO",
+            "FFA17XBO",
+            "FFA17XBX",
+            "FFA18XBO",
+            "FFA18XBX"
+          ]
+        }
+      ]
+    },
+    "userAccounts": {
+      "userAccountInfo": {
+        "personas": [
+          {
+            "personaId": 2970947046,
+            "personaName": "ExampleGamerTag",
+            "userClubList": [
+              {
+                "established": "1496339514",
+                "year": "2017",
+                "lastAccessTime": "1505410228",
+                "lastAccessDateTime": null,
+                "establishedDateTime": null,
+                "divisionOnline": 1,
+                "badgeId": 6000663,
+                "skuAccessList": {
+                  "FFA17XBO": 1505410228
+                },
+                "assetId": 143,
+                "platform": "360",
+                "clubAbbr": "Test",
+                "clubName": "Test FC",
+                "teamId": 143
+              },
+              {
+                "established": "1496339514",
+                "year": "2018",
+                "lastAccessTime": "1519463440",
+                "lastAccessDateTime": null,
+                "establishedDateTime": null,
+                "divisionOnline": 2,
+                "badgeId": 6000047,
+                "skuAccessList": {
+                  "FFA18XBO": 1519463440
+                },
+                "assetId": 47,
+                "platform": "360",
+                "clubAbbr": "Test",
+                "clubName": "Test FC",
+                "teamId": 47
+              },
+              {
+                "established": "1496339514",
+                "year": "2017",
+                "lastAccessTime": "1503004194",
+                "lastAccessDateTime": null,
+                "establishedDateTime": null,
+                "divisionOnline": 0,
+                "badgeId": 6000663,
+                "skuAccessList": null,
+                "assetId": 143,
+                "platform": "360",
+                "clubAbbr": "Test",
+                "clubName": "Test FC",
+                "teamId": 143
+              }
+            ],
+            "returningUser": true,
+            "trial": false,
+            "userState": null,
+            "trialFree": "false"
+          }
+        ]
+      }
+    },
+    "sessionId": "vmm4vonh-hipm-rgwv-bdpw-ose5vzc7oapd",
+    "phishingToken": "1862413957135944898",
+    "personaId": "2970947046",
+    "dob": "1990-01",
+    "authBearerToken": "NBpR7vH5WOPpDf1P9CmVTJuFtBw1lb8AciTZENAzva0rlQ4LX42r3JRnNUBUR0trqr9PhqCU46HDa6SD96f",
+    "pageSize": 0,
+    "lastLogin": 1527294518456
+  },
+  "homeWrapper": {
+    "tradePile": {
+      "auctionInfo": [],
+      "bidTokens": null,
+      "credits": 85999,
+      "currencies": [
+        {
+          "finalFunds": 85999,
+          "funds": 85999,
+          "name": "COINS"
+        },
+        {
+          "finalFunds": 0,
+          "funds": 0,
+          "name": "POINTS"
+        },
+        {
+          "finalFunds": 0,
+          "funds": 0,
+          "name": "DRAFT_TOKEN"
+        }
+      ],
+      "duplicateItemIdList": null,
+      "total": 0,
+      "errorState": null
+    },
+    "unassignedItems": {
+      "auctionInfo": [],
+      "bidTokens": null,
+      "credits": null,
+      "currencies": null,
+      "duplicateItemIdList": null,
+      "total": 0,
+      "errorState": null
+    }
+  },
+  "pileSizes": [
+    {
+      "key": 2,
+      "value": 100
+    },
+    {
+      "key": 3,
+      "value": -1
+    },
+    {
+      "key": 4,
+      "value": 50
+    },
+    {
+      "key": 6,
+      "value": 15
+    },
+    {
+      "key": 11,
+      "value": 100
+    },
+    {
+      "key": 99,
+      "value": 0
+    }
+  ]
+}

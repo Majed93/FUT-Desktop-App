@@ -1,0 +1,59 @@
+{
+  "userAccountInfo": {
+    "personas": [
+      {
+        "personaId": 1850541234,
+        "personaName": "TestPersona",
+        "returningUser": 1,
+        "trial": false,
+        "userState": null,
+        "userClubList": [
+          {
+            "year": "2017",
+            "assetId": 143,
+            "teamId": 143,
+            "lastAccessTime": 1505410228,
+            "platform": "360",
+            "clubName": "Verona AS",
+            "clubAbbr": "Ver",
+            "established": 1496339514,
+            "divisionOnline": 1,
+            "badgeId": 6000663,
+            "skuAccessList": {
+              "FFA17XBO": 1505410228
+            }
+          },
+          {
+            "year": "2018",
+            "assetId": 47,
+            "teamId": 47,
+            "lastAccessTime": 1519463440,
+            "platform": "360",
+            "clubName": "Verona AS",
+            "clubAbbr": "Ver",
+            "established": 1496339514,
+            "divisionOnline": 2,
+            "badgeId": 6000047,
+            "skuAccessList": {
+              "FFA18XBO": 1519463440
+            }
+          },
+          {
+            "year": "2017",
+            "assetId": 143,
+            "teamId": 143,
+            "lastAccessTime": 1503004194,
+            "platform": "360",
+            "clubName": "Verona AS",
+            "clubAbbr": "Ver",
+            "established": 1496339514,
+            "divisionOnline": 0,
+            "badgeId": 6000663,
+            "skuAccessList": null
+          }
+        ],
+        "trialFree": false
+      }
+    ]
+  }
+}

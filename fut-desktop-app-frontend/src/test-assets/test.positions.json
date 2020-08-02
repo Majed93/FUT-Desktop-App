@@ -1,0 +1,87 @@
+[
+  {
+    "description": "Goalkeeper",
+    "value": "GK",
+    "parent": null
+  },
+  {
+    "description": "Right wing back",
+    "value": "RWB",
+    "parent": null
+  },
+  {
+    "description": "Right back",
+    "value": "RB",
+    "parent": null
+  },
+  {
+    "description": "Center back",
+    "value": "CB",
+    "parent": null
+  },
+  {
+    "description": "Left back",
+    "value": "LB",
+    "parent": null
+  },
+  {
+    "description": "Left wing back",
+    "value": "LWB",
+    "parent": null
+  },
+  {
+    "description": "Central defensive midfielder",
+    "value": "CDM",
+    "parent": null
+  },
+  {
+    "description": "Right midfielder",
+    "value": "RM",
+    "parent": null
+  },
+  {
+    "description": "Central midfielder",
+    "value": "CM",
+    "parent": null
+  },
+  {
+    "description": "Left midfielder",
+    "value": "LM",
+    "parent": null
+  },
+  {
+    "description": "Central attacking midfielder",
+    "value": "CAM",
+    "parent": null
+  },
+  {
+    "description": "Right forward",
+    "value": "RF",
+    "parent": null
+  },
+  {
+    "description": "Center forward",
+    "value": "CF",
+    "parent": null
+  },
+  {
+    "description": "Left forward",
+    "value": "LF",
+    "parent": null
+  },
+  {
+    "description": "Right winger",
+    "value": "RW",
+    "parent": null
+  },
+  {
+    "description": "Striker",
+    "value": "ST",
+    "parent": null
+  },
+  {
+    "description": "Left winger",
+    "value": "LW",
+    "parent": null
+  }
+]

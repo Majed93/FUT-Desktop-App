@@ -1,0 +1,1086 @@
+{
+  "total": 9,
+  "credits": 830656,
+  "auctionInfo": [
+    {
+      "tradeId": 18647863007,
+      "itemData": {
+        "id": 118577512911,
+        "timestamp": 1510488646,
+        "formation": "f4312",
+        "untradeable": false,
+        "assetId": 210236,
+        "rating": 70,
+        "itemType": "player",
+        "resourceId": 210236,
+        "owners": 8,
+        "discardValue": 105,
+        "itemState": "forSale",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 800,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 52,
+            "index": 0
+          },
+          {
+            "value": 44,
+            "index": 1
+          },
+          {
+            "value": 54,
+            "index": 2
+          },
+          {
+            "value": 49,
+            "index": 3
+          },
+          {
+            "value": 68,
+            "index": 4
+          },
+          {
+            "value": 78,
+            "index": 5
+          }
+        ],
+        "teamid": 1939,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 0,
+        "pile": 5,
+        "nation": 21,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 10000,
+      "currentBid": 150,
+      "offers": 0,
+      "watched": true,
+      "bidState": "highest",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 1586,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18647863007"
+    },
+    {
+      "tradeId": 18647962155,
+      "itemData": {
+        "id": 119043284683,
+        "timestamp": 1511480676,
+        "formation": "f451",
+        "untradeable": false,
+        "assetId": 213666,
+        "rating": 69,
+        "itemType": "player",
+        "resourceId": 213666,
+        "owners": 2,
+        "discardValue": 104,
+        "itemState": "forSale",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 400,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CAM",
+        "statsList": [
+          {
+            "value": 1,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 1,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 6,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 67,
+            "index": 0
+          },
+          {
+            "value": 55,
+            "index": 1
+          },
+          {
+            "value": 61,
+            "index": 2
+          },
+          {
+            "value": 68,
+            "index": 3
+          },
+          {
+            "value": 64,
+            "index": 4
+          },
+          {
+            "value": 74,
+            "index": 5
+          }
+        ],
+        "teamid": 1799,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 0,
+        "pile": 5,
+        "nation": 14,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 10000,
+      "currentBid": 150,
+      "offers": 0,
+      "watched": true,
+      "bidState": "highest",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 1787,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18647962155"
+    },
+    {
+      "tradeId": 18647962413,
+      "itemData": {
+        "id": 122162081959,
+        "timestamp": 1518533675,
+        "formation": "f4411",
+        "untradeable": false,
+        "assetId": 194146,
+        "rating": 70,
+        "itemType": "player",
+        "resourceId": 194146,
+        "owners": 1,
+        "discardValue": 105,
+        "itemState": "forSale",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 63,
+            "index": 0
+          },
+          {
+            "value": 35,
+            "index": 1
+          },
+          {
+            "value": 43,
+            "index": 2
+          },
+          {
+            "value": 53,
+            "index": 3
+          },
+          {
+            "value": 70,
+            "index": 4
+          },
+          {
+            "value": 76,
+            "index": 5
+          }
+        ],
+        "teamid": 1796,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 25,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 10000,
+      "currentBid": 200,
+      "offers": 0,
+      "watched": true,
+      "bidState": "highest",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 1793,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18647962413"
+    },
+    {
+      "tradeId": 18647972320,
+      "itemData": {
+        "id": 122348398433,
+        "timestamp": 1518984518,
+        "formation": "f532",
+        "untradeable": false,
+        "assetId": 203783,
+        "rating": 72,
+        "itemType": "player",
+        "resourceId": 203783,
+        "owners": 1,
+        "discardValue": 108,
+        "itemState": "forSale",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "RB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 74,
+            "index": 0
+          },
+          {
+            "value": 34,
+            "index": 1
+          },
+          {
+            "value": 66,
+            "index": 2
+          },
+          {
+            "value": 65,
+            "index": 3
+          },
+          {
+            "value": 70,
+            "index": 4
+          },
+          {
+            "value": 73,
+            "index": 5
+          }
+        ],
+        "teamid": 1939,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 14,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 10000,
+      "currentBid": 150,
+      "offers": 0,
+      "watched": true,
+      "bidState": "highest",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 1826,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18647972320"
+    },
+    {
+      "tradeId": 18647979025,
+      "itemData": {
+        "id": 122348375003,
+        "timestamp": 1518984515,
+        "formation": "f532",
+        "untradeable": false,
+        "assetId": 222400,
+        "rating": 72,
+        "itemType": "player",
+        "resourceId": 222400,
+        "owners": 1,
+        "discardValue": 108,
+        "itemState": "forSale",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 72,
+            "index": 0
+          },
+          {
+            "value": 57,
+            "index": 1
+          },
+          {
+            "value": 73,
+            "index": 2
+          },
+          {
+            "value": 72,
+            "index": 3
+          },
+          {
+            "value": 55,
+            "index": 4
+          },
+          {
+            "value": 64,
+            "index": 5
+          }
+        ],
+        "teamid": 18,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 14,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 10000,
+      "currentBid": 150,
+      "offers": 0,
+      "watched": true,
+      "bidState": "highest",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 1843,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18647979025"
+    },
+    {
+      "tradeId": 18648041694,
+      "itemData": {
+        "id": 122341974069,
+        "timestamp": 1518977740,
+        "formation": "f442",
+        "untradeable": false,
+        "assetId": 222400,
+        "rating": 72,
+        "itemType": "player",
+        "resourceId": 222400,
+        "owners": 1,
+        "discardValue": 108,
+        "itemState": "forSale",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 72,
+            "index": 0
+          },
+          {
+            "value": 57,
+            "index": 1
+          },
+          {
+            "value": 73,
+            "index": 2
+          },
+          {
+            "value": 72,
+            "index": 3
+          },
+          {
+            "value": 55,
+            "index": 4
+          },
+          {
+            "value": 64,
+            "index": 5
+          }
+        ],
+        "teamid": 18,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 14,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 750,
+      "currentBid": 150,
+      "offers": 0,
+      "watched": true,
+      "bidState": "highest",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 1950,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18648041694"
+    },
+    {
+      "tradeId": 18648036726,
+      "itemData": {
+        "id": 122348424766,
+        "timestamp": 1518984519,
+        "formation": "f4321",
+        "untradeable": false,
+        "assetId": 173859,
+        "rating": 70,
+        "itemType": "player",
+        "resourceId": 173859,
+        "owners": 1,
+        "discardValue": 105,
+        "itemState": "forSale",
+        "cardsubtypeid": 3,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "ST",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 80,
+            "index": 0
+          },
+          {
+            "value": 69,
+            "index": 1
+          },
+          {
+            "value": 50,
+            "index": 2
+          },
+          {
+            "value": 72,
+            "index": 3
+          },
+          {
+            "value": 33,
+            "index": 4
+          },
+          {
+            "value": 64,
+            "index": 5
+          }
+        ],
+        "teamid": 1808,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 14,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 1963,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18648036726"
+    },
+    {
+      "tradeId": 18648090511,
+      "itemData": {
+        "id": 121902979846,
+        "timestamp": 1517721547,
+        "formation": "f4222",
+        "untradeable": false,
+        "assetId": 204210,
+        "rating": 71,
+        "itemType": "player",
+        "resourceId": 204210,
+        "owners": 1,
+        "discardValue": 107,
+        "itemState": "forSale",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 46,
+            "index": 0
+          },
+          {
+            "value": 48,
+            "index": 1
+          },
+          {
+            "value": 52,
+            "index": 2
+          },
+          {
+            "value": 60,
+            "index": 3
+          },
+          {
+            "value": 70,
+            "index": 4
+          },
+          {
+            "value": 76,
+            "index": 5
+          }
+        ],
+        "teamid": 17,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 39,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 2053,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18648090511"
+    },
+    {
+      "tradeId": 18648113727,
+      "itemData": {
+        "id": 122348674022,
+        "timestamp": 1518984735,
+        "formation": "f343",
+        "untradeable": false,
+        "assetId": 222400,
+        "rating": 72,
+        "itemType": "player",
+        "resourceId": 222400,
+        "owners": 1,
+        "discardValue": 108,
+        "itemState": "forSale",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 72,
+            "index": 0
+          },
+          {
+            "value": 57,
+            "index": 1
+          },
+          {
+            "value": 73,
+            "index": 2
+          },
+          {
+            "value": 72,
+            "index": 3
+          },
+          {
+            "value": 55,
+            "index": 4
+          },
+          {
+            "value": 64,
+            "index": 5
+          }
+        ],
+        "teamid": 18,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 14,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "active",
+      "buyNowPrice": 600,
+      "currentBid": 150,
+      "offers": 0,
+      "watched": true,
+      "bidState": "highest",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": 2105,
+      "sellerName": "FIFA UT",
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": false,
+      "tradeIdStr": "18648113727"
+    }
+  ]
+}

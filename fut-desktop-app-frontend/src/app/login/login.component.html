@@ -1,0 +1,36 @@
+<div *ngIf="loading">
+  <app-loader></app-loader>
+</div>
+
+<div class="homeContainer">
+  <div class="headerShape"></div>
+  <div id="login-container" class="container-fluid col-8 loginContainer">
+    <div class="text-center">
+      <h1 class="display-4 header-title">FUT Desktop App</h1>
+      <p class="lead">Please enter details below to proceed.</p>
+      <hr class="my-3">
+      <div *ngIf="errorAuth" id="login-errors" class="alert alert-danger fade show">
+        <strong>{{errorAuth}}</strong>
+      </div>
+      <form (ngSubmit)="login()" #loginForm="ngForm">
+        <div class="form-group">
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="fas fa-2x fa-fw fa-envelope"></i></span>
+            <input type="email" class="form-control" id="email-input" name="email"
+                   placeholder="example@fut.com" email [(ngModel)]="email" autofocus>
+            <span class="input-bar"> </span>
+          </div>
+          <div class="form-group input-group">
+            <span class="input-group-addon"><i class="fas fa-2x fa-fw fa-unlock-alt"></i></span>
+            <input class="form-control" id="key-input" name="key"
+                   placeholder="License Key" [(ngModel)]="key" required>
+            <span class="input-bar"> </span>
+          </div>
+        </div>
+        <button id="main-login-btn" class="btn btn-dark btn-block" [disabled]="!loginForm.form.valid"><i
+          class="fas fa-sign-in-alt fa-lg"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

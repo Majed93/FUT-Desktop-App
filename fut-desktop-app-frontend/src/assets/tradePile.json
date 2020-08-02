@@ -1,0 +1,4096 @@
+{
+  "credits": 22824,
+  "auctionInfo": [
+    {
+      "tradeId": 16104912381,
+      "itemData": {
+        "id": 116429800153,
+        "timestamp": 1507315452,
+        "formation": "f4312",
+        "untradeable": false,
+        "assetId": 226108,
+        "rating": 63,
+        "itemType": "player",
+        "resourceId": 226108,
+        "owners": 1,
+        "discardValue": 19,
+        "itemState": "free",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 67,
+            "index": 0
+          },
+          {
+            "value": 32,
+            "index": 1
+          },
+          {
+            "value": 47,
+            "index": 2
+          },
+          {
+            "value": 54,
+            "index": 3
+          },
+          {
+            "value": 63,
+            "index": 4
+          },
+          {
+            "value": 64,
+            "index": 5
+          }
+        ],
+        "teamid": 1842,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 31,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 27,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104912381"
+    },
+    {
+      "tradeId": 16104889224,
+      "itemData": {
+        "id": 116429800146,
+        "timestamp": 1507315452,
+        "formation": "f3412",
+        "untradeable": false,
+        "assetId": 181377,
+        "rating": 65,
+        "itemType": "player",
+        "resourceId": 181377,
+        "owners": 1,
+        "discardValue": 98,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "RM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 74,
+            "index": 0
+          },
+          {
+            "value": 61,
+            "index": 1
+          },
+          {
+            "value": 62,
+            "index": 2
+          },
+          {
+            "value": 70,
+            "index": 3
+          },
+          {
+            "value": 32,
+            "index": 4
+          },
+          {
+            "value": 59,
+            "index": 5
+          }
+        ],
+        "teamid": 700,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 56,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 46,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104889224"
+    },
+    {
+      "tradeId": 16104892361,
+      "itemData": {
+        "id": 116429800147,
+        "timestamp": 1507315452,
+        "formation": "f4312",
+        "untradeable": false,
+        "assetId": 225750,
+        "rating": 57,
+        "itemType": "player",
+        "resourceId": 225750,
+        "owners": 1,
+        "discardValue": 17,
+        "itemState": "free",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 53,
+            "index": 0
+          },
+          {
+            "value": 29,
+            "index": 1
+          },
+          {
+            "value": 40,
+            "index": 2
+          },
+          {
+            "value": 36,
+            "index": 3
+          },
+          {
+            "value": 55,
+            "index": 4
+          },
+          {
+            "value": 63,
+            "index": 5
+          }
+        ],
+        "teamid": 111285,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 65,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 25,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104892361"
+    },
+    {
+      "tradeId": 16104904046,
+      "itemData": {
+        "id": 116429830904,
+        "timestamp": 1507315516,
+        "formation": "f451",
+        "untradeable": false,
+        "assetId": 232896,
+        "rating": 65,
+        "itemType": "player",
+        "resourceId": 232896,
+        "owners": 1,
+        "discardValue": 98,
+        "itemState": "free",
+        "cardsubtypeid": 3,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "ST",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 78,
+            "index": 0
+          },
+          {
+            "value": 63,
+            "index": 1
+          },
+          {
+            "value": 42,
+            "index": 2
+          },
+          {
+            "value": 63,
+            "index": 3
+          },
+          {
+            "value": 20,
+            "index": 4
+          },
+          {
+            "value": 57,
+            "index": 5
+          }
+        ],
+        "teamid": 113157,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 349,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 163,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104904046"
+    },
+    {
+      "tradeId": 16104912431,
+      "itemData": {
+        "id": 116429830909,
+        "timestamp": 1507315516,
+        "formation": "f5221",
+        "untradeable": false,
+        "assetId": 199832,
+        "rating": 70,
+        "itemType": "player",
+        "resourceId": 199832,
+        "owners": 1,
+        "discardValue": 105,
+        "itemState": "free",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 52,
+            "index": 0
+          },
+          {
+            "value": 27,
+            "index": 1
+          },
+          {
+            "value": 45,
+            "index": 2
+          },
+          {
+            "value": 50,
+            "index": 3
+          },
+          {
+            "value": 70,
+            "index": 4
+          },
+          {
+            "value": 73,
+            "index": 5
+          }
+        ],
+        "teamid": 110197,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 2076,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 21,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104912431"
+    },
+    {
+      "tradeId": 16104892397,
+      "itemData": {
+        "id": 116429989762,
+        "timestamp": 1507315618,
+        "formation": "f4411",
+        "untradeable": false,
+        "assetId": 186842,
+        "rating": 62,
+        "itemType": "player",
+        "resourceId": 186842,
+        "owners": 1,
+        "discardValue": 19,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "RM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 77,
+            "index": 0
+          },
+          {
+            "value": 58,
+            "index": 1
+          },
+          {
+            "value": 55,
+            "index": 2
+          },
+          {
+            "value": 64,
+            "index": 3
+          },
+          {
+            "value": 24,
+            "index": 4
+          },
+          {
+            "value": 69,
+            "index": 5
+          }
+        ],
+        "teamid": 184,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 50,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 42,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104892397"
+    },
+    {
+      "tradeId": 16104904040,
+      "itemData": {
+        "id": 116429871942,
+        "timestamp": 1507315569,
+        "formation": "f5221",
+        "untradeable": false,
+        "assetId": 237624,
+        "rating": 54,
+        "itemType": "player",
+        "resourceId": 237624,
+        "owners": 1,
+        "discardValue": 16,
+        "itemState": "free",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "RB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 64,
+            "index": 0
+          },
+          {
+            "value": 24,
+            "index": 1
+          },
+          {
+            "value": 36,
+            "index": 2
+          },
+          {
+            "value": 36,
+            "index": 3
+          },
+          {
+            "value": 56,
+            "index": 4
+          },
+          {
+            "value": 55,
+            "index": 5
+          }
+        ],
+        "teamid": 112906,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 349,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 163,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104904040"
+    },
+    {
+      "tradeId": 16104912423,
+      "itemData": {
+        "id": 116429830905,
+        "timestamp": 1507315516,
+        "formation": "f4312",
+        "untradeable": false,
+        "assetId": 208166,
+        "rating": 65,
+        "itemType": "player",
+        "resourceId": 208166,
+        "owners": 1,
+        "discardValue": 98,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 69,
+            "index": 0
+          },
+          {
+            "value": 55,
+            "index": 1
+          },
+          {
+            "value": 64,
+            "index": 2
+          },
+          {
+            "value": 66,
+            "index": 3
+          },
+          {
+            "value": 42,
+            "index": 4
+          },
+          {
+            "value": 58,
+            "index": 5
+          }
+        ],
+        "teamid": 10032,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 189,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 47,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104912423"
+    },
+    {
+      "tradeId": 16104901152,
+      "itemData": {
+        "id": 116430071930,
+        "timestamp": 1507315714,
+        "formation": "f442",
+        "untradeable": false,
+        "assetId": 229648,
+        "rating": 63,
+        "itemType": "player",
+        "resourceId": 229648,
+        "owners": 1,
+        "discardValue": 19,
+        "itemState": "free",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "RB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 65,
+            "index": 0
+          },
+          {
+            "value": 29,
+            "index": 1
+          },
+          {
+            "value": 61,
+            "index": 2
+          },
+          {
+            "value": 56,
+            "index": 3
+          },
+          {
+            "value": 62,
+            "index": 4
+          },
+          {
+            "value": 61,
+            "index": 5
+          }
+        ],
+        "teamid": 110724,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 4,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 7,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104901152"
+    },
+    {
+      "tradeId": 16104907199,
+      "itemData": {
+        "id": 116430232351,
+        "timestamp": 1510942863,
+        "formation": "f433",
+        "untradeable": true,
+        "assetId": 215559,
+        "rating": 71,
+        "itemType": "player",
+        "resourceId": 215559,
+        "owners": 0,
+        "discardValue": 107,
+        "itemState": "invalid",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CAM",
+        "statsList": [],
+        "lifetimeStats": [],
+        "training": 0,
+        "contract": 0,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 73,
+            "index": 0
+          },
+          {
+            "value": 61,
+            "index": 1
+          },
+          {
+            "value": 71,
+            "index": 2
+          },
+          {
+            "value": 73,
+            "index": 3
+          },
+          {
+            "value": 53,
+            "index": 4
+          },
+          {
+            "value": 63,
+            "index": 5
+          }
+        ],
+        "teamid": 10020,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 308,
+        "loyaltyBonus": 1,
+        "pile": 0,
+        "nation": 54,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "closed",
+      "buyNowPrice": 10000,
+      "currentBid": 650,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 45,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "coinsProcessed": 1,
+      "tradeIdStr": "16104907199"
+    },
+    {
+      "tradeId": 16104898428,
+      "itemData": {
+        "id": 116429800143,
+        "timestamp": 1507315452,
+        "formation": "f343",
+        "untradeable": false,
+        "assetId": 190179,
+        "rating": 59,
+        "itemType": "player",
+        "resourceId": 190179,
+        "owners": 1,
+        "discardValue": 18,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 59,
+            "index": 0
+          },
+          {
+            "value": 58,
+            "index": 1
+          },
+          {
+            "value": 61,
+            "index": 2
+          },
+          {
+            "value": 60,
+            "index": 3
+          },
+          {
+            "value": 38,
+            "index": 4
+          },
+          {
+            "value": 59,
+            "index": 5
+          }
+        ],
+        "teamid": 1930,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 60,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 50,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104898428"
+    },
+    {
+      "tradeId": 16104889274,
+      "itemData": {
+        "id": 116429830901,
+        "timestamp": 1507315516,
+        "formation": "f442",
+        "untradeable": false,
+        "assetId": 228163,
+        "rating": 53,
+        "itemType": "player",
+        "resourceId": 228163,
+        "owners": 1,
+        "discardValue": 16,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "RM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 65,
+            "index": 0
+          },
+          {
+            "value": 42,
+            "index": 1
+          },
+          {
+            "value": 54,
+            "index": 2
+          },
+          {
+            "value": 55,
+            "index": 3
+          },
+          {
+            "value": 37,
+            "index": 4
+          },
+          {
+            "value": 39,
+            "index": 5
+          }
+        ],
+        "teamid": 112390,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 350,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 183,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104889274"
+    },
+    {
+      "tradeId": 16104912440,
+      "itemData": {
+        "id": 116429983539,
+        "timestamp": 1507315651,
+        "formation": "f5221",
+        "untradeable": false,
+        "assetId": 235325,
+        "rating": 58,
+        "itemType": "player",
+        "resourceId": 235325,
+        "owners": 1,
+        "discardValue": 17,
+        "itemState": "free",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 50,
+            "index": 0
+          },
+          {
+            "value": 28,
+            "index": 1
+          },
+          {
+            "value": 36,
+            "index": 2
+          },
+          {
+            "value": 38,
+            "index": 3
+          },
+          {
+            "value": 60,
+            "index": 4
+          },
+          {
+            "value": 56,
+            "index": 5
+          }
+        ],
+        "teamid": 100634,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 10,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 34,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104912440"
+    },
+    {
+      "tradeId": 16104892406,
+      "itemData": {
+        "id": 116430071932,
+        "timestamp": 1507315714,
+        "formation": "f433",
+        "untradeable": false,
+        "assetId": 0,
+        "rating": 55,
+        "itemType": "health",
+        "resourceId": 5002001,
+        "owners": 1,
+        "discardValue": 3,
+        "itemState": "free",
+        "cardsubtypeid": 219,
+        "lastSalePrice": 0,
+        "statsList": [],
+        "lifetimeStats": [],
+        "attributeList": [],
+        "teamid": 0,
+        "rareflag": 0,
+        "leagueId": 0,
+        "pile": 5,
+        "cardassetid": 10,
+        "weightrare": 0,
+        "amount": 20,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 5000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 5000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104892406"
+    },
+    {
+      "tradeId": 16104889271,
+      "itemData": {
+        "id": 116429830911,
+        "timestamp": 1507315516,
+        "formation": "f4222",
+        "untradeable": false,
+        "assetId": 232846,
+        "rating": 55,
+        "itemType": "player",
+        "resourceId": 232846,
+        "owners": 1,
+        "discardValue": 17,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 58,
+            "index": 0
+          },
+          {
+            "value": 54,
+            "index": 1
+          },
+          {
+            "value": 57,
+            "index": 2
+          },
+          {
+            "value": 54,
+            "index": 3
+          },
+          {
+            "value": 56,
+            "index": 4
+          },
+          {
+            "value": 53,
+            "index": 5
+          }
+        ],
+        "teamid": 101148,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 349,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 163,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104889271"
+    },
+    {
+      "tradeId": 16104912437,
+      "itemData": {
+        "id": 116430131636,
+        "timestamp": 1507315764,
+        "formation": "f352",
+        "untradeable": false,
+        "assetId": 211212,
+        "rating": 65,
+        "itemType": "player",
+        "resourceId": 211212,
+        "owners": 1,
+        "discardValue": 98,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CAM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 68,
+            "index": 0
+          },
+          {
+            "value": 52,
+            "index": 1
+          },
+          {
+            "value": 62,
+            "index": 2
+          },
+          {
+            "value": 68,
+            "index": 3
+          },
+          {
+            "value": 61,
+            "index": 4
+          },
+          {
+            "value": 68,
+            "index": 5
+          }
+        ],
+        "teamid": 112390,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 350,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 145,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104912437"
+    },
+    {
+      "tradeId": 16104907251,
+      "itemData": {
+        "id": 116429983536,
+        "timestamp": 1507315651,
+        "formation": "f442",
+        "untradeable": false,
+        "assetId": 184167,
+        "rating": 67,
+        "itemType": "player",
+        "resourceId": 184167,
+        "owners": 1,
+        "discardValue": 101,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 68,
+            "index": 0
+          },
+          {
+            "value": 68,
+            "index": 1
+          },
+          {
+            "value": 62,
+            "index": 2
+          },
+          {
+            "value": 69,
+            "index": 3
+          },
+          {
+            "value": 41,
+            "index": 4
+          },
+          {
+            "value": 63,
+            "index": 5
+          }
+        ],
+        "teamid": 110724,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 4,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 31,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104907251"
+    },
+    {
+      "tradeId": 16104889231,
+      "itemData": {
+        "id": 116429871946,
+        "timestamp": 1507315569,
+        "formation": "f532",
+        "untradeable": false,
+        "assetId": 226574,
+        "rating": 56,
+        "itemType": "player",
+        "resourceId": 226574,
+        "owners": 1,
+        "discardValue": 17,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 65,
+            "index": 0
+          },
+          {
+            "value": 49,
+            "index": 1
+          },
+          {
+            "value": 52,
+            "index": 2
+          },
+          {
+            "value": 60,
+            "index": 3
+          },
+          {
+            "value": 39,
+            "index": 4
+          },
+          {
+            "value": 60,
+            "index": 5
+          }
+        ],
+        "teamid": 693,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 39,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 95,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104889231"
+    },
+    {
+      "tradeId": 16104909260,
+      "itemData": {
+        "id": 116429989763,
+        "timestamp": 1507315618,
+        "formation": "f5212",
+        "untradeable": false,
+        "assetId": 226729,
+        "rating": 59,
+        "itemType": "player",
+        "resourceId": 226729,
+        "owners": 1,
+        "discardValue": 18,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 60,
+            "index": 0
+          },
+          {
+            "value": 57,
+            "index": 1
+          },
+          {
+            "value": 54,
+            "index": 2
+          },
+          {
+            "value": 62,
+            "index": 3
+          },
+          {
+            "value": 37,
+            "index": 4
+          },
+          {
+            "value": 55,
+            "index": 5
+          }
+        ],
+        "teamid": 110724,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 4,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 7,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104909260"
+    },
+    {
+      "tradeId": 16104886348,
+      "itemData": {
+        "id": 116429871940,
+        "timestamp": 1510942863,
+        "formation": "f433",
+        "untradeable": true,
+        "assetId": 231540,
+        "rating": 59,
+        "itemType": "player",
+        "resourceId": 231540,
+        "owners": 0,
+        "discardValue": 18,
+        "itemState": "invalid",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [],
+        "lifetimeStats": [],
+        "training": 0,
+        "contract": 0,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 66,
+            "index": 0
+          },
+          {
+            "value": 28,
+            "index": 1
+          },
+          {
+            "value": 38,
+            "index": 2
+          },
+          {
+            "value": 40,
+            "index": 3
+          },
+          {
+            "value": 57,
+            "index": 4
+          },
+          {
+            "value": 62,
+            "index": 5
+          }
+        ],
+        "teamid": 3,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 60,
+        "loyaltyBonus": 1,
+        "pile": 0,
+        "nation": 14,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "closed",
+      "buyNowPrice": 10000,
+      "currentBid": 150,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 45,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "coinsProcessed": 1,
+      "tradeIdStr": "16104886348"
+    },
+    {
+      "tradeId": 16104907213,
+      "itemData": {
+        "id": 116429989767,
+        "timestamp": 1507315618,
+        "formation": "f433",
+        "untradeable": false,
+        "assetId": 0,
+        "rating": 55,
+        "itemType": "health",
+        "resourceId": 5002001,
+        "owners": 1,
+        "discardValue": 3,
+        "itemState": "free",
+        "cardsubtypeid": 219,
+        "lastSalePrice": 0,
+        "statsList": [],
+        "lifetimeStats": [],
+        "attributeList": [],
+        "teamid": 0,
+        "rareflag": 0,
+        "leagueId": 0,
+        "pile": 5,
+        "cardassetid": 10,
+        "weightrare": 0,
+        "amount": 20,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 5000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 5000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104907213"
+    },
+    {
+      "tradeId": 16104898442,
+      "itemData": {
+        "id": 116429989764,
+        "timestamp": 1507315618,
+        "formation": "f442",
+        "untradeable": false,
+        "assetId": 227545,
+        "rating": 52,
+        "itemType": "player",
+        "resourceId": 227545,
+        "owners": 1,
+        "discardValue": 16,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 53,
+            "index": 0
+          },
+          {
+            "value": 47,
+            "index": 1
+          },
+          {
+            "value": 45,
+            "index": 2
+          },
+          {
+            "value": 54,
+            "index": 3
+          },
+          {
+            "value": 42,
+            "index": 4
+          },
+          {
+            "value": 51,
+            "index": 5
+          }
+        ],
+        "teamid": 1939,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 13,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 25,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104898442"
+    },
+    {
+      "tradeId": 16104907208,
+      "itemData": {
+        "id": 116429800142,
+        "timestamp": 1507315452,
+        "formation": "f5221",
+        "untradeable": false,
+        "assetId": 198355,
+        "rating": 69,
+        "itemType": "player",
+        "resourceId": 198355,
+        "owners": 1,
+        "discardValue": 104,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 68,
+            "index": 0
+          },
+          {
+            "value": 61,
+            "index": 1
+          },
+          {
+            "value": 72,
+            "index": 2
+          },
+          {
+            "value": 71,
+            "index": 3
+          },
+          {
+            "value": 54,
+            "index": 4
+          },
+          {
+            "value": 68,
+            "index": 5
+          }
+        ],
+        "teamid": 688,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 39,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 95,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104907208"
+    },
+    {
+      "tradeId": 16104909252,
+      "itemData": {
+        "id": 116429830912,
+        "timestamp": 1510942863,
+        "formation": "f433",
+        "untradeable": true,
+        "assetId": 230014,
+        "rating": 53,
+        "itemType": "player",
+        "resourceId": 230014,
+        "owners": 0,
+        "discardValue": 16,
+        "itemState": "invalid",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CAM",
+        "statsList": [],
+        "lifetimeStats": [],
+        "training": 0,
+        "contract": 0,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 61,
+            "index": 0
+          },
+          {
+            "value": 50,
+            "index": 1
+          },
+          {
+            "value": 43,
+            "index": 2
+          },
+          {
+            "value": 55,
+            "index": 3
+          },
+          {
+            "value": 17,
+            "index": 4
+          },
+          {
+            "value": 49,
+            "index": 5
+          }
+        ],
+        "teamid": 1934,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 61,
+        "loyaltyBonus": 1,
+        "pile": 0,
+        "nation": 14,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "closed",
+      "buyNowPrice": 10000,
+      "currentBid": 200,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 45,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "coinsProcessed": 1,
+      "tradeIdStr": "16104909252"
+    },
+    {
+      "tradeId": 16104895237,
+      "itemData": {
+        "id": 116429830908,
+        "timestamp": 1510942863,
+        "formation": "f433",
+        "untradeable": true,
+        "assetId": 184376,
+        "rating": 73,
+        "itemType": "player",
+        "resourceId": 184376,
+        "owners": 0,
+        "discardValue": 110,
+        "itemState": "invalid",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CDM",
+        "statsList": [],
+        "lifetimeStats": [],
+        "training": 0,
+        "contract": 0,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 76,
+            "index": 0
+          },
+          {
+            "value": 62,
+            "index": 1
+          },
+          {
+            "value": 66,
+            "index": 2
+          },
+          {
+            "value": 75,
+            "index": 3
+          },
+          {
+            "value": 70,
+            "index": 4
+          },
+          {
+            "value": 75,
+            "index": 5
+          }
+        ],
+        "teamid": 267,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 319,
+        "loyaltyBonus": 1,
+        "pile": 0,
+        "nation": 12,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "closed",
+      "buyNowPrice": 10000,
+      "currentBid": 250,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 45,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "coinsProcessed": 1,
+      "tradeIdStr": "16104895237"
+    },
+    {
+      "tradeId": 16104907202,
+      "itemData": {
+        "id": 116429800149,
+        "timestamp": 1510942863,
+        "formation": "f433",
+        "untradeable": true,
+        "assetId": 197819,
+        "rating": 65,
+        "itemType": "player",
+        "resourceId": 197819,
+        "owners": 0,
+        "discardValue": 98,
+        "itemState": "invalid",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [],
+        "lifetimeStats": [],
+        "training": 0,
+        "contract": 0,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 67,
+            "index": 0
+          },
+          {
+            "value": 48,
+            "index": 1
+          },
+          {
+            "value": 55,
+            "index": 2
+          },
+          {
+            "value": 58,
+            "index": 3
+          },
+          {
+            "value": 64,
+            "index": 4
+          },
+          {
+            "value": 63,
+            "index": 5
+          }
+        ],
+        "teamid": 112885,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 39,
+        "loyaltyBonus": 1,
+        "pile": 0,
+        "nation": 95,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "closed",
+      "buyNowPrice": 10000,
+      "currentBid": 150,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 45,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "coinsProcessed": 1,
+      "tradeIdStr": "16104907202"
+    },
+    {
+      "tradeId": 16104895196,
+      "itemData": {
+        "id": 116429800145,
+        "timestamp": 1507315452,
+        "formation": "f4222",
+        "untradeable": false,
+        "assetId": 234960,
+        "rating": 58,
+        "itemType": "player",
+        "resourceId": 234960,
+        "owners": 1,
+        "discardValue": 17,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CDM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 60,
+            "index": 0
+          },
+          {
+            "value": 43,
+            "index": 1
+          },
+          {
+            "value": 53,
+            "index": 2
+          },
+          {
+            "value": 53,
+            "index": 3
+          },
+          {
+            "value": 55,
+            "index": 4
+          },
+          {
+            "value": 60,
+            "index": 5
+          }
+        ],
+        "teamid": 101106,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 336,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 56,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104895196"
+    },
+    {
+      "tradeId": 16104886358,
+      "itemData": {
+        "id": 116429830907,
+        "timestamp": 1507315516,
+        "formation": "f5212",
+        "untradeable": false,
+        "assetId": 232762,
+        "rating": 62,
+        "itemType": "player",
+        "resourceId": 232762,
+        "owners": 1,
+        "discardValue": 19,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 63,
+            "index": 0
+          },
+          {
+            "value": 59,
+            "index": 1
+          },
+          {
+            "value": 62,
+            "index": 2
+          },
+          {
+            "value": 64,
+            "index": 3
+          },
+          {
+            "value": 34,
+            "index": 4
+          },
+          {
+            "value": 63,
+            "index": 5
+          }
+        ],
+        "teamid": 418,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 41,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 10,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104886358"
+    },
+    {
+      "tradeId": 16104912402,
+      "itemData": {
+        "id": 116429871936,
+        "timestamp": 1507315569,
+        "formation": "f532",
+        "untradeable": false,
+        "assetId": 214130,
+        "rating": 62,
+        "itemType": "player",
+        "resourceId": 214130,
+        "owners": 1,
+        "discardValue": 19,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 62,
+            "index": 0
+          },
+          {
+            "value": 62,
+            "index": 1
+          },
+          {
+            "value": 57,
+            "index": 2
+          },
+          {
+            "value": 60,
+            "index": 3
+          },
+          {
+            "value": 43,
+            "index": 4
+          },
+          {
+            "value": 62,
+            "index": 5
+          }
+        ],
+        "teamid": 112968,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 336,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 56,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104912402"
+    },
+    {
+      "tradeId": 16104886354,
+      "itemData": {
+        "id": 116430062398,
+        "timestamp": 1507315690,
+        "formation": "f5221",
+        "untradeable": false,
+        "assetId": 231407,
+        "rating": 57,
+        "itemType": "player",
+        "resourceId": 231407,
+        "owners": 1,
+        "discardValue": 17,
+        "itemState": "free",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 53,
+            "index": 0
+          },
+          {
+            "value": 34,
+            "index": 1
+          },
+          {
+            "value": 37,
+            "index": 2
+          },
+          {
+            "value": 42,
+            "index": 3
+          },
+          {
+            "value": 61,
+            "index": 4
+          },
+          {
+            "value": 49,
+            "index": 5
+          }
+        ],
+        "teamid": 1803,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 60,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 25,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104886354"
+    },
+    {
+      "tradeId": 16104909289,
+      "itemData": {
+        "id": 116430165164,
+        "timestamp": 1507315740,
+        "formation": "f433",
+        "untradeable": false,
+        "assetId": 226249,
+        "rating": 67,
+        "itemType": "player",
+        "resourceId": 226249,
+        "owners": 1,
+        "discardValue": 101,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 79,
+            "index": 0
+          },
+          {
+            "value": 56,
+            "index": 1
+          },
+          {
+            "value": 54,
+            "index": 2
+          },
+          {
+            "value": 68,
+            "index": 3
+          },
+          {
+            "value": 62,
+            "index": 4
+          },
+          {
+            "value": 73,
+            "index": 5
+          }
+        ],
+        "teamid": 110373,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 32,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 117,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104909289"
+    },
+    {
+      "tradeId": 16104889278,
+      "itemData": {
+        "id": 116430234940,
+        "timestamp": 1507315834,
+        "formation": "f433",
+        "untradeable": false,
+        "assetId": 1367,
+        "rating": 82,
+        "itemType": "custom",
+        "resourceId": 6001367,
+        "owners": 1,
+        "discardValue": 33,
+        "itemState": "free",
+        "cardsubtypeid": 11,
+        "lastSalePrice": 0,
+        "statsList": [],
+        "lifetimeStats": [],
+        "attributeList": [],
+        "teamid": 1367,
+        "rareflag": 0,
+        "leagueId": 0,
+        "pile": 5,
+        "cardassetid": 39,
+        "value": 82,
+        "category": 1,
+        "name": "TeamName_Abbr15_1367",
+        "weightrare": 0,
+        "description": "TeamName_Abbr15_1367",
+        "header": "Badge",
+        "biodescription": "Wales",
+        "chantsCount": 0,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 5000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 5000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104889278"
+    },
+    {
+      "tradeId": 16104907260,
+      "itemData": {
+        "id": 116430232352,
+        "timestamp": 1507315786,
+        "formation": "f433",
+        "untradeable": false,
+        "assetId": 340,
+        "rating": 80,
+        "itemType": "stadium",
+        "resourceId": 6200340,
+        "owners": 1,
+        "discardValue": 32,
+        "itemState": "free",
+        "cardsubtypeid": 10,
+        "lastSalePrice": 0,
+        "statsList": [],
+        "lifetimeStats": [],
+        "attributeList": [],
+        "teamid": 0,
+        "rareflag": 0,
+        "leagueId": 0,
+        "pile": 5,
+        "cardassetid": 36,
+        "category": 4,
+        "name": "The Amex Stadium",
+        "description": "StadiumDesc_340",
+        "biodescription": "StadiumDetailDesc",
+        "stadiumid": 340,
+        "capacity": 30750,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 5000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 5000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104907260"
+    },
+    {
+      "tradeId": 16104907257,
+      "itemData": {
+        "id": 116429983534,
+        "timestamp": 1507315651,
+        "formation": "f5212",
+        "untradeable": false,
+        "assetId": 201138,
+        "rating": 68,
+        "itemType": "player",
+        "resourceId": 201138,
+        "owners": 1,
+        "discardValue": 102,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 68,
+            "index": 0
+          },
+          {
+            "value": 64,
+            "index": 1
+          },
+          {
+            "value": 71,
+            "index": 2
+          },
+          {
+            "value": 73,
+            "index": 3
+          },
+          {
+            "value": 54,
+            "index": 4
+          },
+          {
+            "value": 65,
+            "index": 5
+          }
+        ],
+        "teamid": 57,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 17,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 18,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104907257"
+    },
+    {
+      "tradeId": 16104904070,
+      "itemData": {
+        "id": 116430232353,
+        "timestamp": 1507315786,
+        "formation": "f451",
+        "untradeable": false,
+        "assetId": 215695,
+        "rating": 67,
+        "itemType": "player",
+        "resourceId": 215695,
+        "owners": 1,
+        "discardValue": 101,
+        "itemState": "free",
+        "cardsubtypeid": 1,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CB",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 45,
+            "index": 0
+          },
+          {
+            "value": 31,
+            "index": 1
+          },
+          {
+            "value": 40,
+            "index": 2
+          },
+          {
+            "value": 38,
+            "index": 3
+          },
+          {
+            "value": 67,
+            "index": 4
+          },
+          {
+            "value": 71,
+            "index": 5
+          }
+        ],
+        "teamid": 873,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 66,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 13,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104904070"
+    },
+    {
+      "tradeId": 16104919592,
+      "itemData": {
+        "id": 118664549663,
+        "timestamp": 1510942863,
+        "formation": "f433",
+        "untradeable": true,
+        "assetId": 167599,
+        "rating": 75,
+        "itemType": "player",
+        "resourceId": 167599,
+        "owners": 0,
+        "discardValue": 300,
+        "itemState": "invalid",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CM",
+        "statsList": [],
+        "lifetimeStats": [],
+        "training": 0,
+        "contract": 0,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 51,
+            "index": 0
+          },
+          {
+            "value": 69,
+            "index": 1
+          },
+          {
+            "value": 80,
+            "index": 2
+          },
+          {
+            "value": 74,
+            "index": 3
+          },
+          {
+            "value": 64,
+            "index": 4
+          },
+          {
+            "value": 58,
+            "index": 5
+          }
+        ],
+        "teamid": 1439,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 56,
+        "loyaltyBonus": 1,
+        "pile": 0,
+        "nation": 46,
+        "marketDataMinPrice": 300,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "closed",
+      "buyNowPrice": 10000,
+      "currentBid": 500,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 300,
+      "confidenceValue": 45,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "coinsProcessed": 1,
+      "tradeIdStr": "16104919592"
+    },
+    {
+      "tradeId": 16104914908,
+      "itemData": {
+        "id": 118664539244,
+        "timestamp": 1510608478,
+        "formation": "f4231",
+        "untradeable": false,
+        "assetId": 197496,
+        "rating": 71,
+        "itemType": "player",
+        "resourceId": 197496,
+        "owners": 1,
+        "discardValue": 107,
+        "itemState": "free",
+        "cardsubtypeid": 0,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "GK",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 69,
+            "index": 0
+          },
+          {
+            "value": 71,
+            "index": 1
+          },
+          {
+            "value": 66,
+            "index": 2
+          },
+          {
+            "value": 70,
+            "index": 3
+          },
+          {
+            "value": 32,
+            "index": 4
+          },
+          {
+            "value": 72,
+            "index": 5
+          }
+        ],
+        "teamid": 112387,
+        "rareflag": 0,
+        "playStyle": 273,
+        "leagueId": 350,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 183,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104914908"
+    },
+    {
+      "tradeId": 16104929780,
+      "itemData": {
+        "id": 118664539243,
+        "timestamp": 1510608478,
+        "formation": "f4231",
+        "untradeable": false,
+        "assetId": 223819,
+        "rating": 66,
+        "itemType": "player",
+        "resourceId": 223819,
+        "owners": 1,
+        "discardValue": 99,
+        "itemState": "free",
+        "cardsubtypeid": 2,
+        "lastSalePrice": 0,
+        "morale": 50,
+        "fitness": 99,
+        "injuryType": "none",
+        "injuryGames": 0,
+        "preferredPosition": "CM",
+        "statsList": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "lifetimeStats": [
+          {
+            "value": 0,
+            "index": 0
+          },
+          {
+            "value": 0,
+            "index": 1
+          },
+          {
+            "value": 0,
+            "index": 2
+          },
+          {
+            "value": 0,
+            "index": 3
+          },
+          {
+            "value": 0,
+            "index": 4
+          }
+        ],
+        "training": 0,
+        "contract": 7,
+        "suspension": 0,
+        "attributeList": [
+          {
+            "value": 73,
+            "index": 0
+          },
+          {
+            "value": 64,
+            "index": 1
+          },
+          {
+            "value": 68,
+            "index": 2
+          },
+          {
+            "value": 69,
+            "index": 3
+          },
+          {
+            "value": 48,
+            "index": 4
+          },
+          {
+            "value": 47,
+            "index": 5
+          }
+        ],
+        "teamid": 110854,
+        "rareflag": 0,
+        "playStyle": 250,
+        "leagueId": 54,
+        "assists": 0,
+        "lifetimeAssists": 0,
+        "loyaltyBonus": 1,
+        "pile": 5,
+        "nation": 45,
+        "marketDataMinPrice": 150,
+        "marketDataMaxPrice": 10000,
+        "resourceGameYear": 2018
+      },
+      "tradeState": "expired",
+      "buyNowPrice": 10000,
+      "currentBid": 0,
+      "offers": 0,
+      "watched": true,
+      "bidState": "none",
+      "startingBid": 150,
+      "confidenceValue": 100,
+      "expires": -1,
+      "sellerName": null,
+      "sellerEstablished": 0,
+      "sellerId": 0,
+      "tradeOwner": true,
+      "tradeIdStr": "16104929780"
+    }
+  ],
+  "duplicateItemIdList": [
+    {
+      "itemId": 116429989767,
+      "duplicateItemId": 115170651397
+    },
+    {
+      "itemId": 116430071932,
+      "duplicateItemId": 115170651397
+    }
+  ],
+  "bidTokens": {}
+}

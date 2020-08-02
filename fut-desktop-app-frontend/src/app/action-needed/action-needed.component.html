@@ -1,0 +1,20 @@
+<!-- Modal for waiting on listing to complete -->
+<div class="modal fade onTop" id="actionNeededModal" tabindex="-1" role="dialog"
+     aria-labelledby="actionNeededModal" data-backdrop="static" data-keyboard="false"
+     #actionNeededModal>
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-danger">
+        <h5 class="modal-title" id="actionNeededModalLabel">URGENT ACTION NEEDED: {{accountAffect}}</h5>
+      </div>
+      <div class="modal-body bg-danger text-white" id="action-needed-modal-body">
+        {{msg}}
+      </div>
+      <div class="modal-footer bg-danger">
+        <button id="action-needed-modal-close" class="left btn btn-dark" (click)="closeModal()"><i
+          class="fas fa-times"></i>&nbsp;Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

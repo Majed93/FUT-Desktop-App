@@ -1,0 +1,21 @@
+// Custom scss to align switch to right of label
+// https://github.com/twbs/bootstrap/pull/28052/commits/1417d2b6f907c99e1f44b84d6fb6b5027ddaeec1
+.custom-switch {
+  &.right {
+    padding-left: 0;
+
+    .custom-control-label {
+      padding-right: $custom-switch-width + $custom-control-gutter;
+
+      &::before {
+        right: 0;
+        left: auto;
+      }
+
+      &::after {
+        right: calc(#{($custom-switch-width / 2)} + #{$custom-control-indicator-border-width});
+        left: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "bonus": [
+    {
+      "type": "pace",
+      "value": 10
+    },
+    {
+      "type": "passing",
+      "value": 5
+    },
+    {
+      "type": "fitness",
+      "value": 3
+    },
+    {
+      "type": "gkHandling",
+      "value": 15
+    },
+    {
+      "type": "gkKicking",
+      "value": 5
+    },
+    {
+      "type": "contract",
+      "value": 1
+    },
+    {
+      "type": "managerTalk",
+      "value": 0
+    },
+    {
+      "type": "physioArm",
+      "value": 15
+    }
+  ]
+}

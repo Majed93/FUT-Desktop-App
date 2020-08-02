@@ -1,0 +1,9 @@
+@import "../../assets/theme";
+
+.main-container {
+  padding: 40px;
+}
+
+.nav-bar-top-border {
+  border-top: 2px $theme-primary solid !important;
+}

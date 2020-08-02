@@ -1,0 +1,157 @@
+{
+  "messageList": [
+    {
+      "trackingTag": "G589b9fb878403d55D197b1C1aeL1f043M1f047T12e192Nproduction",
+      "screen": "webfuthub",
+      "messageId": 127047,
+      "priority": 1,
+      "tmtLink": "easfc://fut/store/gold",
+      "displayTime": 5,
+      "trackurls": {},
+      "subtype": "FIFA_BANNER_MESSAGE",
+      "doNotDisplay": "0",
+      "renders": [
+        {
+          "type": "TEXT",
+          "name": "titleText",
+          "value": "ROAD TO THE FINAL",
+          "attributes": {
+            "style": "",
+            "size": "",
+            "alignment": "",
+            "colour": "",
+            "highlightColour": "",
+            "renderType": "",
+            "countdownTime": ""
+          }
+        },
+        {
+          "type": "TEXT",
+          "name": "bodyText",
+          "value": "14 new players have been added and are available in packs for a limited time!",
+          "attributes": {
+            "style": "",
+            "size": "",
+            "alignment": "",
+            "colour": "",
+            "highlightColour": "",
+            "renderType": "",
+            "countdownTime": ""
+          }
+        },
+        {
+          "type": "IMAGE",
+          "name": "bodyImage",
+          "value": "https://eaassets-a.akamaihd.net/prm/em/f1d3a7bd1be1a5bb/1545414500206463c44f5-1bca-4e93-98e2-aa1ed1da3335.png",
+          "attributes": {
+            "colour": "",
+            "localId": ""
+          }
+        }
+      ],
+      "promotions": []
+    },
+    {
+      "trackingTag": "G589b9fb878403d55D197b1C1dcL1ee49M1ee4eT12d3daNproduction",
+      "screen": "webfuthub",
+      "messageId": 126542,
+      "priority": 2,
+      "tmtLink": "gotosbc",
+      "displayTime": 5,
+      "trackurls": {},
+      "subtype": "FIFA_BANNER_MESSAGE",
+      "doNotDisplay": "0",
+      "renders": [
+        {
+          "type": "TEXT",
+          "name": "titleText",
+          "value": "FUTMAS SBCS",
+          "attributes": {
+            "style": "",
+            "size": "",
+            "alignment": "",
+            "colour": "",
+            "highlightColour": "",
+            "renderType": "",
+            "countdownTime": ""
+          }
+        },
+        {
+          "type": "TEXT",
+          "name": "bodyText",
+          "value": "Themed puzzle SBCs are live now!",
+          "attributes": {
+            "style": "",
+            "size": "",
+            "alignment": "",
+            "colour": "",
+            "highlightColour": "",
+            "renderType": "",
+            "countdownTime": ""
+          }
+        },
+        {
+          "type": "IMAGE",
+          "name": "bodyImage",
+          "value": "https://eaassets-a.akamaihd.net/prm/em/988433e1d66b4c1c/154483990953445a8d37f-6900-4890-a940-36f0e7846dcf.png",
+          "attributes": {
+            "colour": "",
+            "localId": ""
+          }
+        }
+      ],
+      "promotions": []
+    },
+    {
+      "trackingTag": "G589b9fb878403d55D197b1C143L1eeaaM1eeb2T12d722Nproduction",
+      "screen": "webfuthub",
+      "messageId": 126642,
+      "priority": 3,
+      "tmtLink": "gotototw",
+      "displayTime": 5,
+      "trackurls": {},
+      "subtype": "FIFA_BANNER_MESSAGE",
+      "doNotDisplay": "0",
+      "renders": [
+        {
+          "type": "TEXT",
+          "name": "titleText",
+          "value": "TOTW 14",
+          "attributes": {
+            "style": "",
+            "size": "",
+            "alignment": "",
+            "colour": "",
+            "highlightColour": "",
+            "renderType": "",
+            "countdownTime": ""
+          }
+        },
+        {
+          "type": "TEXT",
+          "name": "bodyText",
+          "value": "New Team of the Week is available in packs now for a limited time!",
+          "attributes": {
+            "style": "",
+            "size": "",
+            "alignment": "",
+            "colour": "",
+            "highlightColour": "",
+            "renderType": "",
+            "countdownTime": ""
+          }
+        },
+        {
+          "type": "IMAGE",
+          "name": "bodyImage",
+          "value": "https://eaassets-a.akamaihd.net/prm/em/28bb8415d8c16a/154523632715993035e8d-beb2-460c-b75c-b6fe56ff4ab0.png",
+          "attributes": {
+            "colour": "",
+            "localId": ""
+          }
+        }
+      ],
+      "promotions": []
+    }
+  ]
+}

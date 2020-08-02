@@ -1,0 +1,30 @@
+<!-- Modal for waiting on listing to complete -->
+<div class="modal fade" id="reListingModal" tabindex="-1" role="dialog" aria-labelledby="reListingModal" #reListModal>
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deletePlayerModalLabel">Re-listing</h5>
+        <button id="status-modal-clear-btn" type="button" (click)="clear()" class="btn btn-sm btn-outline-primary" data-toggle="tooltip"
+                data-placement="top"
+                title="Clear Status">Clear Status
+          <i class="fas fa-lg fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+       <textarea id="status-text" class="form-control" readonly wrap="hard" rows="{{statusTextRows}}"
+                 [scrollTop]="statusText.scrollHeight"
+                 #statusText>{{textareaText}}</textarea>
+      </div>
+      <div class="modal-footer">
+        <button id="status-model-cancel-close" class="left btn btn-dark" (click)="hideModal()" [disabled]="disableClose"><i class="fas fa-times"></i>&nbsp;Close
+        </button>
+        <button id="status-model-cancel-pause" class="left btn btn-primary" (click)="onPause()"><i class="fas fa-pause"></i>&nbsp;{{paused ? 'Unpause'
+          :
+          'Pause'}}
+        </button>
+        <button id="status-model-cancel-btn" class="left btn btn-danger" (click)="onCancel()"><i class="fas fa-ban"></i>&nbsp;Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
