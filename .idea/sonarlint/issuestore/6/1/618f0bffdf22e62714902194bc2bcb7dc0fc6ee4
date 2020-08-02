@@ -1,6 +1,0 @@
-
-Isquid:S1444"2Make this "public static webResources" field final(Ù¨×
-Lsquid:S1444"5Make this "public static mobileResources" field final(ö¾»õ
-†"squid:ClassVariableVisibilityCheck"XMake webResources a static final constant or non-public and provide accessors if needed.(Ù¨×
-‰"squid:ClassVariableVisibilityCheck"[Make mobileResources a static final constant or non-public and provide accessors if needed.(ö¾»õ
-ˆ"squid:ClassVariableVisibilityCheck"UMake resources a static final constant or non-public and provide accessors if needed.(İ»Èªşÿÿÿÿ
