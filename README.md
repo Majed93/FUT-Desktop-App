@@ -27,3 +27,8 @@ Order to run in (if not running .exe):
 * fut-simulator
 * fut-io
 * frontend
+
+
+Video of automation tests running:
+
+[![https://youtu.be/kBLJ9e79LUs](https://img.youtube.com/vi/kBLJ9e79LUs/0.jpg)](https://youtu.be/kBLJ9e79LUs)
